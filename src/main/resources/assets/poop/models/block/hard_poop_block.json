@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poop:block/hardpoop",
+    "up": "poop:block/hardpoop",
+    "north": "poop:block/hardpoop",
+    "east": "poop:block/hardpoop",
+    "south": "poop:block/hardpoop",
+    "west": "poop:block/hardpoop",
+    "particle": "poop:block/hardpoop"
+  },
+  "render_type": "solid"
+}
