@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:toilet"
+    },
+    {
+      "item": "poop:poop_fragment"
+    },
+    {
+      "tag": "forge:heads"
+    },
+    {
+      "item": "poop:poop_fragment"
+    }
+  ],
+  "result": {
+    "item": "poop:skibidi_block",
+    "count": 1
+  }
+}

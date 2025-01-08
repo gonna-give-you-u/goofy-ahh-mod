@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:hydrogen"
+    },
+    {
+      "item": "poop:neutron"
+    },
+    {
+      "item": "poop:neutron"
+    }
+  ],
+  "result": {
+    "item": "poop:tritium",
+    "count": 1
+  }
+}

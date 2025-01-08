@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:poop"
+    },
+    {
+      "item": "poop:diamond_nugget"
+    },
+    {
+      "item": "poop:diamond_nugget"
+    },
+    {
+      "item": "poop:diamond_nugget"
+    }
+  ],
+  "result": {
+    "item": "poop:poop_fragment",
+    "count": 1
+  }
+}

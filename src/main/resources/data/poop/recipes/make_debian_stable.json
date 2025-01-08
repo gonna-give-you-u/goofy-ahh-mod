@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bedrock"
+    },
+    "b": {
+      "item": "poop:carbon"
+    },
+    "c": {
+      "item": "poop:steel"
+    },
+    "d": {
+      "item": "poop:debian_unstable"
+    }
+  },
+  "result": {
+    "item": "poop:debian",
+    "count": 1
+  }
+}

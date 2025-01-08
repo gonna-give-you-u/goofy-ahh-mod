@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:tnt"
+    },
+    "b": {
+      "item": "minecraft:bow"
+    },
+    "c": {
+      "item": "poop:poop"
+    }
+  },
+  "result": {
+    "item": "poop:poop_launcher",
+    "count": 1
+  }
+}

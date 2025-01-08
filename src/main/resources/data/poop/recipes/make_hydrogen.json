@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:proton"
+    },
+    {
+      "item": "poop:electron"
+    }
+  ],
+  "result": {
+    "item": "poop:hydrogen",
+    "count": 1
+  }
+}
