@@ -1,0 +1,21 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Poop"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:reverb_fard"
+    },
+    "igniteFire": false,
+    "power": 10.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.4,
+    "modelHeight": 0.4
+  }
+}
