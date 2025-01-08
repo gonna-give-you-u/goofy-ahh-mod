@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poop:block/skibidi_toilet",
+    "up": "poop:block/skibidi_toilet",
+    "north": "poop:block/skibidi_toilet",
+    "east": "poop:block/skibidi_toilet",
+    "south": "poop:block/skibidi_toilet",
+    "west": "poop:block/skibidi_toilet",
+    "particle": "poop:block/skibidi_toilet"
+  },
+  "render_type": "solid"
+}

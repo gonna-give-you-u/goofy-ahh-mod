@@ -1,0 +1,36 @@
+{
+  "poop_sports_music": {
+    "sounds": [
+      {
+        "name": "poop:poopsportsmusic",
+        "stream": true
+      }
+    ]
+  },
+  "reverb_fard": {
+    "subtitle": "subtitles.reverb_fard",
+    "sounds": [
+      {
+        "name": "poop:reverb_fart",
+        "stream": false
+      }
+    ]
+  },
+  "fard": {
+    "subtitle": "subtitles.fard",
+    "sounds": [
+      {
+        "name": "poop:fard",
+        "stream": false
+      }
+    ]
+  },
+  "skibidi_music": {
+    "sounds": [
+      {
+        "name": "poop:skibiditoilet",
+        "stream": true
+      }
+    ]
+  }
+}

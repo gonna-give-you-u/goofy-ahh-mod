@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:poop_fragment"
+    },
+    {
+      "item": "poop:poop_fragment"
+    },
+    {
+      "item": "poop:poop_fragment"
+    },
+    {
+      "item": "poop:poop_fragment"
+    }
+  ],
+  "result": {
+    "item": "poop:hard_poop_block",
+    "count": 1
+  }
+}

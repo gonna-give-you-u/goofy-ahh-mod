@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "poop:poop_block"
+  },
+  "result": "poop:hard_poop_block"
+}

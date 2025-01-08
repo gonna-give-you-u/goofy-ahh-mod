@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:PoopFragment"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:reverb_fard"
+    },
+    "igniteFire": false,
+    "power": 20.0,
+    "damage": 10.0,
+    "knockback": 8,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "PoopEffect"
+    }
+  }
+}

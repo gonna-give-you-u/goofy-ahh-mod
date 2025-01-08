@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 69.0,
+    "cookingTime": 2400,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.COAL_BLOCK"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:DiamondNugget"
+    },
+    "name": "coal_to_diamond",
+    "namespace": "mod"
+  }
+}

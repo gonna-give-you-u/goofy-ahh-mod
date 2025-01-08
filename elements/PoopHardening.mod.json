@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 150,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:PoopBlock"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardPoopBlock"
+    },
+    "name": "poop_hardening",
+    "namespace": "mod"
+  }
+}

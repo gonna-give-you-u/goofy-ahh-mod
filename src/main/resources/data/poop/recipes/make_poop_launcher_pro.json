@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "abc",
+    "def",
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "poop:skibidi_block"
+    },
+    "b": {
+      "item": "poop:carbon"
+    },
+    "c": {
+      "item": "poop:diamond_nugget"
+    },
+    "d": {
+      "item": "minecraft:tnt"
+    },
+    "e": {
+      "item": "poop:poop_launcher"
+    },
+    "f": {
+      "item": "poop:poop_fragment"
+    }
+  },
+  "result": {
+    "item": "poop:poop_launcher_pro",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="poop"
+version="1.0.0"
+displayName="goofy ahh mod"
+displayURL="https://youtu.be/xvFZjo5PgG0"
+logoFile="logo.png"
+credits="some of the textures are not mine (except the ones that are crappily drawn)"
+authors="gonna_give_you_u (ohiofortnite1412)"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.poop]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

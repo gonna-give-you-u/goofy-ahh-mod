@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 1200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Items.COAL#0"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Carbon"
+    },
+    "name": "coal_to_carbon",
+    "namespace": "mod"
+  }
+}
