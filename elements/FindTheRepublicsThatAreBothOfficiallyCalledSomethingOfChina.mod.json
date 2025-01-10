@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "loottable",
+  "definition": {
+    "type": "Barter",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 3,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:China"
+            },
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Taiwan"
+            },
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      }
+    ],
+    "name": "find_the_republics_that_are_both_officially_called_something_of_china",
+    "namespace": "mod"
+  }
+}

@@ -16,13 +16,16 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.poop.item.UnoReverseItem;
 import net.mcreator.poop.item.TritiumItem;
 import net.mcreator.poop.item.ToiletItem;
+import net.mcreator.poop.item.TaiwanItem;
 import net.mcreator.poop.item.SteelItem;
 import net.mcreator.poop.item.StablerAnticarbonItem;
+import net.mcreator.poop.item.SkibidiDimensionItem;
 import net.mcreator.poop.item.ProtonItem;
 import net.mcreator.poop.item.PoopLauncherProItem;
 import net.mcreator.poop.item.PoopLauncherItem;
 import net.mcreator.poop.item.PoopItem;
 import net.mcreator.poop.item.PoopFragmentItem;
+import net.mcreator.poop.item.OhnoItem;
 import net.mcreator.poop.item.NeutronItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
 import net.mcreator.poop.item.HydrogenItem;
@@ -31,6 +34,7 @@ import net.mcreator.poop.item.DiamondNuggetItem;
 import net.mcreator.poop.item.DeuteriumItem;
 import net.mcreator.poop.item.DebianUnstableItem;
 import net.mcreator.poop.item.DebianItem;
+import net.mcreator.poop.item.ChinaItem;
 import net.mcreator.poop.item.CarbonItem;
 import net.mcreator.poop.item.AnticarbonItem;
 import net.mcreator.poop.item.AdachiReiItem;
@@ -65,6 +69,10 @@ public class PoopModItems {
 	public static final RegistryObject<Item> UNO_REVERSE = REGISTRY.register("uno_reverse", () -> new UnoReverseItem());
 	public static final RegistryObject<Item> ANTICARBON = REGISTRY.register("anticarbon", () -> new AnticarbonItem());
 	public static final RegistryObject<Item> STABLER_ANTICARBON = REGISTRY.register("stabler_anticarbon", () -> new StablerAnticarbonItem());
+	public static final RegistryObject<Item> SKIBIDI_DIMENSION = REGISTRY.register("skibidi_dimension", () -> new SkibidiDimensionItem());
+	public static final RegistryObject<Item> CHINA = REGISTRY.register("china", () -> new ChinaItem());
+	public static final RegistryObject<Item> TAIWAN = REGISTRY.register("taiwan", () -> new TaiwanItem());
+	public static final RegistryObject<Item> OHNO = REGISTRY.register("ohno", () -> new OhnoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

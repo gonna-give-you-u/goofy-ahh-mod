@@ -9,7 +9,11 @@
     "states": [],
     "name": "Debian",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "MATERIALS"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -20,7 +24,7 @@
     },
     "destroyAnyBlock": false,
     "immuneToFire": true,
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,

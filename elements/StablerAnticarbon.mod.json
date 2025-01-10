@@ -7,12 +7,16 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Anticarbon",
+    "name": "Anticarbon but stabler",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "FOOD"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 1,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -32,6 +36,12 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onEntitySwing": {
+      "name": "BOOOOOOOM"
+    },
+    "onFinishUsingItem": {
+      "name": "BOOOOOOOM"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

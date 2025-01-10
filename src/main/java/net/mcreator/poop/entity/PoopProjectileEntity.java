@@ -72,11 +72,11 @@ public class PoopProjectileEntity extends AbstractArrow implements ItemSupplier 
 	}
 
 	public static PoopProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 10f, 5, 5);
+		return shoot(world, entity, source, 10f, 0.5, 5);
 	}
 
 	public static PoopProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source, float pullingPower) {
-		return shoot(world, entity, source, pullingPower * 10f, 5, 5);
+		return shoot(world, entity, source, pullingPower * 10f, 0.5, 5);
 	}
 
 	public static PoopProjectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -98,7 +98,7 @@ public class PoopProjectileEntity extends AbstractArrow implements ItemSupplier 
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 10f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5);
+		entityarrow.setBaseDamage(0.5);
 		entityarrow.setKnockback(5);
 		entityarrow.setCritArrow(false);
 		entity.level().addFreshEntity(entityarrow);

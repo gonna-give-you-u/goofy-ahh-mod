@@ -2,5 +2,25 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 0
+  "projectBrowserSplitPos": 0,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, External libraries]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net, minecraft]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net, minecraft, client]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net, minecraft, client, resources]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net, minecraft, world]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net, minecraft, world, entity]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net, minecraft, world, entity, ai]",
+      "[, External libraries, Gradle: forge-1.20.1-47.3.0_mapped_official_1.20.1, net, minecraft, world, entity, ai, behavior]",
+      "[, External libraries, Gradle: antlr4-runtime-4.9.1]",
+      "[, External libraries, Gradle: antlr4-runtime-4.9.1, org]",
+      "[, External libraries, Gradle: antlr4-runtime-4.9.1, org, antlr]",
+      "[, External libraries, Gradle: antlr4-runtime-4.9.1, org, antlr, v4]",
+      "[, External libraries, Gradle: antlr4-runtime-4.9.1, org, antlr, v4, runtime]",
+      "[, External libraries, Gradle: antlr4-runtime-4.9.1, org, antlr, v4, runtime, atn]"
+    ]
+  }
 }

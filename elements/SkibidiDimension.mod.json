@@ -1,0 +1,76 @@
+{
+  "_fv": 73,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:SkibidiBiome"
+      },
+      {
+        "value": "CUSTOM:PoopBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:SkibidiBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:SkibidiBlock"
+    },
+    "seaLevel": 0,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 2,
+    "verticalNoiseSize": 1,
+    "defaultEffects": "the_end",
+    "useCustomEffects": false,
+    "hasClouds": false,
+    "cloudHeight": 192.0,
+    "skyType": "END",
+    "airColor": {
+      "value": -3961046,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": true,
+    "hasFog": false,
+    "ambientLight": 0.03,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 69.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": false,
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": false,
+    "hasRaids": true,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 7,
+    "portalFrame": {
+      "value": "CUSTOM:SkibidiBlock"
+    },
+    "portalParticles": {
+      "value": "NOTE"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Special Toilet",
+    "igniterRarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "toilet2",
+    "portalTexture": "skibidi_toilet",
+    "enablePortal": true
+  }
+}
