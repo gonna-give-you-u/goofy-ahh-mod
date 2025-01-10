@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.poop.procedures.DieProcedure;
+import net.mcreator.poop.procedures.OhNoProcedure;
 
 public class OhnoItem extends Item {
 	public OhnoItem() {
@@ -17,6 +17,6 @@ public class OhnoItem extends Item {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		DieProcedure.execute(world, entity);
+		OhNoProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 }

@@ -13,7 +13,7 @@ public class OhNoProcedure {
 		if (entity == null)
 			return;
 		if (world instanceof Level _level && !_level.isClientSide())
-			_level.explode(null, x, y, z, 2147483647, Level.ExplosionInteraction.MOB);
+			_level.explode(null, x, y, z, 10000, Level.ExplosionInteraction.MOB);
 		if (entity instanceof Player _player) {
 			ItemStack _stktoremove = new ItemStack(PoopModItems.OHNO.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
