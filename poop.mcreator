@@ -719,18 +719,6 @@
       }
     },
     {
-      "name": "MakeElectron",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_electron",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_electron.json"
-        ]
-      }
-    },
-    {
       "name": "MakeProton",
       "type": "recipe",
       "compiles": true,
@@ -823,30 +811,6 @@
         "files": [
           "src/main/resources/assets/poop/models/item/debian_unstable.json",
           "src/main/java/net/mcreator/poop/item/DebianUnstableItem.java"
-        ]
-      }
-    },
-    {
-      "name": "MakeProton9",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_proton_9",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_proton_9.json"
-        ]
-      }
-    },
-    {
-      "name": "MakeElectron9",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_electron_9",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_electron_9.json"
         ]
       }
     },
@@ -1075,59 +1039,83 @@
       }
     },
     {
-      "name": "China",
+      "name": "Rickroll",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "china",
+      "registry_name": "rickroll",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/ChinaItem.java",
-          "src/main/resources/assets/poop/models/item/china.json"
+          "src/main/java/net/mcreator/poop/item/RickrollItem.java",
+          "src/main/resources/assets/poop/models/item/rickroll.json"
         ]
       }
     },
     {
-      "name": "Taiwan",
-      "type": "item",
+      "name": "MakeEndPortal",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "taiwan",
+      "registry_name": "make_end_portal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/TaiwanItem.java",
-          "src/main/resources/assets/poop/models/item/taiwan.json"
+          "src/main/resources/data/poop/recipes/make_end_portal.json"
         ]
       }
     },
     {
-      "name": "Ohno",
+      "name": "UpQuark",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ohno",
+      "registry_name": "up_quark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/ohno.json",
-          "src/main/java/net/mcreator/poop/item/OhnoItem.java"
+          "src/main/java/net/mcreator/poop/item/UpQuarkItem.java",
+          "src/main/resources/assets/poop/models/item/up_quark.json"
         ]
       }
     },
     {
-      "name": "OhNo",
+      "name": "DownQuark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "down_quark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/down_quark.json",
+          "src/main/java/net/mcreator/poop/item/DownQuarkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SquashedRedstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squashed_redstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/squashed_redstone.json",
+          "src/main/resources/assets/poop/models/block/squashed_redstone.json",
+          "src/main/resources/assets/poop/blockstates/squashed_redstone.json",
+          "src/main/java/net/mcreator/poop/block/SquashedRedstoneBlock.java",
+          "src/main/resources/data/poop/loot_tables/blocks/squashed_redstone.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeQuarks",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oh_no",
+      "registry_name": "make_quarks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/procedures/OhNoProcedure.java"
+          "src/main/java/net/mcreator/poop/procedures/MakeQuarksProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -1148,26 +1136,14 @@
       }
     },
     {
-      "name": "FindTheRepublicsThatAreBothOfficiallyCalledSomethingOfChina",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "find_the_republics_that_are_both_officially_called_something_of_china",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/loot_tables/find_the_republics_that_are_both_officially_called_something_of_china.json"
-        ]
-      }
-    },
-    {
-      "name": "DontTryThisAtHome",
+      "name": "SquishRedstone",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dont_try_this_at_home",
+      "registry_name": "squish_redstone",
       "metadata": {
         "files": [
-          "src/main/resources/data/poop/recipes/dont_try_this_at_home.json"
+          "src/main/resources/data/poop/recipes/squish_redstone.json"
         ]
       }
     }
@@ -1211,7 +1187,11 @@
     "BIOMES:minecraft:has_structure/stronghold": [
       "~CUSTOM:PoopBiome"
     ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SquashedRedstone"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SquashedRedstone",
       "~CUSTOM:SkibidiBlock",
       "~CUSTOM:HardPoopBlock"
     ],
@@ -1252,31 +1232,30 @@
       "Electron",
       "Proton",
       "Neutron",
-      "China",
-      "Taiwan"
+      "UpQuark"
     ]
   },
   "language_map": {
     "ru_ru": {
       "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
+      "item.poop.rickroll": "Рикролл",
       "item.poop.pooper_spawn_egg": "Яйцо призыва Какашкера",
       "subtitles.poop_sports_music": "",
       "item.poop.diamond_nugget": "Кусочек алмаза",
       "item.poop.skibidi_dimension": "Специальиый туалет",
-      "item.poop.poop_launcher": "Запуститель какашек",
-      "item.poop.carbon": "Углерод",
+      "item.poop.up_quark": "Верхний кварк",
       "subtitles.skibidi_music": "",
+      "item.poop.carbon": "Углерод",
+      "item.poop.poop_launcher": "Запуститель какашек",
       "item.poop.poop_launcher_pro": "Запуститель Какашек Про",
       "biome.poop.poop_biome": "Биом какашек",
-      "item.poop.ohno": "кто положил китай и тайвань вместе??",
       "entity.poop.pooper": "Какашкер",
       "item.poop.poop": "Какашка",
       "item.poop.electron": "Электрон",
-      "subtitles.reverb_fard": "Какашкер пёрнул",
+      "subtitles.reverb_fard": "пёрнул",
       "item.poop.adachi_rei": "足立レイ",
       "block.poop.hard_poop_block": "Твёрдый блок какашек",
       "item.poop.lightning_spawner": "Призыватель молний",
-      "item.poop.taiwan": "Тайвань",
       "item.poop.debian": "Дэбиан",
       "item.poop.steel": "Сталь",
       "item.poop.anticarbon": "Анти-углерод",
@@ -1287,35 +1266,36 @@
       "item.poop.hydrogen": "Водород",
       "item.poop.uno_reverse": "Карта переворачиваний Уно",
       "item.poop.poop_fragment": "Кусочек какашки",
-      "subtitles.fard": "Какашкер умрел",
+      "subtitles.fard": "пёрнул",
       "block.poop.skibidi_block": "Скибиди Туалет",
-      "item.poop.china": "Китай",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.neutron": "Нейтрон",
       "item.poop.debian_unstable": "Дэбиан нестабильный",
       "biome.poop.skibidi_biome": "Скибиди-биом",
-      "item.poop.proton": "Протон"
+      "item.poop.down_quark": "Нижний кварк",
+      "item.poop.proton": "Протон",
+      "block.poop.squashed_redstone": "Плотный редстоуновый блок"
     },
     "zh_tw": {
       "item.poop.stabler_anticarbon": "更穩反碳",
+      "item.poop.rickroll": "瑞克搖",
       "item.poop.pooper_spawn_egg": "屎力怕 生怪蛋",
       "subtitles.poop_sports_music": "",
       "item.poop.diamond_nugget": "鑽石粒",
       "item.poop.skibidi_dimension": "特別便器",
-      "subtitles.skibidi_music": "",
-      "item.poop.carbon": "碳",
+      "item.poop.up_quark": "上夸克",
       "item.poop.poop_launcher": "屎炮",
+      "item.poop.carbon": "碳",
+      "subtitles.skibidi_music": "",
       "item.poop.poop_launcher_pro": "屎炮Pro",
       "biome.poop.poop_biome": "屎地",
-      "item.poop.ohno": "災害",
       "entity.poop.pooper": "屎力怕",
       "item.poop.poop": "屎",
       "item.poop.electron": "電子",
-      "subtitles.reverb_fard": "屎力怕放屁",
+      "subtitles.reverb_fard": "放屁",
       "item.poop.adachi_rei": "足立レイ",
       "block.poop.hard_poop_block": "硬屎塊",
       "item.poop.lightning_spawner": "閃電召喚器",
-      "item.poop.taiwan": "台灣",
       "item.poop.debian": "Debian",
       "item.poop.steel": "鋼",
       "item.poop.anticarbon": "反碳",
@@ -1326,35 +1306,36 @@
       "item.poop.hydrogen": "氫",
       "item.poop.uno_reverse": "Uno反向卡",
       "item.poop.poop_fragment": "屎片",
-      "subtitles.fard": "屎力怕死了",
+      "subtitles.fard": "放屁",
       "block.poop.skibidi_block": "斯基比迪廁所",
-      "item.poop.china": "中國",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.neutron": "中子",
       "item.poop.debian_unstable": "Debian 不穩定版",
-      "biome.poop.skibidi_biome": "斯基比迪地",
-      "item.poop.proton": "質子"
+      "biome.poop.skibidi_biome": "斯基比地",
+      "item.poop.down_quark": "下夸克",
+      "item.poop.proton": "質子",
+      "block.poop.squashed_redstone": "密紅石"
     },
     "en_us": {
       "item.poop.stabler_anticarbon": "Anticarbon but stabler",
+      "item.poop.rickroll": "Rickroll",
       "item.poop.pooper_spawn_egg": "Pooper Spawn Egg",
       "subtitles.poop_sports_music": "",
       "item.poop.diamond_nugget": "Diamond Nugget",
       "item.poop.skibidi_dimension": "Special Toilet",
+      "item.poop.up_quark": "Up Quark",
       "item.poop.poop_launcher": "Poop Launcher",
       "item.poop.carbon": "Carbon",
       "subtitles.skibidi_music": "",
       "item.poop.poop_launcher_pro": "Poop Launcher Pro",
       "biome.poop.poop_biome": "Poopland",
-      "item.poop.ohno": "Oh no who put china and taiwan together??",
       "entity.poop.pooper": "Pooper",
       "item.poop.poop": "Poop",
       "item.poop.electron": "Electron",
-      "subtitles.reverb_fard": "Pooper fards",
+      "subtitles.reverb_fard": "fard xd",
       "item.poop.adachi_rei": "足立レイ",
       "block.poop.hard_poop_block": "Hard Poop Block",
       "item.poop.lightning_spawner": "Lightning Summoner",
-      "item.poop.taiwan": "Taiwan",
       "item.poop.debian": "Debian",
       "item.poop.steel": "Steel",
       "item.poop.anticarbon": "Anticarbon",
@@ -1365,14 +1346,15 @@
       "item.poop.hydrogen": "Hydrogen",
       "item.poop.uno_reverse": "Uno reverse card",
       "item.poop.poop_fragment": "Poop Fragment",
-      "subtitles.fard": "Pooper is die",
+      "subtitles.fard": "fard xd",
       "block.poop.skibidi_block": "Skibidi Toilet",
-      "item.poop.china": "China",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.neutron": "Neutron",
       "item.poop.debian_unstable": "Debian Unstable",
       "biome.poop.skibidi_biome": "Skibidiland",
-      "item.poop.proton": "Proton"
+      "item.poop.down_quark": "Down Quark",
+      "item.poop.proton": "Proton",
+      "block.poop.squashed_redstone": "High Density Redstone"
     }
   },
   "foldersRoot": {
@@ -1382,18 +1364,20 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.01.12",
+    "version": "2025.01.31",
+    "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",
     "license": "MIT License",
     "serverSideOnly": false,
+    "updateURL": "https://github.com/gonna-give-you-u/goofy-ahh-mod/releases",
     "modPicture": "saness",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "some of the textures are not mine (except the ones that are crappily drawn)",
+    "credits": "made in mcreator lol. some of the textures are not mine (except the ones that are crappily drawn), some are public domain",
     "modElementsPackage": "net.mcreator.poop"
   },
   "mcreatorVersion": 202400452410

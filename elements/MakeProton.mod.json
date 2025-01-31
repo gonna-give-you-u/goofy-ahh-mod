@@ -12,16 +12,16 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Neutron"
+        "value": "CUSTOM:UpQuark"
       },
       {
-        "value": "Blocks.WARPED_FUNGUS"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:UpQuark"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:DownQuark"
       },
       {
         "value": ""

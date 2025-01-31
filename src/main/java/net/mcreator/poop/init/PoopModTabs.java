@@ -38,9 +38,11 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.ADACHI_REI.get());
 			tabData.accept(PoopModItems.ADACHI_REI_BUT_DOESNT_EXPLODE.get());
 			tabData.accept(PoopModItems.LIGHTNING_SPAWNER.get());
+			tabData.accept(PoopModItems.RICKROLL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
-			tabData.accept(PoopModItems.OHNO.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(PoopModItems.POOP_FRAGMENT.get());
 			tabData.accept(PoopModItems.STEEL.get());
@@ -56,8 +58,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.ELECTRON.get());
 			tabData.accept(PoopModItems.PROTON.get());
 			tabData.accept(PoopModItems.NEUTRON.get());
-			tabData.accept(PoopModItems.CHINA.get());
-			tabData.accept(PoopModItems.TAIWAN.get());
+			tabData.accept(PoopModItems.UP_QUARK.get());
 		}
 	}
 }

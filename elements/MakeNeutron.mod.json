@@ -12,19 +12,19 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:UpQuark"
+      },
+      {
+        "value": "CUSTOM:DownQuark"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:DownQuark"
+      },
+      {
         "value": ""
-      },
-      {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": "Items.MILK_BUCKET"
       },
       {
         "value": ""

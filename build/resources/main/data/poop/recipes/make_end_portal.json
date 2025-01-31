@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "poop:carbon"
+    },
+    "b": {
+      "item": "poop:tritium"
+    },
+    "c": {
+      "item": "minecraft:emerald"
+    },
+    "d": {
+      "item": "minecraft:ender_pearl"
+    },
+    "e": {
+      "item": "minecraft:obsidian"
+    },
+    "f": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_portal_frame",
+    "count": 2
+  }
+}
