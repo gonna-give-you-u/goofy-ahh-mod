@@ -9,7 +9,7 @@ if you dont know how to install mods here's how:<br>
 4. close the game
 5. (optional but recommended) go to the installations tab, click on the forge (not play), expand "MORE OPTIONS", change the 2 in -Xmx2G to the amount of gigabytes of RAM you want to let minecraft use
 6. put this mod jar (find it in Releases) into the mods directory (folder)<br>
-   winbloat: %appdata%\.minecraft\mods ( C:\Users\your-username\AppData\Roaming\.minecraft\mods )<br>
+   winbloat: %appdata%\\.minecraft\mods ( C:\Users\your-username\AppData\Roaming\\.minecraft\mods )<br>
    linux: \~/.minecraft/mods ( /home/your-username/.minecraft/mods) (if navigating via GUI and you can't see '.minecraft' make sure to enable 'show hidden files' in your file manager. Or just paste this)<br>
    mac os: '\~/Library/Application Support/minecraft/mods'
 7. start the game
@@ -21,7 +21,7 @@ just imagine what "amazingness" this mod will have once i understand the forge a
 feel free to make your own stupid ahh suggestions and report issues<br>
 <br>
 <details>
-  <summary>credits for assets that are not mine and aren't public domain (or public-domain-like) (boring stuff to do with legal)</summary>
+  <summary>BORING STUFF: credits for assets that are not mine and aren't public domain (or public-domain-like)</summary>
   assets are in src/main/resources/assets/poop<br>
   textures/block:<br>
     ios_poop_huiwenzi.png, hardpoop.png: this Pile of Poo huiwenzi glyph style belongs to Apple Inc.<br>
@@ -40,6 +40,8 @@ feel free to make your own stupid ahh suggestions and report issues<br>
   <br>
    sounds/skibiditoilet.ogg: is a mashup of "Give It to Me" by Timbaland and "Dom Dom Yes Yes" by Biser King. this mashup features in Dafuq!?Boom!'s Skibidi Toilet series<br>
    sounds/poopsportsmusic.ogg: from [this YouTube video uploaded by Yoshibyte](https://www.youtube.com/watch?v=SJs204ufnpU)
-   
-  I hope i didn't miss anything
+
+   i guess some of these assets above are probably under cc and some maybe a bit different idk
+   if you want me to remove an asset let me know and ill change it to something else
+  I hope i didn't miss anything (let me know if i did)
 </details>
