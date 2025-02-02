@@ -3,14 +3,17 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:redstone"
+      "item": "poop:up_quark"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "poop:down_quark"
+    },
+    {
+      "item": "poop:down_quark"
     }
   ],
   "result": {
     "item": "poop:neutron",
-    "count": 64
+    "count": 1
   }
 }

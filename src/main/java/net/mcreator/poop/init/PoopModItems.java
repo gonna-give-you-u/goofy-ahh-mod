@@ -26,7 +26,9 @@ import net.mcreator.poop.item.PoopLauncherProItem;
 import net.mcreator.poop.item.PoopLauncherItem;
 import net.mcreator.poop.item.PoopItem;
 import net.mcreator.poop.item.PoopFragmentItem;
+import net.mcreator.poop.item.PieceOfGalliumItem;
 import net.mcreator.poop.item.NeutronItem;
+import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
 import net.mcreator.poop.item.HydrogenItem;
 import net.mcreator.poop.item.ElectronItem;
@@ -74,6 +76,11 @@ public class PoopModItems {
 	public static final RegistryObject<Item> UP_QUARK = REGISTRY.register("up_quark", () -> new UpQuarkItem());
 	public static final RegistryObject<Item> DOWN_QUARK = REGISTRY.register("down_quark", () -> new DownQuarkItem());
 	public static final RegistryObject<Item> SQUASHED_REDSTONE = block(PoopModBlocks.SQUASHED_REDSTONE);
+	public static final RegistryObject<Item> NUKE = block(PoopModBlocks.NUKE);
+	public static final RegistryObject<Item> LIQUID_GALLIUM_BUCKET = REGISTRY.register("liquid_gallium_bucket", () -> new LiquidGalliumItem());
+	public static final RegistryObject<Item> SOLID_GALLIUM = block(PoopModBlocks.SOLID_GALLIUM);
+	public static final RegistryObject<Item> PIECE_OF_GALLIUM = REGISTRY.register("piece_of_gallium", () -> new PieceOfGalliumItem());
+	public static final RegistryObject<Item> GALLIUM_ORE = block(PoopModBlocks.GALLIUM_ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

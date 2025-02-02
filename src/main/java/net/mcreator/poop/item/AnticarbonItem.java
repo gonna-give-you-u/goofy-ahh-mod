@@ -3,6 +3,7 @@ package net.mcreator.poop.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -11,8 +12,11 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.poop.procedures.BOOOOOOOMProcedure;
+
+import java.util.List;
 
 public class AnticarbonItem extends Item {
 	public AnticarbonItem() {
@@ -27,6 +31,12 @@ public class AnticarbonItem extends Item {
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
 		return 1;
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("item.poop.anticarbon.description_0"));
 	}
 
 	@Override

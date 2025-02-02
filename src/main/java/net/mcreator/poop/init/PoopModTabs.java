@@ -24,6 +24,7 @@ public class PoopModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(PoopModBlocks.POOP_BLOCK.get().asItem());
 			tabData.accept(PoopModBlocks.HARD_POOP_BLOCK.get().asItem());
+			tabData.accept(PoopModBlocks.GALLIUM_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(PoopModItems.POOP.get());
 			tabData.accept(PoopModItems.ANTICARBON.get());
@@ -32,6 +33,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.POOPER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(PoopModBlocks.SKIBIDI_BLOCK.get().asItem());
+			tabData.accept(PoopModBlocks.SOLID_GALLIUM.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(PoopModItems.POOP_LAUNCHER.get());
 			tabData.accept(PoopModItems.POOP_LAUNCHER_PRO.get());
@@ -39,6 +41,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.ADACHI_REI_BUT_DOESNT_EXPLODE.get());
 			tabData.accept(PoopModItems.LIGHTNING_SPAWNER.get());
 			tabData.accept(PoopModItems.RICKROLL.get());
+			tabData.accept(PoopModBlocks.NUKE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
@@ -59,6 +62,8 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.PROTON.get());
 			tabData.accept(PoopModItems.NEUTRON.get());
 			tabData.accept(PoopModItems.UP_QUARK.get());
+			tabData.accept(PoopModItems.DOWN_QUARK.get());
+			tabData.accept(PoopModItems.PIECE_OF_GALLIUM.get());
 		}
 	}
 }

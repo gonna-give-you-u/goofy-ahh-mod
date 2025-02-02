@@ -1,0 +1,54 @@
+{
+  "_fv": 73,
+  "_type": "fluid",
+  "definition": {
+    "name": "Gallium",
+    "bucketName": "Gallium Bucket",
+    "textureStill": "gallium_i_think",
+    "textureFlowing": "gallium_i_think",
+    "textureRenderOverlay": "gallium_i_think",
+    "hasFog": true,
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 0.0
+    },
+    "tintType": "Fog",
+    "canMultiply": false,
+    "flowRate": 6,
+    "levelDecrease": 1,
+    "slopeFindDistance": 3,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 1.25,
+    "luminosity": 0,
+    "density": 4700,
+    "viscosity": 1100,
+    "temperature": 315,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 150.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 20,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "onTickUpdate": {
+      "name": "GalliumStateSolidify"
+    }
+  }
+}

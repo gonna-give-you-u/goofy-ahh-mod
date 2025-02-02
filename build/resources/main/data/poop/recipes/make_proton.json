@@ -3,10 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "poop:neutron"
+      "item": "poop:up_quark"
     },
     {
-      "item": "minecraft:warped_fungus"
+      "item": "poop:up_quark"
+    },
+    {
+      "item": "poop:down_quark"
     }
   ],
   "result": {

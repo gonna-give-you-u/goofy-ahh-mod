@@ -1146,6 +1146,244 @@
           "src/main/resources/data/poop/recipes/squish_redstone.json"
         ]
       }
+    },
+    {
+      "name": "Nuke",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/nuke.json",
+          "src/main/resources/data/poop/loot_tables/blocks/nuke.json",
+          "src/main/resources/assets/poop/models/block/nuke.json",
+          "src/main/resources/assets/poop/blockstates/nuke.json",
+          "src/main/java/net/mcreator/poop/block/NukeBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/NuclearExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NukeCheckAir",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_check_air",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/NukeCheckAirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MakeNuke",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_nuke",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_nuke.json"
+        ]
+      }
+    },
+    {
+      "name": "LiquidGallium",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_gallium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/fluid/types/LiquidGalliumFluidType.java",
+          "src/main/resources/assets/poop/models/item/liquid_gallium_bucket.json",
+          "src/main/resources/assets/poop/models/block/liquid_gallium.json",
+          "src/main/java/net/mcreator/poop/block/LiquidGalliumBlock.java",
+          "src/main/java/net/mcreator/poop/fluid/LiquidGalliumFluid.java",
+          "src/main/java/net/mcreator/poop/item/LiquidGalliumItem.java",
+          "src/main/resources/assets/poop/blockstates/liquid_gallium.json"
+        ]
+      }
+    },
+    {
+      "name": "SolidGallium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solid_gallium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/loot_tables/blocks/solid_gallium.json",
+          "src/main/resources/assets/poop/models/item/solid_gallium.json",
+          "src/main/resources/assets/poop/models/block/solid_gallium.json",
+          "src/main/java/net/mcreator/poop/block/SolidGalliumBlock.java",
+          "src/main/resources/assets/poop/blockstates/solid_gallium.json"
+        ]
+      }
+    },
+    {
+      "name": "GalliumState",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallium_state",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/GalliumStateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PieceOfGallium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_of_gallium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/piece_of_gallium.json",
+          "src/main/java/net/mcreator/poop/item/PieceOfGalliumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GalliumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/forge/biome_modifier/gallium_ore_biome_modifier.json",
+          "src/main/resources/data/poop/loot_tables/blocks/gallium_ore.json",
+          "src/main/resources/assets/poop/models/block/gallium_ore.json",
+          "src/main/resources/assets/poop/blockstates/gallium_ore.json",
+          "src/main/resources/assets/poop/models/item/gallium_ore.json",
+          "src/main/java/net/mcreator/poop/block/GalliumOreBlock.java",
+          "src/main/resources/data/poop/worldgen/placed_feature/gallium_ore.json",
+          "src/main/resources/data/poop/worldgen/configured_feature/gallium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeGalliumBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_gallium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_gallium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "UnblockifyGallium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unblockify_gallium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/unblockify_gallium.json"
+        ]
+      }
+    },
+    {
+      "name": "GalliumStateSolidify",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallium_state_solidify",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/GalliumStateSolidifyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1188,9 +1426,16 @@
       "~CUSTOM:PoopBiome"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Nuke",
       "~CUSTOM:SquashedRedstone"
     ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:LiquidGallium"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GalliumOre",
+      "~CUSTOM:SolidGallium",
+      "~CUSTOM:Nuke",
       "~CUSTOM:SquashedRedstone",
       "~CUSTOM:SkibidiBlock",
       "~CUSTOM:HardPoopBlock"
@@ -1232,13 +1477,15 @@
       "Electron",
       "Proton",
       "Neutron",
-      "UpQuark"
+      "UpQuark",
+      "DownQuark",
+      "PieceOfGallium"
     ]
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.rickroll": "Рикролл",
+      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.pooper_spawn_egg": "Яйцо призыва Какашкера",
       "subtitles.poop_sports_music": "",
       "item.poop.diamond_nugget": "Кусочек алмаза",
@@ -1251,15 +1498,23 @@
       "biome.poop.poop_biome": "Биом какашек",
       "entity.poop.pooper": "Какашкер",
       "item.poop.poop": "Какашка",
+      "block.poop.nuke": "Ядерная бомба",
+      "block.poop.solid_gallium": "Блок галлий",
+      "item.poop.anticarbon.description_0": "пж не положи в инвентарь",
       "item.poop.electron": "Электрон",
+      "block.poop.liquid_gallium": "Жидкий галлий",
       "subtitles.reverb_fard": "пёрнул",
       "item.poop.adachi_rei": "足立レイ",
       "block.poop.hard_poop_block": "Твёрдый блок какашек",
       "item.poop.lightning_spawner": "Призыватель молний",
+      "block.poop.gallium_ore": "Галлиевая руда",
+      "item.poop.piece_of_gallium": "Галлий",
       "item.poop.debian": "Дэбиан",
+      "item.poop.liquid_gallium_bucket": "Ведро жидкого галлия",
       "item.poop.steel": "Сталь",
       "item.poop.anticarbon": "Анти-углерод",
       "block.poop.poop_block": "Блок какашек",
+      "fluid.poop.liquid_gallium": "Жидкий галий",
       "item.poop.toilet": "Туалет",
       "item.poop.deuterium": "Дейтерий",
       "item.poop.tritium": "Тритий",
@@ -1291,15 +1546,23 @@
       "biome.poop.poop_biome": "屎地",
       "entity.poop.pooper": "屎力怕",
       "item.poop.poop": "屎",
+      "block.poop.nuke": "核彈",
+      "block.poop.solid_gallium": "鎵塊",
+      "item.poop.anticarbon.description_0": "請不要放入物品欄",
       "item.poop.electron": "電子",
+      "block.poop.liquid_gallium": "液鎵",
       "subtitles.reverb_fard": "放屁",
       "item.poop.adachi_rei": "足立レイ",
       "block.poop.hard_poop_block": "硬屎塊",
       "item.poop.lightning_spawner": "閃電召喚器",
+      "block.poop.gallium_ore": "鎵礦",
+      "item.poop.piece_of_gallium": "鎵",
       "item.poop.debian": "Debian",
+      "item.poop.liquid_gallium_bucket": "液鎵桶",
       "item.poop.steel": "鋼",
       "item.poop.anticarbon": "反碳",
       "block.poop.poop_block": "屎塊",
+      "fluid.poop.liquid_gallium": "液鎵",
       "item.poop.toilet": "便器",
       "item.poop.deuterium": "氘",
       "item.poop.tritium": "氚",
@@ -1317,29 +1580,37 @@
       "block.poop.squashed_redstone": "密紅石"
     },
     "en_us": {
-      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.rickroll": "Rickroll",
+      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.pooper_spawn_egg": "Pooper Spawn Egg",
       "subtitles.poop_sports_music": "",
       "item.poop.diamond_nugget": "Diamond Nugget",
       "item.poop.skibidi_dimension": "Special Toilet",
       "item.poop.up_quark": "Up Quark",
-      "item.poop.poop_launcher": "Poop Launcher",
-      "item.poop.carbon": "Carbon",
       "subtitles.skibidi_music": "",
+      "item.poop.carbon": "Carbon",
+      "item.poop.poop_launcher": "Poop Launcher",
       "item.poop.poop_launcher_pro": "Poop Launcher Pro",
       "biome.poop.poop_biome": "Poopland",
       "entity.poop.pooper": "Pooper",
       "item.poop.poop": "Poop",
+      "block.poop.nuke": "Nuke (Underwhelming)",
+      "block.poop.solid_gallium": "Block of Gallium",
+      "item.poop.anticarbon.description_0": "please dont put this in your inventory",
       "item.poop.electron": "Electron",
+      "block.poop.liquid_gallium": "Gallium",
       "subtitles.reverb_fard": "fard xd",
       "item.poop.adachi_rei": "足立レイ",
       "block.poop.hard_poop_block": "Hard Poop Block",
       "item.poop.lightning_spawner": "Lightning Summoner",
+      "block.poop.gallium_ore": "Gallium Ore",
+      "item.poop.piece_of_gallium": "Gallium",
       "item.poop.debian": "Debian",
+      "item.poop.liquid_gallium_bucket": "Gallium Bucket",
       "item.poop.steel": "Steel",
       "item.poop.anticarbon": "Anticarbon",
       "block.poop.poop_block": "Poop Block",
+      "fluid.poop.liquid_gallium": "Gallium",
       "item.poop.toilet": "Toilet",
       "item.poop.deuterium": "Deuterium",
       "item.poop.tritium": "Tritium",
@@ -1364,7 +1635,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.01.31",
+    "version": "2025.02.01",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

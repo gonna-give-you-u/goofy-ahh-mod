@@ -4,12 +4,14 @@ license="MIT License"
 
 [[mods]]
 modId="poop"
-version="2025.01.17"
+version="2025.02.01"
 displayName="goofy ahh mod"
+updateJSONURL="https://github.com/gonna-give-you-u/goofy-ahh-mod/releases"
 displayURL="https://youtu.be/xvFZjo5PgG0"
 logoFile="logo.png"
-credits="some of the textures are not mine (except the ones that are crappily drawn)"
+credits="made in mcreator lol. some of the textures are not mine (except the ones that are crappily drawn), some are public domain"
 authors="gonna_give_you_u (ohiofortnite1412)"
+description="yes"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

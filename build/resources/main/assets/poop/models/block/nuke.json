@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poop:block/blank_white",
+    "up": "poop:block/blank_white",
+    "north": "poop:block/nuke",
+    "east": "poop:block/nuke",
+    "south": "poop:block/nuke",
+    "west": "poop:block/nuke",
+    "particle": "poop:block/blank_white"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:solid_gallium"
+    }
+  ],
+  "result": {
+    "item": "poop:piece_of_gallium",
+    "count": 9
+  }
+}

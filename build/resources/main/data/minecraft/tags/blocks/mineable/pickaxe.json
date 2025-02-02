@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "poop:gallium_ore",
+    "poop:solid_gallium",
+    "poop:nuke",
+    "poop:squashed_redstone",
     "poop:skibidi_block",
     "poop:hard_poop_block"
   ]
