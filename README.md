@@ -30,7 +30,7 @@ feel free to make your own stupid ahh suggestions and report issues<br>
     debian-openlogo.svg.png: the Debian logo belongs to Debian<br>
     ios_poop_huiwenzi.png: the same Pile of Poo huiwenzi glyth that belongs to Apple Inc.<br>
     latest-860451816.png: modified variant of a vanilla Minecraft asset (item texture of Lightning Rod). Minecraft is property of Mojang AB<br>
-    rei.png: originally by アボガド6. 足立レイ (Adachi Rei) is property of 合同会社メカニカルガール<br>
+    rei.png: texture prior to 2025.02.02 originally by アボガド6. 足立レイ (Adachi Rei) is property of 合同会社メカニカルガール. Texture after 2025-02-02 is from their website<br>
     steel.png: modified variant of a vanilla Minecraft asset (item texture of Flint and Steel). Minecraft is property of Mojang AB<br>
     uno_reverse_card.png: UNO was originally developed by Merle Robbins and is currently published by Mattel<br>
   textures/entities:<br>
