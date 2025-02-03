@@ -39,6 +39,7 @@ import net.mcreator.poop.item.DebianUnstableItem;
 import net.mcreator.poop.item.DebianItem;
 import net.mcreator.poop.item.CarbonItem;
 import net.mcreator.poop.item.AnticarbonItem;
+import net.mcreator.poop.item.AlphaWaterItem;
 import net.mcreator.poop.item.AdachiReiItem;
 import net.mcreator.poop.item.AdachiReiButDoesntExplodeItem;
 import net.mcreator.poop.PoopMod;
@@ -81,6 +82,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> SOLID_GALLIUM = block(PoopModBlocks.SOLID_GALLIUM);
 	public static final RegistryObject<Item> PIECE_OF_GALLIUM = REGISTRY.register("piece_of_gallium", () -> new PieceOfGalliumItem());
 	public static final RegistryObject<Item> GALLIUM_ORE = block(PoopModBlocks.GALLIUM_ORE);
+	public static final RegistryObject<Item> ALPHA_WATER_BUCKET = REGISTRY.register("alpha_water_bucket", () -> new AlphaWaterItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

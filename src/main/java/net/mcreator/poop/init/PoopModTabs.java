@@ -29,6 +29,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.POOP.get());
 			tabData.accept(PoopModItems.ANTICARBON.get());
 			tabData.accept(PoopModItems.STABLER_ANTICARBON.get());
+			tabData.accept(PoopModItems.ALPHA_WATER_BUCKET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PoopModItems.POOPER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

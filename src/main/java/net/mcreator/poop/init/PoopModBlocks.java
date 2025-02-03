@@ -19,6 +19,7 @@ import net.mcreator.poop.block.NukeBlock;
 import net.mcreator.poop.block.LiquidGalliumBlock;
 import net.mcreator.poop.block.HardPoopBlockBlock;
 import net.mcreator.poop.block.GalliumOreBlock;
+import net.mcreator.poop.block.AlphaWaterBlock;
 import net.mcreator.poop.PoopMod;
 
 public class PoopModBlocks {
@@ -32,6 +33,7 @@ public class PoopModBlocks {
 	public static final RegistryObject<Block> LIQUID_GALLIUM = REGISTRY.register("liquid_gallium", () -> new LiquidGalliumBlock());
 	public static final RegistryObject<Block> SOLID_GALLIUM = REGISTRY.register("solid_gallium", () -> new SolidGalliumBlock());
 	public static final RegistryObject<Block> GALLIUM_ORE = REGISTRY.register("gallium_ore", () -> new GalliumOreBlock());
+	public static final RegistryObject<Block> ALPHA_WATER = REGISTRY.register("alpha_water", () -> new AlphaWaterBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
