@@ -40,6 +40,7 @@ feel free to make your own stupid ahh suggestions and report issues<br>
   <br>
    sounds/skibiditoilet.ogg: is a mashup of "Give It to Me" by Timbaland and "Dom Dom Yes Yes" by Biser King. this mashup features in Dafuq!?Boom!'s Skibidi Toilet series<br>
    sounds/poopsportsmusic.ogg: from [this YouTube video uploaded by Yoshibyte](https://www.youtube.com/watch?v=SJs204ufnpU)
+   sounds/sanic.ogg: this is 'remix' of a song i do not own (i also do not own the remix)
 
    i guess some of these assets above are probably under cc and some maybe a bit different idk
    if you want me to remove an asset let me know and ill change it to something else

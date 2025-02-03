@@ -27,10 +27,12 @@ import net.mcreator.poop.item.PoopLauncherItem;
 import net.mcreator.poop.item.PoopItem;
 import net.mcreator.poop.item.PoopFragmentItem;
 import net.mcreator.poop.item.PieceOfGalliumItem;
+import net.mcreator.poop.item.PersistentAlphaWaterItem;
 import net.mcreator.poop.item.NeutronItem;
 import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
 import net.mcreator.poop.item.HydrogenItem;
+import net.mcreator.poop.item.GigafastTravelItem;
 import net.mcreator.poop.item.ElectronItem;
 import net.mcreator.poop.item.DownQuarkItem;
 import net.mcreator.poop.item.DiamondNuggetItem;
@@ -83,6 +85,9 @@ public class PoopModItems {
 	public static final RegistryObject<Item> PIECE_OF_GALLIUM = REGISTRY.register("piece_of_gallium", () -> new PieceOfGalliumItem());
 	public static final RegistryObject<Item> GALLIUM_ORE = block(PoopModBlocks.GALLIUM_ORE);
 	public static final RegistryObject<Item> ALPHA_WATER_BUCKET = REGISTRY.register("alpha_water_bucket", () -> new AlphaWaterItem());
+	public static final RegistryObject<Item> PERSISTENT_ALPHA_WATER_BUCKET = REGISTRY.register("persistent_alpha_water_bucket", () -> new PersistentAlphaWaterItem());
+	public static final RegistryObject<Item> GIGAFAST_TRAVEL = REGISTRY.register("gigafast_travel", () -> new GigafastTravelItem());
+	public static final RegistryObject<Item> NONMELTING_GALLIUM = block(PoopModBlocks.NONMELTING_GALLIUM);
 
 	// Start of user code block custom items
 	// End of user code block custom items

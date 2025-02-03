@@ -32,5 +32,13 @@
         "stream": true
       }
     ]
+  },
+  "sanic": {
+    "sounds": [
+      {
+        "name": "poop:sanic",
+        "stream": true
+      }
+    ]
   }
 }

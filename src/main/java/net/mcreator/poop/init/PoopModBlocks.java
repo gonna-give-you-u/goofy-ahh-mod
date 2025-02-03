@@ -15,9 +15,12 @@ import net.mcreator.poop.block.SolidGalliumBlock;
 import net.mcreator.poop.block.SkibidiDimensionPortalBlock;
 import net.mcreator.poop.block.SkibidiBlockBlock;
 import net.mcreator.poop.block.PoopBlockBlock;
+import net.mcreator.poop.block.PersistentAlphaWaterBlock;
 import net.mcreator.poop.block.NukeBlock;
+import net.mcreator.poop.block.NonmeltingGalliumBlock;
 import net.mcreator.poop.block.LiquidGalliumBlock;
 import net.mcreator.poop.block.HardPoopBlockBlock;
+import net.mcreator.poop.block.GigafastTravelPortalBlock;
 import net.mcreator.poop.block.GalliumOreBlock;
 import net.mcreator.poop.block.AlphaWaterBlock;
 import net.mcreator.poop.PoopMod;
@@ -34,6 +37,9 @@ public class PoopModBlocks {
 	public static final RegistryObject<Block> SOLID_GALLIUM = REGISTRY.register("solid_gallium", () -> new SolidGalliumBlock());
 	public static final RegistryObject<Block> GALLIUM_ORE = REGISTRY.register("gallium_ore", () -> new GalliumOreBlock());
 	public static final RegistryObject<Block> ALPHA_WATER = REGISTRY.register("alpha_water", () -> new AlphaWaterBlock());
+	public static final RegistryObject<Block> PERSISTENT_ALPHA_WATER = REGISTRY.register("persistent_alpha_water", () -> new PersistentAlphaWaterBlock());
+	public static final RegistryObject<Block> GIGAFAST_TRAVEL_PORTAL = REGISTRY.register("gigafast_travel_portal", () -> new GigafastTravelPortalBlock());
+	public static final RegistryObject<Block> NONMELTING_GALLIUM = REGISTRY.register("nonmelting_gallium", () -> new NonmeltingGalliumBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

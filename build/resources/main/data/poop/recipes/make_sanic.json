@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "poop:proton"
+    },
+    "b": {
+      "item": "poop:squashed_redstone"
+    },
+    "c": {
+      "item": "poop:deuterium"
+    },
+    "d": {
+      "item": "poop:electron"
+    }
+  },
+  "result": {
+    "item": "poop:gigafast_travel",
+    "count": 1
+  }
+}

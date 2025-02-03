@@ -30,11 +30,13 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.ANTICARBON.get());
 			tabData.accept(PoopModItems.STABLER_ANTICARBON.get());
 			tabData.accept(PoopModItems.ALPHA_WATER_BUCKET.get());
+			tabData.accept(PoopModItems.PERSISTENT_ALPHA_WATER_BUCKET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PoopModItems.POOPER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(PoopModBlocks.SKIBIDI_BLOCK.get().asItem());
 			tabData.accept(PoopModBlocks.SOLID_GALLIUM.get().asItem());
+			tabData.accept(PoopModBlocks.NONMELTING_GALLIUM.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(PoopModItems.POOP_LAUNCHER.get());
 			tabData.accept(PoopModItems.POOP_LAUNCHER_PRO.get());
@@ -45,6 +47,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModBlocks.NUKE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
+			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

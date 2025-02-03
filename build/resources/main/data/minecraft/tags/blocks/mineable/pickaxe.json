@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "poop:nonmelting_gallium",
     "poop:gallium_ore",
     "poop:solid_gallium",
     "poop:nuke",

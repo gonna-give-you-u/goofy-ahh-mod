@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Proton"
+      },
+      {
+        "value": "CUSTOM:Proton"
+      },
+      {
+        "value": "CUSTOM:Proton"
+      },
+      {
+        "value": "CUSTOM:SquashedRedstone"
+      },
+      {
+        "value": "CUSTOM:Deuterium"
+      },
+      {
+        "value": "CUSTOM:SquashedRedstone"
+      },
+      {
+        "value": "CUSTOM:Electron"
+      },
+      {
+        "value": "CUSTOM:Electron"
+      },
+      {
+        "value": "CUSTOM:Electron"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GigafastTravel"
+    },
+    "name": "make_sanic",
+    "namespace": "mod"
+  }
+}

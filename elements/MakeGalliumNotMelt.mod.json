@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SolidGallium"
+      },
+      {
+        "value": "CUSTOM:SolidGallium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SolidGallium"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NonmeltingGallium"
+    },
+    "name": "make_gallium_not_melt",
+    "namespace": "mod"
+  }
+}

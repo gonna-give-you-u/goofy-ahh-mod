@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "poop:block/gigafast_travel_portal_ew"
+    },
+    "axis=x": {
+      "model": "poop:block/gigafast_travel_portal_ns"
+    }
+  }
+}
