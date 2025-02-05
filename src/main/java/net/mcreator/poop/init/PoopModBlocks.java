@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.poop.block.TerafastTravelPortalBlock;
 import net.mcreator.poop.block.SquashedRedstoneBlock;
 import net.mcreator.poop.block.SolidGalliumBlock;
 import net.mcreator.poop.block.SkibidiDimensionPortalBlock;
@@ -40,6 +41,7 @@ public class PoopModBlocks {
 	public static final RegistryObject<Block> PERSISTENT_ALPHA_WATER = REGISTRY.register("persistent_alpha_water", () -> new PersistentAlphaWaterBlock());
 	public static final RegistryObject<Block> GIGAFAST_TRAVEL_PORTAL = REGISTRY.register("gigafast_travel_portal", () -> new GigafastTravelPortalBlock());
 	public static final RegistryObject<Block> NONMELTING_GALLIUM = REGISTRY.register("nonmelting_gallium", () -> new NonmeltingGalliumBlock());
+	public static final RegistryObject<Block> TERAFAST_TRAVEL_PORTAL = REGISTRY.register("terafast_travel_portal", () -> new TerafastTravelPortalBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

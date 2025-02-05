@@ -17,6 +17,7 @@ import net.mcreator.poop.item.UpQuarkItem;
 import net.mcreator.poop.item.UnoReverseItem;
 import net.mcreator.poop.item.TritiumItem;
 import net.mcreator.poop.item.ToiletItem;
+import net.mcreator.poop.item.TerafastTravelItem;
 import net.mcreator.poop.item.SteelItem;
 import net.mcreator.poop.item.StablerAnticarbonItem;
 import net.mcreator.poop.item.SkibidiDimensionItem;
@@ -88,6 +89,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> PERSISTENT_ALPHA_WATER_BUCKET = REGISTRY.register("persistent_alpha_water_bucket", () -> new PersistentAlphaWaterItem());
 	public static final RegistryObject<Item> GIGAFAST_TRAVEL = REGISTRY.register("gigafast_travel", () -> new GigafastTravelItem());
 	public static final RegistryObject<Item> NONMELTING_GALLIUM = block(PoopModBlocks.NONMELTING_GALLIUM);
+	public static final RegistryObject<Item> TERAFAST_TRAVEL = REGISTRY.register("terafast_travel", () -> new TerafastTravelItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

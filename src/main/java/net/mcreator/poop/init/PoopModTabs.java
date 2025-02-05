@@ -48,6 +48,7 @@ public class PoopModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());
+			tabData.accept(PoopModItems.TERAFAST_TRAVEL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

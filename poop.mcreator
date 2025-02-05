@@ -1578,6 +1578,52 @@
           "src/main/resources/data/poop/recipes/make_ice.json"
         ]
       }
+    },
+    {
+      "name": "TerafastTravel",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terafast_travel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/block/terafast_travel_portal_ns.json",
+          "src/main/java/net/mcreator/poop/block/TerafastTravelPortalBlock.java",
+          "src/main/resources/data/poop/dimension/terafast_travel.json",
+          "src/main/java/net/mcreator/poop/world/teleporter/TerafastTravelPortalShape.java",
+          "src/main/resources/assets/poop/models/block/terafast_travel_portal_ew.json",
+          "src/main/java/net/mcreator/poop/world/dimension/TerafastTravelDimension.java",
+          "src/main/java/net/mcreator/poop/world/teleporter/TerafastTravelTeleporter.java",
+          "src/main/java/net/mcreator/poop/item/TerafastTravelItem.java",
+          "src/main/resources/data/poop/dimension_type/terafast_travel.json",
+          "src/main/resources/assets/poop/blockstates/terafast_travel_portal.json",
+          "src/main/resources/assets/poop/models/item/terafast_travel.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeSuperSanic",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_super_sanic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_super_sanic.json"
+        ]
+      }
+    },
+    {
+      "name": "UnsquashRedstone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unsquash_redstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/unsquash_redstone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1658,6 +1704,8 @@
       "~CUSTOM:SkibidiBiome"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.REDSTONE_BLOCK",
+      "~Blocks.LIT_REDSTONE_ORE",
       "~CUSTOM:NonmeltingGallium",
       "~Blocks.GRASS",
       "~CUSTOM:HardPoopBlock",
@@ -1717,6 +1765,7 @@
       "block.poop.alpha_water": "Альфа-вода",
       "block.poop.skibidi_block": "Скибиди Туалет",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
+      "item.poop.terafast_travel": "Супер-саник",
       "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "block.poop.nonmelting_gallium": "Нетающий блок галлий",
       "item.poop.proton": "Протон",
@@ -1774,6 +1823,7 @@
       "block.poop.alpha_water": "alpha水",
       "block.poop.skibidi_block": "斯基比迪廁所",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
+      "item.poop.terafast_travel": "超Sanic",
       "fluid.poop.persistent_alpha_water": "一貫alpha水",
       "block.poop.nonmelting_gallium": "不融化鎵塊",
       "item.poop.proton": "質子",
@@ -1805,8 +1855,8 @@
       "item.poop.down_quark": "下夸克"
     },
     "en_us": {
-      "item.poop.rickroll": "Rickroll",
       "item.poop.stabler_anticarbon": "Anticarbon but stabler",
+      "item.poop.rickroll": "Rickroll",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Special Toilet",
@@ -1822,8 +1872,8 @@
       "item.poop.piece_of_gallium": "Gallium",
       "item.poop.debian": "Debian",
       "item.poop.liquid_gallium_bucket": "Gallium Bucket",
-      "item.poop.steel": "Steel",
       "item.poop.anticarbon": "Anticarbon",
+      "item.poop.steel": "Steel",
       "block.poop.poop_block": "Poop Block",
       "block.poop.persistent_alpha_water": "Persistent Alpha Water",
       "item.poop.deuterium": "Deuterium",
@@ -1831,6 +1881,7 @@
       "block.poop.alpha_water": "Alpha Water",
       "block.poop.skibidi_block": "Skibidi Toilet",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
+      "item.poop.terafast_travel": "Super sanic",
       "fluid.poop.persistent_alpha_water": "Persistent Alpha Water ",
       "block.poop.nonmelting_gallium": "Non-melting Block of Gallium",
       "item.poop.proton": "Proton",
@@ -1869,7 +1920,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.02.03",
+    "version": "2025.02.05",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

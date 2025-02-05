@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:gigafast_travel"
+    },
+    {
+      "item": "poop:gigafast_travel"
+    }
+  ],
+  "result": {
+    "item": "poop:terafast_travel",
+    "count": 1
+  }
+}
