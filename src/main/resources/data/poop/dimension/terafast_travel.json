@@ -30,7 +30,7 @@
         "Name": "minecraft:redstone_block"
       },
       "default_fluid": {
-        "Name": "minecraft:obsidian"
+        "Name": "minecraft:blue_ice"
       },
       "spawn_target": [],
       "noise": {
