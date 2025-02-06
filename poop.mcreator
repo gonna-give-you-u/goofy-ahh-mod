@@ -1624,6 +1624,40 @@
           "src/main/resources/data/poop/recipes/unsquash_redstone.json"
         ]
       }
+    },
+    {
+      "name": "BOOOOOOOM2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booooooom_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/BOOOOOOOM2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1920,7 +1954,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.02.05",
+    "version": "2025.02.06",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

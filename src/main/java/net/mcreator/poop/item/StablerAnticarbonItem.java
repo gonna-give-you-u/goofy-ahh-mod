@@ -11,6 +11,7 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.poop.procedures.BOOOOOOOMProcedure;
+import net.mcreator.poop.procedures.BOOOOOOOM2Procedure;
 
 public class StablerAnticarbonItem extends Item {
 	public StablerAnticarbonItem() {
@@ -35,7 +36,7 @@ public class StablerAnticarbonItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		BOOOOOOOMProcedure.execute(world, x, y, z, entity);
+		BOOOOOOOM2Procedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 
