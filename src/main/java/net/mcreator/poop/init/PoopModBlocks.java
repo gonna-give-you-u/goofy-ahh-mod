@@ -23,6 +23,8 @@ import net.mcreator.poop.block.LiquidGalliumBlock;
 import net.mcreator.poop.block.HardPoopBlockBlock;
 import net.mcreator.poop.block.GigafastTravelPortalBlock;
 import net.mcreator.poop.block.GalliumOreBlock;
+import net.mcreator.poop.block.ExplosiveOreBlock;
+import net.mcreator.poop.block.DeepslateExplosiveOreBlock;
 import net.mcreator.poop.block.AlphaWaterBlock;
 import net.mcreator.poop.PoopMod;
 
@@ -42,6 +44,8 @@ public class PoopModBlocks {
 	public static final RegistryObject<Block> GIGAFAST_TRAVEL_PORTAL = REGISTRY.register("gigafast_travel_portal", () -> new GigafastTravelPortalBlock());
 	public static final RegistryObject<Block> NONMELTING_GALLIUM = REGISTRY.register("nonmelting_gallium", () -> new NonmeltingGalliumBlock());
 	public static final RegistryObject<Block> TERAFAST_TRAVEL_PORTAL = REGISTRY.register("terafast_travel_portal", () -> new TerafastTravelPortalBlock());
+	public static final RegistryObject<Block> EXPLOSIVE_ORE = REGISTRY.register("explosive_ore", () -> new ExplosiveOreBlock());
+	public static final RegistryObject<Block> DEEPSLATE_EXPLOSIVE_ORE = REGISTRY.register("deepslate_explosive_ore", () -> new DeepslateExplosiveOreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

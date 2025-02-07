@@ -25,6 +25,8 @@ public class PoopModTabs {
 			tabData.accept(PoopModBlocks.POOP_BLOCK.get().asItem());
 			tabData.accept(PoopModBlocks.HARD_POOP_BLOCK.get().asItem());
 			tabData.accept(PoopModBlocks.GALLIUM_ORE.get().asItem());
+			tabData.accept(PoopModBlocks.EXPLOSIVE_ORE.get().asItem());
+			tabData.accept(PoopModBlocks.DEEPSLATE_EXPLOSIVE_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(PoopModItems.POOP.get());
 			tabData.accept(PoopModItems.ANTICARBON.get());

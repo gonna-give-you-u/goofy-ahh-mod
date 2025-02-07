@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "poop:deepslate_explosive_ore",
+    "poop:explosive_ore",
     "poop:nonmelting_gallium",
     "poop:gallium_ore",
     "poop:solid_gallium",

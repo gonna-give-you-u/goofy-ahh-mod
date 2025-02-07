@@ -90,6 +90,8 @@ public class PoopModItems {
 	public static final RegistryObject<Item> GIGAFAST_TRAVEL = REGISTRY.register("gigafast_travel", () -> new GigafastTravelItem());
 	public static final RegistryObject<Item> NONMELTING_GALLIUM = block(PoopModBlocks.NONMELTING_GALLIUM);
 	public static final RegistryObject<Item> TERAFAST_TRAVEL = REGISTRY.register("terafast_travel", () -> new TerafastTravelItem());
+	public static final RegistryObject<Item> EXPLOSIVE_ORE = block(PoopModBlocks.EXPLOSIVE_ORE);
+	public static final RegistryObject<Item> DEEPSLATE_EXPLOSIVE_ORE = block(PoopModBlocks.DEEPSLATE_EXPLOSIVE_ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
