@@ -1,0 +1,6 @@
+JVM:         /opt/openjdk-bin-17.0.13_p11/bin/java
+JVM Args:    
+Run Args:    "--inJar", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/rename/output.jar", "--outJar", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/AccessTransformer/output.jar", "--atFile", "/home/ohiofortnite/MCreatorWorkspaces/poop/src/main/resources/META-INF/accesstransformer.cfg", "--atFile", "/tmp/FG_ats_16968269073461473893.cfg"
+Classpath:   /home/ohiofortnite/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.2.1/accesstransformers-8.2.1-fatjar.jar
+Working Dir: /home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor
