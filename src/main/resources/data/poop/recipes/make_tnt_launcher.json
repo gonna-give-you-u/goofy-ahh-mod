@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "poop:tritium"
+    },
+    "b": {
+      "item": "minecraft:tnt"
+    },
+    "c": {
+      "item": "poop:poop_launcher"
+    },
+    "d": {
+      "item": "poop:hydrogen"
+    }
+  },
+  "result": {
+    "item": "poop:tnt_launcher",
+    "count": 1
+  }
+}

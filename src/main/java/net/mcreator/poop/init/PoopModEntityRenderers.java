@@ -20,5 +20,6 @@ public class PoopModEntityRenderers {
 		event.registerEntityRenderer(PoopModEntities.POOPER.get(), PooperRenderer::new);
 		event.registerEntityRenderer(PoopModEntities.POOP_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(PoopModEntities.HARD_POOP_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(PoopModEntities.TNT_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

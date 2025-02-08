@@ -18,6 +18,7 @@ import net.mcreator.poop.item.UnoReverseItem;
 import net.mcreator.poop.item.TritiumItem;
 import net.mcreator.poop.item.ToiletItem;
 import net.mcreator.poop.item.TerafastTravelItem;
+import net.mcreator.poop.item.TNTLauncherItem;
 import net.mcreator.poop.item.SteelItem;
 import net.mcreator.poop.item.StablerAnticarbonItem;
 import net.mcreator.poop.item.SkibidiDimensionItem;
@@ -92,6 +93,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> TERAFAST_TRAVEL = REGISTRY.register("terafast_travel", () -> new TerafastTravelItem());
 	public static final RegistryObject<Item> EXPLOSIVE_ORE = block(PoopModBlocks.EXPLOSIVE_ORE);
 	public static final RegistryObject<Item> DEEPSLATE_EXPLOSIVE_ORE = block(PoopModBlocks.DEEPSLATE_EXPLOSIVE_ORE);
+	public static final RegistryObject<Item> TNT_LAUNCHER = REGISTRY.register("tnt_launcher", () -> new TNTLauncherItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.poop.entity.TNTProjectileEntity;
 import net.mcreator.poop.entity.PooperEntity;
 import net.mcreator.poop.entity.PoopProjectileEntity;
 import net.mcreator.poop.entity.HardPoopProjectileEntity;
@@ -32,6 +33,8 @@ public class PoopModEntities {
 			EntityType.Builder.<PoopProjectileEntity>of(PoopProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(PoopProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.4f, 0.4f));
 	public static final RegistryObject<EntityType<HardPoopProjectileEntity>> HARD_POOP_PROJECTILE = register("hard_poop_projectile", EntityType.Builder.<HardPoopProjectileEntity>of(HardPoopProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(HardPoopProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TNTProjectileEntity>> TNT_PROJECTILE = register("tnt_projectile",
+			EntityType.Builder.<TNTProjectileEntity>of(TNTProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(TNTProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
