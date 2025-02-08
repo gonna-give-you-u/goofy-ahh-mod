@@ -30,6 +30,7 @@ import net.mcreator.poop.item.PoopItem;
 import net.mcreator.poop.item.PoopFragmentItem;
 import net.mcreator.poop.item.PieceOfGalliumItem;
 import net.mcreator.poop.item.PersistentAlphaWaterItem;
+import net.mcreator.poop.item.NukeLauncherItem;
 import net.mcreator.poop.item.NeutronItem;
 import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
@@ -94,6 +95,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> EXPLOSIVE_ORE = block(PoopModBlocks.EXPLOSIVE_ORE);
 	public static final RegistryObject<Item> DEEPSLATE_EXPLOSIVE_ORE = block(PoopModBlocks.DEEPSLATE_EXPLOSIVE_ORE);
 	public static final RegistryObject<Item> TNT_LAUNCHER = REGISTRY.register("tnt_launcher", () -> new TNTLauncherItem());
+	public static final RegistryObject<Item> NUKE_LAUNCHER = REGISTRY.register("nuke_launcher", () -> new NukeLauncherItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
