@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "poop:block/boom_ore",
-    "particle": "poop:block/boom_ore"
-  },
-  "render_type": "solid"
-}

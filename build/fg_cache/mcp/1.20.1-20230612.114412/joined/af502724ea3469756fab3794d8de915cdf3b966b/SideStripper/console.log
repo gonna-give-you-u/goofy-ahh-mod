@@ -1,9 +1,0 @@
-JVM:         /opt/openjdk-bin-17.0.13_p11/bin/java
-JVM Args:    
-Run Args:    "--strip", "--input", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/AccessTransformer/output.jar", "--output", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/SideStripper/output.jar", "--data", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/SideStripper/string_data.sas"
-Classpath:   /home/ohiofortnite/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.7/mergetool-1.1.7-fatjar.jar
-Working Dir: /home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/SideStripper
-Main Class:  net.minecraftforge.mergetool.ConsoleMerger
-Input:  /home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/AccessTransformer/output.jar
-Output: /home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/SideStripper/output.jar
-Data:   /home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/SideStripper/string_data.sas
