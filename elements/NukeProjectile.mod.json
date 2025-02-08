@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Nuke"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.tnt.primed"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 5.0,
+    "knockback": 4,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "NuclearExplosion"
+    },
+    "onHitsPlayer": {
+      "name": "NuclearExplosion"
+    },
+    "onHitsEntity": {
+      "name": "NuclearExplosion"
+    }
+  }
+}

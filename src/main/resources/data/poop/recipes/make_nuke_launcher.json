@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "poop:nuke"
+    },
+    "b": {
+      "item": "minecraft:tnt"
+    },
+    "c": {
+      "item": "poop:tnt_launcher"
+    }
+  },
+  "result": {
+    "item": "poop:nuke_launcher",
+    "count": 1
+  }
+}

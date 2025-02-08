@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nuke"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "CUSTOM:TNTLauncher"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nuke"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NukeLauncher"
+    },
+    "name": "make_nuke_launcher",
+    "namespace": "mod"
+  }
+}
