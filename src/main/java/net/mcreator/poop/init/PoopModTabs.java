@@ -47,6 +47,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.LIGHTNING_SPAWNER.get());
 			tabData.accept(PoopModItems.RICKROLL.get());
 			tabData.accept(PoopModBlocks.NUKE.get().asItem());
+			tabData.accept(PoopModItems.TNT_LAUNCHER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());
