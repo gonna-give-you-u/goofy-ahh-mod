@@ -1,3 +1,2 @@
-.mcreator
-build/tmp
-build
+/.mcreator
+/build
