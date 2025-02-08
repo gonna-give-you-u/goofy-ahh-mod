@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "poop:block/redredstone",
-    "particle": "poop:block/redredstone"
-  },
-  "render_type": "solid"
-}

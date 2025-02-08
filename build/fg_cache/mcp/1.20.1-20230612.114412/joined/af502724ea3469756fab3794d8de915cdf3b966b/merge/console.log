@@ -1,6 +1,0 @@
-JVM:         /opt/openjdk-bin-17.0.13_p11/bin/java
-JVM Args:    
-Run Args:    "--client", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/stripClient/output.jar", "--server", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/stripServer/output.jar", "--ann", "1.20.1", "--output", "/home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/merge/output.jar", "--inject", "false"
-Classpath:   /home/ohiofortnite/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.7/mergetool-1.1.7-fatjar.jar
-Working Dir: /home/ohiofortnite/MCreatorWorkspaces/poop/build/fg_cache/mcp/1.20.1-20230612.114412/joined/af502724ea3469756fab3794d8de915cdf3b966b/merge
-Main Class:  net.minecraftforge.mergetool.ConsoleMerger

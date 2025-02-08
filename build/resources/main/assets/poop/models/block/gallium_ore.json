@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "poop:block/gallium_ore",
-    "particle": "poop:block/gallium_ore"
-  },
-  "render_type": "solid"
-}
