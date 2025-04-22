@@ -6,12 +6,12 @@
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 69.0,
-    "cookingTime": 2400,
+    "xpReward": 30.0,
+    "cookingTime": 1200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "blastingInputStack": {
-      "value": "Blocks.COAL_BLOCK"
+      "value": "CUSTOM:ThreeCoals"
     },
     "blastingReturnStack": {
       "value": "CUSTOM:DiamondNugget"

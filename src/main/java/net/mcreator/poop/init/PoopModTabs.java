@@ -73,6 +73,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.UP_QUARK.get());
 			tabData.accept(PoopModItems.DOWN_QUARK.get());
 			tabData.accept(PoopModItems.PIECE_OF_GALLIUM.get());
+			tabData.accept(PoopModItems.THREE_COALS.get());
 		}
 	}
 }

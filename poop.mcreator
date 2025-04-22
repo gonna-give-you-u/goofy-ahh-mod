@@ -1830,6 +1830,43 @@
           "src/main/resources/data/poop/recipes/make_nuke_launcher.json"
         ]
       }
+    },
+    {
+      "name": "ThreeCoals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "three_coals",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/item/ThreeCoalsItem.java",
+          "src/main/resources/assets/poop/models/item/three_coals.json"
+        ]
+      }
+    },
+    {
+      "name": "TripleTheCoal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triple_the_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/triple_the_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "UntripleTheCoal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untriple_the_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/untriple_the_coal.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1942,7 +1979,8 @@
       "Neutron",
       "UpQuark",
       "DownQuark",
-      "PieceOfGallium"
+      "PieceOfGallium",
+      "ThreeCoals"
     ]
   },
   "language_map": {
@@ -1963,10 +2001,11 @@
       "block.poop.hard_poop_block": "Твёрдый блок какашек",
       "block.poop.gallium_ore": "Галлиевая руда",
       "item.poop.piece_of_gallium": "Галлий",
+      "item.poop.three_coals": "3 pieces of coal",
       "item.poop.debian": "Дэбиан",
       "item.poop.liquid_gallium_bucket": "Ведро жидкого галлия",
-      "item.poop.anticarbon": "Анти-углерод",
       "item.poop.steel": "Сталь",
+      "item.poop.anticarbon": "Анти-углерод",
       "block.poop.poop_block": "Блок какашек",
       "block.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.poop.deuterium": "Дейтерий",
@@ -2025,6 +2064,7 @@
       "block.poop.hard_poop_block": "硬屎塊",
       "block.poop.gallium_ore": "鎵礦",
       "item.poop.piece_of_gallium": "鎵",
+      "item.poop.three_coals": "3 pieces of coal",
       "item.poop.debian": "Debian",
       "item.poop.liquid_gallium_bucket": "液鎵桶",
       "item.poop.anticarbon": "反碳",
@@ -2087,6 +2127,7 @@
       "block.poop.hard_poop_block": "Hard Poop Block",
       "block.poop.gallium_ore": "Gallium Ore",
       "item.poop.piece_of_gallium": "Gallium",
+      "item.poop.three_coals": "3 pieces of coal",
       "item.poop.debian": "Debian",
       "item.poop.liquid_gallium_bucket": "Gallium Bucket",
       "item.poop.anticarbon": "Anticarbon",
@@ -2140,7 +2181,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.02.08",
+    "version": "2025.04.22",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

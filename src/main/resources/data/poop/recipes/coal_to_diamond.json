@@ -1,10 +1,10 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "experience": 69,
-  "cookingtime": 2400,
+  "experience": 30,
+  "cookingtime": 1200,
   "ingredient": {
-    "item": "minecraft:coal_block"
+    "item": "poop:three_coals"
   },
   "result": "poop:diamond_nugget"
 }

@@ -17,6 +17,7 @@ import net.mcreator.poop.item.UpQuarkItem;
 import net.mcreator.poop.item.UnoReverseItem;
 import net.mcreator.poop.item.TritiumItem;
 import net.mcreator.poop.item.ToiletItem;
+import net.mcreator.poop.item.ThreeCoalsItem;
 import net.mcreator.poop.item.TerafastTravelItem;
 import net.mcreator.poop.item.TNTLauncherItem;
 import net.mcreator.poop.item.SteelItem;
@@ -96,6 +97,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> DEEPSLATE_EXPLOSIVE_ORE = block(PoopModBlocks.DEEPSLATE_EXPLOSIVE_ORE);
 	public static final RegistryObject<Item> TNT_LAUNCHER = REGISTRY.register("tnt_launcher", () -> new TNTLauncherItem());
 	public static final RegistryObject<Item> NUKE_LAUNCHER = REGISTRY.register("nuke_launcher", () -> new NukeLauncherItem());
+	public static final RegistryObject<Item> THREE_COALS = REGISTRY.register("three_coals", () -> new ThreeCoalsItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
