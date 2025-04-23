@@ -1985,8 +1985,8 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.rickroll": "Рикролл",
+      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
@@ -2001,7 +2001,7 @@
       "block.poop.hard_poop_block": "Твёрдый блок какашек",
       "block.poop.gallium_ore": "Галлиевая руда",
       "item.poop.piece_of_gallium": "Галлий",
-      "item.poop.three_coals": "3 pieces of coal",
+      "item.poop.three_coals": "Тройной уголь",
       "item.poop.debian": "Дэбиан",
       "item.poop.liquid_gallium_bucket": "Ведро жидкого галлия",
       "item.poop.steel": "Сталь",
@@ -2048,8 +2048,8 @@
       "item.poop.down_quark": "Нижний кварк"
     },
     "zh_tw": {
-      "item.poop.rickroll": "瑞克搖",
       "item.poop.stabler_anticarbon": "更穩反碳",
+      "item.poop.rickroll": "瑞克搖",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
@@ -2064,7 +2064,7 @@
       "block.poop.hard_poop_block": "硬屎塊",
       "block.poop.gallium_ore": "鎵礦",
       "item.poop.piece_of_gallium": "鎵",
-      "item.poop.three_coals": "3 pieces of coal",
+      "item.poop.three_coals": "三倍煤炭",
       "item.poop.debian": "Debian",
       "item.poop.liquid_gallium_bucket": "液鎵桶",
       "item.poop.anticarbon": "反碳",
@@ -2181,7 +2181,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.04.22",
+    "version": "2025.04.23",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",
