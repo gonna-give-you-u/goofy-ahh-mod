@@ -17,26 +17,7 @@
     "water_fog_color": -5738982
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "poop:pooper",
-        "weight": 20,
-        "minCount": 5,
-        "maxCount": 20
-      },
-      {
-        "type": "ender_dragon",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "wither",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "monster": [],
     "creature": [],
     "ambient": [],
     "axolotls": [],

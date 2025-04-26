@@ -119,34 +119,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": true,
     "spawnRuinedPortal": "STANDARD",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:Pooper"
-        },
-        "minGroup": 5,
-        "maxGroup": 20,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityDragon"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 1,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityWither"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 1,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnEntries": []
   }
 }
