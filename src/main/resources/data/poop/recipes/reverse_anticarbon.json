@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:anticarbon"
+    },
+    {
+      "item": "poop:uno_reverse"
+    }
+  ],
+  "result": {
+    "item": "poop:carbon",
+    "count": 1
+  }
+}
