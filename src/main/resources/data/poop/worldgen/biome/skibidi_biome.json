@@ -5,8 +5,8 @@
   "effects": {
     "music": {
       "sound": "poop:skibidi_music",
-      "min_delay": 1,
-      "max_delay": 2,
+      "min_delay": 12000,
+      "max_delay": 24000,
       "replace_current_music": true
     },
     "foliage_color": -5738982,
@@ -21,8 +21,8 @@
       {
         "type": "poop:pooper",
         "weight": 20,
-        "minCount": 69,
-        "maxCount": 420
+        "minCount": 5,
+        "maxCount": 20
       },
       {
         "type": "ender_dragon",

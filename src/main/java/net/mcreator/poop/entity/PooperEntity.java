@@ -28,6 +28,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.poop.procedures.PooperSpawnConditionProcedure;
 import net.mcreator.poop.init.PoopModItems;
 import net.mcreator.poop.init.PoopModEntities;
 
@@ -38,7 +39,7 @@ public class PooperEntity extends Monster {
 
 	public PooperEntity(EntityType<PooperEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.52f);
+		setMaxUpStep(0.72f);
 		xpReward = 1;
 		setNoAi(false);
 	}
@@ -57,10 +58,10 @@ public class PooperEntity extends Monster {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
+		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(4, new FloatGoal(this));
+		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 0.8));
 	}
 
 	@Override
@@ -98,12 +99,17 @@ public class PooperEntity extends Monster {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(PoopModEntities.POOPER.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
+		SpawnPlacements.register(PoopModEntities.POOPER.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return PooperSpawnConditionProcedure.execute(world, x, y, z);
+		});
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.27);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.37);
 		builder = builder.add(Attributes.MAX_HEALTH, 15);
 		builder = builder.add(Attributes.ARMOR, 1);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);

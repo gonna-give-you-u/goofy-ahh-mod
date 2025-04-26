@@ -38,8 +38,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.5,
-    "resistance": 1.0,
+    "hardness": 0.6,
+    "resistance": 3.0,
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -81,9 +81,9 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.4,
-    "speedFactor": 0.7000000000000001,
-    "jumpFactor": 0.8,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,

@@ -21,6 +21,7 @@ import net.mcreator.poop.item.ThreeCoalsItem;
 import net.mcreator.poop.item.TerafastTravelItem;
 import net.mcreator.poop.item.TNTLauncherItem;
 import net.mcreator.poop.item.SteelItem;
+import net.mcreator.poop.item.SteelArmorItem;
 import net.mcreator.poop.item.StablerAnticarbonItem;
 import net.mcreator.poop.item.SkibidiDimensionItem;
 import net.mcreator.poop.item.RickrollItem;
@@ -31,6 +32,7 @@ import net.mcreator.poop.item.PoopItem;
 import net.mcreator.poop.item.PoopFragmentItem;
 import net.mcreator.poop.item.PieceOfGalliumItem;
 import net.mcreator.poop.item.PersistentAlphaWaterItem;
+import net.mcreator.poop.item.NutritiousPoopItem;
 import net.mcreator.poop.item.NukeLauncherItem;
 import net.mcreator.poop.item.NeutronItem;
 import net.mcreator.poop.item.LiquidGalliumItem;
@@ -44,6 +46,8 @@ import net.mcreator.poop.item.DeuteriumItem;
 import net.mcreator.poop.item.DebianUnstableItem;
 import net.mcreator.poop.item.DebianItem;
 import net.mcreator.poop.item.CarbonItem;
+import net.mcreator.poop.item.BedrockArmorItem;
+import net.mcreator.poop.item.BarrierArmorItem;
 import net.mcreator.poop.item.AnticarbonItem;
 import net.mcreator.poop.item.AlphaWaterItem;
 import net.mcreator.poop.item.AdachiReiItem;
@@ -98,6 +102,19 @@ public class PoopModItems {
 	public static final RegistryObject<Item> TNT_LAUNCHER = REGISTRY.register("tnt_launcher", () -> new TNTLauncherItem());
 	public static final RegistryObject<Item> NUKE_LAUNCHER = REGISTRY.register("nuke_launcher", () -> new NukeLauncherItem());
 	public static final RegistryObject<Item> THREE_COALS = REGISTRY.register("three_coals", () -> new ThreeCoalsItem());
+	public static final RegistryObject<Item> NUTRITIOUS_POOP = REGISTRY.register("nutritious_poop", () -> new NutritiousPoopItem());
+	public static final RegistryObject<Item> STEEL_ARMOR_HELMET = REGISTRY.register("steel_armor_helmet", () -> new SteelArmorItem.Helmet());
+	public static final RegistryObject<Item> STEEL_ARMOR_CHESTPLATE = REGISTRY.register("steel_armor_chestplate", () -> new SteelArmorItem.Chestplate());
+	public static final RegistryObject<Item> STEEL_ARMOR_LEGGINGS = REGISTRY.register("steel_armor_leggings", () -> new SteelArmorItem.Leggings());
+	public static final RegistryObject<Item> STEEL_ARMOR_BOOTS = REGISTRY.register("steel_armor_boots", () -> new SteelArmorItem.Boots());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_HELMET = REGISTRY.register("bedrock_armor_helmet", () -> new BedrockArmorItem.Helmet());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_CHESTPLATE = REGISTRY.register("bedrock_armor_chestplate", () -> new BedrockArmorItem.Chestplate());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_LEGGINGS = REGISTRY.register("bedrock_armor_leggings", () -> new BedrockArmorItem.Leggings());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_BOOTS = REGISTRY.register("bedrock_armor_boots", () -> new BedrockArmorItem.Boots());
+	public static final RegistryObject<Item> BARRIER_ARMOR_HELMET = REGISTRY.register("barrier_armor_helmet", () -> new BarrierArmorItem.Helmet());
+	public static final RegistryObject<Item> BARRIER_ARMOR_CHESTPLATE = REGISTRY.register("barrier_armor_chestplate", () -> new BarrierArmorItem.Chestplate());
+	public static final RegistryObject<Item> BARRIER_ARMOR_LEGGINGS = REGISTRY.register("barrier_armor_leggings", () -> new BarrierArmorItem.Leggings());
+	public static final RegistryObject<Item> BARRIER_ARMOR_BOOTS = REGISTRY.register("barrier_armor_boots", () -> new BarrierArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

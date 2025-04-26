@@ -33,6 +33,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.STABLER_ANTICARBON.get());
 			tabData.accept(PoopModItems.ALPHA_WATER_BUCKET.get());
 			tabData.accept(PoopModItems.PERSISTENT_ALPHA_WATER_BUCKET.get());
+			tabData.accept(PoopModItems.NUTRITIOUS_POOP.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PoopModItems.POOPER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -49,6 +50,18 @@ public class PoopModTabs {
 			tabData.accept(PoopModBlocks.NUKE.get().asItem());
 			tabData.accept(PoopModItems.TNT_LAUNCHER.get());
 			tabData.accept(PoopModItems.NUKE_LAUNCHER.get());
+			tabData.accept(PoopModItems.STEEL_ARMOR_HELMET.get());
+			tabData.accept(PoopModItems.STEEL_ARMOR_CHESTPLATE.get());
+			tabData.accept(PoopModItems.STEEL_ARMOR_LEGGINGS.get());
+			tabData.accept(PoopModItems.STEEL_ARMOR_BOOTS.get());
+			tabData.accept(PoopModItems.BEDROCK_ARMOR_HELMET.get());
+			tabData.accept(PoopModItems.BEDROCK_ARMOR_CHESTPLATE.get());
+			tabData.accept(PoopModItems.BEDROCK_ARMOR_LEGGINGS.get());
+			tabData.accept(PoopModItems.BEDROCK_ARMOR_BOOTS.get());
+			tabData.accept(PoopModItems.BARRIER_ARMOR_HELMET.get());
+			tabData.accept(PoopModItems.BARRIER_ARMOR_CHESTPLATE.get());
+			tabData.accept(PoopModItems.BARRIER_ARMOR_LEGGINGS.get());
+			tabData.accept(PoopModItems.BARRIER_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());

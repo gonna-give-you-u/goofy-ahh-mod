@@ -119,6 +119,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Pooper"
+        },
+        "minGroup": 4,
+        "maxGroup": 8,
+        "weight": 500,
+        "spawnType": "ambient"
+      }
+    ]
   }
 }

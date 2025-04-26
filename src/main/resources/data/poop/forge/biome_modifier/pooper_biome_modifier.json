@@ -1,6 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "poop:poop_biome",
+  "biomes": [
+    "poop:poop_biome",
+    "poop:skibidi_biome"
+  ],
   "spawners": {
     "type": "poop:pooper",
     "weight": 1000,

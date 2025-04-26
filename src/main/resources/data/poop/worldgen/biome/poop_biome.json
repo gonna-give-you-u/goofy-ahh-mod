@@ -5,8 +5,8 @@
   "effects": {
     "music": {
       "sound": "poop:poop_sports_music",
-      "min_delay": 1,
-      "max_delay": 2,
+      "min_delay": 12000,
+      "max_delay": 24000,
       "replace_current_music": true
     },
     "foliage_color": -9750497,
@@ -19,7 +19,14 @@
   "spawners": {
     "monster": [],
     "creature": [],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "poop:pooper",
+        "weight": 500,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],

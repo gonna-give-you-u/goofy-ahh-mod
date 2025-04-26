@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class PoopBlockBlock extends FallingBlock {
 	public PoopBlockBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).sound(SoundType.SLIME_BLOCK).strength(0.5f, 1f).friction(0.4f).speedFactor(0.7f).jumpFactor(0.8f));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).sound(SoundType.SLIME_BLOCK).strength(0.6f, 3f));
 	}
 
 	@Override

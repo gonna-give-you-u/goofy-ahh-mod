@@ -124,8 +124,8 @@
         "entity": {
           "value": "CUSTOM:Pooper"
         },
-        "minGroup": 69,
-        "maxGroup": 420,
+        "minGroup": 5,
+        "maxGroup": 20,
         "weight": 20,
         "spawnType": "monster"
       },

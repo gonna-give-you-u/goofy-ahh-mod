@@ -1867,6 +1867,326 @@
           "src/main/resources/data/poop/recipes/untriple_the_coal.json"
         ]
       }
+    },
+    {
+      "name": "GoodPoopEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "good_poop_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/GoodPoopEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NutritiousPoop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nutritious_poop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/item/NutritiousPoopItem.java",
+          "src/main/resources/assets/poop/models/item/nutritious_poop.json"
+        ]
+      }
+    },
+    {
+      "name": "GoodenPoop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gooden_poop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/gooden_poop.json"
+        ]
+      }
+    },
+    {
+      "name": "PooperSpawnCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pooper_spawn_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/PooperSpawnConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/poop/models/item/steel_armor_boots.json",
+          "src/main/java/net/mcreator/poop/item/SteelArmorItem.java",
+          "src/main/resources/assets/poop/models/item/steel_armor_helmet.json",
+          "src/main/resources/assets/poop/models/item/steel_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeSteelHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_steel_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_steel_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeSteelChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_steel_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_steel_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeSteelTrousers",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_steel_trousers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_steel_trousers.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeSteelShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_steel_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_steel_shoes.json"
+        ]
+      }
+    },
+    {
+      "name": "BedrockArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/bedrock_armor_helmet.json",
+          "src/main/resources/assets/poop/models/item/bedrock_armor_leggings.json",
+          "src/main/resources/assets/poop/models/item/bedrock_armor_chestplate.json",
+          "src/main/java/net/mcreator/poop/item/BedrockArmorItem.java",
+          "src/main/resources/assets/poop/models/item/bedrock_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBedrockHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_bedrock_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_bedrock_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBedrockChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_bedrock_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_bedrock_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBedrockTrousers",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_bedrock_trousers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_bedrock_trousers.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBedrockShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_bedrock_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_bedrock_shoes.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrierArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrier_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/barrier_armor_boots.json",
+          "src/main/resources/assets/poop/models/item/barrier_armor_chestplate.json",
+          "src/main/resources/assets/poop/models/item/barrier_armor_leggings.json",
+          "src/main/resources/assets/poop/models/item/barrier_armor_helmet.json",
+          "src/main/java/net/mcreator/poop/item/BarrierArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeBarrierHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_barrier_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_barrier_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBarrierShirt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_barrier_shirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_barrier_shirt.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBarrierTrousers",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_barrier_trousers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_barrier_trousers.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBarrierShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_barrier_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_barrier_shoes.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBarrier",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_barrier",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_barrier.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrierArmorSetBonus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrier_armor_set_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/BarrierArmorSetBonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MakeFlintAndSteelButActuallyWithSteel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_flint_and_steel_but_actually_with_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_flint_and_steel_but_actually_with_steel.json"
+        ]
+      }
+    },
+    {
+      "name": "BaddenPoop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badden_poop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/badden_poop.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1993,17 +2313,21 @@
       "item.poop.diamond_nugget": "Кусочек алмаза",
       "subtitles.skibidi_music": "",
       "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
       "entity.poop.pooper": "Какашкер",
       "item.poop.persistent_alpha_water_bucket": "Ведро стойкого альфа-воды",
       "subtitles.reverb_fard": "пёрнул",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "Ведро альфа-воды",
+      "item.poop.steel_armor_boots": "Бедроковые ботинки",
       "block.poop.hard_poop_block": "Твёрдый блок какашек",
       "block.poop.gallium_ore": "Галлиевая руда",
       "item.poop.piece_of_gallium": "Галлий",
       "item.poop.three_coals": "Тройной уголь",
       "item.poop.debian": "Дэбиан",
+      "item.poop.barrier_armor_helmet": "Барьеровый шлем",
       "item.poop.liquid_gallium_bucket": "Ведро жидкого галлия",
+      "item.poop.barrier_armor_chestplate": "Барьеровый нагрудник",
       "item.poop.steel": "Сталь",
       "item.poop.anticarbon": "Анти-углерод",
       "block.poop.poop_block": "Блок какашек",
@@ -2018,10 +2342,12 @@
       "block.poop.nonmelting_gallium": "Нетающий блок галлий",
       "item.poop.proton": "Протон",
       "block.poop.squashed_redstone": "Плотный редстоуновый блок",
+      "item.poop.nutritious_poop": "Питательная какашка",
       "item.poop.pooper_spawn_egg": "Яйцо призыва Какашкера",
       "item.poop.up_quark": "Верхний кварк",
       "item.poop.carbon": "Углерод",
       "item.poop.poop_launcher": "Запуститель какашек",
+      "item.poop.steel_armor_helmet": "Бедроковый шлем",
       "item.poop.poop_launcher_pro": "Запуститель Какашек Про",
       "biome.poop.poop_biome": "Биом какашек",
       "item.poop.poop": "Какашка",
@@ -2031,21 +2357,28 @@
       "item.poop.nuke_launcher": "Запуститель ядерных бомб",
       "item.poop.electron": "Электрон",
       "block.poop.liquid_gallium": "Жидкий галлий",
+      "item.poop.steel_armor_leggings": "Бедроковые штаны",
       "item.poop.lightning_spawner": "Призыватель молний",
+      "item.poop.barrier_armor_leggings": "Барьеровые штаны",
       "item.poop.tnt_launcher": "Запуститель ТНТ",
+      "item.poop.bedrock_armor_chestplate": "Бедроковый нагрудник",
       "fluid.poop.alpha_water": "Альфа-вода",
       "fluid.poop.liquid_gallium": "Жидкий галий",
       "item.poop.toilet": "Туалет",
       "subtitles.sanic": "",
+      "item.poop.steel_armor_chestplate": "Бедроковый нагрудник",
       "item.poop.tritium": "Тритий",
       "block.poop.explosive_ore": "Взрывчатая руда",
       "item.poop.uno_reverse": "Карта переворачиваний Уно",
       "item.poop.poop_fragment": "Кусочек какашки",
       "subtitles.fard": "пёрнул",
+      "item.poop.bedrock_armor_boots": "Бедроковые ботинки",
+      "item.poop.barrier_armor_boots": "Барьеровые ботинки",
       "item.poop.neutron": "Нейтрон",
       "item.poop.debian_unstable": "Дэбиан нестабильный",
       "biome.poop.skibidi_biome": "Скибиди-биом",
-      "item.poop.down_quark": "Нижний кварк"
+      "item.poop.down_quark": "Нижний кварк",
+      "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
       "item.poop.stabler_anticarbon": "更穩反碳",
@@ -2056,17 +2389,21 @@
       "item.poop.diamond_nugget": "鑽石粒",
       "subtitles.skibidi_music": "",
       "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.bedrock_armor_helmet": "基岩頭盔",
       "entity.poop.pooper": "屎力怕",
       "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
       "subtitles.reverb_fard": "放屁",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "alpha水桶",
+      "item.poop.steel_armor_boots": "鋼製靴子",
       "block.poop.hard_poop_block": "硬屎塊",
       "block.poop.gallium_ore": "鎵礦",
       "item.poop.piece_of_gallium": "鎵",
       "item.poop.three_coals": "三倍煤炭",
       "item.poop.debian": "Debian",
+      "item.poop.barrier_armor_helmet": "屏障頭盔",
       "item.poop.liquid_gallium_bucket": "液鎵桶",
+      "item.poop.barrier_armor_chestplate": "屏障胸甲",
       "item.poop.anticarbon": "反碳",
       "item.poop.steel": "鋼",
       "block.poop.poop_block": "屎塊",
@@ -2081,10 +2418,12 @@
       "block.poop.nonmelting_gallium": "不融化鎵塊",
       "item.poop.proton": "質子",
       "block.poop.squashed_redstone": "密紅石",
+      "item.poop.nutritious_poop": "滋補的屎",
       "item.poop.pooper_spawn_egg": "屎力怕 生怪蛋",
       "item.poop.up_quark": "上夸克",
       "item.poop.carbon": "碳",
       "item.poop.poop_launcher": "屎炮",
+      "item.poop.steel_armor_helmet": "鋼製頭盔",
       "item.poop.poop_launcher_pro": "屎炮Pro",
       "biome.poop.poop_biome": "屎地",
       "item.poop.poop": "屎",
@@ -2094,21 +2433,28 @@
       "item.poop.nuke_launcher": "核彈炮",
       "item.poop.electron": "電子",
       "block.poop.liquid_gallium": "液鎵",
+      "item.poop.steel_armor_leggings": "鋼製護腿",
       "item.poop.lightning_spawner": "閃電召喚器",
+      "item.poop.barrier_armor_leggings": "屏障護腿",
       "item.poop.tnt_launcher": "TNT炮",
+      "item.poop.bedrock_armor_chestplate": "基岩胸甲",
       "fluid.poop.alpha_water": "alpha水",
       "fluid.poop.liquid_gallium": "液鎵",
       "item.poop.toilet": "便器",
       "subtitles.sanic": "",
+      "item.poop.steel_armor_chestplate": "鋼製胸甲",
       "item.poop.tritium": "氚",
       "block.poop.explosive_ore": "易爆礦",
       "item.poop.uno_reverse": "Uno反向卡",
       "item.poop.poop_fragment": "屎片",
       "subtitles.fard": "放屁",
+      "item.poop.bedrock_armor_boots": "基岩靴子",
+      "item.poop.barrier_armor_boots": "屏障靴子",
       "item.poop.neutron": "中子",
       "item.poop.debian_unstable": "Debian 不穩定版",
       "biome.poop.skibidi_biome": "斯基比地",
-      "item.poop.down_quark": "下夸克"
+      "item.poop.down_quark": "下夸克",
+      "item.poop.bedrock_armor_leggings": "基岩護腿"
     },
     "en_us": {
       "item.poop.stabler_anticarbon": "Anticarbon but stabler",
@@ -2119,17 +2465,21 @@
       "item.poop.diamond_nugget": "Diamond Nugget",
       "subtitles.skibidi_music": "",
       "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
       "entity.poop.pooper": "Pooper",
       "item.poop.persistent_alpha_water_bucket": "Persistent Alpha Water Bucket",
       "subtitles.reverb_fard": "fard xd",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "Alpha Water Bucket",
+      "item.poop.steel_armor_boots": "Steel Boots",
       "block.poop.hard_poop_block": "Hard Poop Block",
       "block.poop.gallium_ore": "Gallium Ore",
       "item.poop.piece_of_gallium": "Gallium",
       "item.poop.three_coals": "3 pieces of coal",
       "item.poop.debian": "Debian",
+      "item.poop.barrier_armor_helmet": "Barrier Helmet",
       "item.poop.liquid_gallium_bucket": "Gallium Bucket",
+      "item.poop.barrier_armor_chestplate": "Barrier Chestplate",
       "item.poop.anticarbon": "Anticarbon",
       "item.poop.steel": "Steel",
       "block.poop.poop_block": "Poop Block",
@@ -2144,10 +2494,12 @@
       "block.poop.nonmelting_gallium": "Non-melting Block of Gallium",
       "item.poop.proton": "Proton",
       "block.poop.squashed_redstone": "High Density Redstone",
+      "item.poop.nutritious_poop": "Nutritious Poop",
       "item.poop.pooper_spawn_egg": "Pooper Spawn Egg",
       "item.poop.up_quark": "Up Quark",
       "item.poop.carbon": "Carbon",
       "item.poop.poop_launcher": "Poop Launcher",
+      "item.poop.steel_armor_helmet": "Steel Helmet",
       "item.poop.poop_launcher_pro": "Poop Launcher Pro",
       "biome.poop.poop_biome": "Poopland",
       "item.poop.poop": "Poop",
@@ -2157,21 +2509,28 @@
       "item.poop.nuke_launcher": "Nuke Launcher",
       "item.poop.electron": "Electron",
       "block.poop.liquid_gallium": "Gallium",
+      "item.poop.steel_armor_leggings": "Steel Leggings",
       "item.poop.lightning_spawner": "Lightning Summoner",
+      "item.poop.barrier_armor_leggings": "Barrier Leggings",
       "item.poop.tnt_launcher": "TNT Launcher",
+      "item.poop.bedrock_armor_chestplate": "Bedrock Chestplate",
       "fluid.poop.alpha_water": "Alpha Water",
       "fluid.poop.liquid_gallium": "Gallium",
       "item.poop.toilet": "Toilet",
       "subtitles.sanic": "",
+      "item.poop.steel_armor_chestplate": "Steel Chestplate",
       "item.poop.tritium": "Tritium",
       "block.poop.explosive_ore": "Explosive Ore",
       "item.poop.uno_reverse": "Uno reverse card",
       "item.poop.poop_fragment": "Poop Fragment",
       "subtitles.fard": "fard xd",
+      "item.poop.bedrock_armor_boots": "Bedrock Boots",
+      "item.poop.barrier_armor_boots": "Barrier Boots",
       "item.poop.neutron": "Neutron",
       "item.poop.debian_unstable": "Debian Unstable",
       "biome.poop.skibidi_biome": "Skibidiland",
-      "item.poop.down_quark": "Down Quark"
+      "item.poop.down_quark": "Down Quark",
+      "item.poop.bedrock_armor_leggings": "Bedrock Leggings"
     }
   },
   "foldersRoot": {
@@ -2181,7 +2540,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.04.23",
+    "version": "2025.04.26",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",
