@@ -2187,6 +2187,30 @@
           "src/main/resources/data/poop/recipes/badden_poop.json"
         ]
       }
+    },
+    {
+      "name": "ReverseAnticarbon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_anticarbon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/reverse_anticarbon.json"
+        ]
+      }
+    },
+    {
+      "name": "ReverseStableAnticarbon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_stable_anticarbon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/reverse_stable_anticarbon.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
