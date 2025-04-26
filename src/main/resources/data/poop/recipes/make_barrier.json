@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "minecraft:bedrock"
+    },
+    "c": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "minecraft:barrier",
+    "count": 2
+  }
+}
