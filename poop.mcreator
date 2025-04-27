@@ -2211,6 +2211,99 @@
           "src/main/resources/data/poop/recipes/reverse_stable_anticarbon.json"
         ]
       }
+    },
+    {
+      "name": "MakeLightBlock1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_light_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_light_block_1.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeLightBlock7",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_light_block_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_light_block_7.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeLightBlock15",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_light_block_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_light_block_15.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeLightBlock14",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_light_block_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_light_block_14.json"
+        ]
+      }
+    },
+    {
+      "name": "ThreeCoalsAsFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "three_coals_as_fuel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CrazyFuel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crazy_fuel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/crazy_fuel.json",
+          "src/main/java/net/mcreator/poop/item/CrazyFuelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrazyFuelAsFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crazy_fuel_as_fuel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MakeCrazyFuel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_crazy_fuel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_crazy_fuel.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2301,6 +2394,11 @@
       "~CUSTOM:PoopBlock",
       "~CUSTOM:SkibidiBlock"
     ],
+    "BLOCKS:forge:ores": [
+      "CUSTOM:GalliumOre",
+      "CUSTOM:ExplosiveOre",
+      "CUSTOM:DeepslateExplosiveOre"
+    ],
     "BIOMES:minecraft:has_structure/end_city": [
       "~CUSTOM:SkibidiBiome"
     ]
@@ -2324,21 +2422,23 @@
       "UpQuark",
       "DownQuark",
       "PieceOfGallium",
-      "ThreeCoals"
+      "ThreeCoals",
+      "CrazyFuel"
     ]
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.rickroll": "Рикролл",
       "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
+      "item.poop.rickroll": "Рикролл",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
       "item.poop.diamond_nugget": "Кусочек алмаза",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
       "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "Какашкер",
+      "item.poop.crazy_fuel": "Ядерное топливо",
       "item.poop.persistent_alpha_water_bucket": "Ведро стойкого альфа-воды",
       "subtitles.reverb_fard": "пёрнул",
       "item.poop.adachi_rei": "足立レイ",
@@ -2405,16 +2505,17 @@
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
-      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.rickroll": "瑞克搖",
+      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
       "item.poop.diamond_nugget": "鑽石粒",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
       "item.poop.bedrock_armor_helmet": "基岩頭盔",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "屎力怕",
+      "item.poop.crazy_fuel": "核燃料",
       "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
       "subtitles.reverb_fard": "放屁",
       "item.poop.adachi_rei": "足立レイ",
@@ -2491,6 +2592,7 @@
       "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
       "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
       "entity.poop.pooper": "Pooper",
+      "item.poop.crazy_fuel": "Nuclear Fuel",
       "item.poop.persistent_alpha_water_bucket": "Persistent Alpha Water Bucket",
       "subtitles.reverb_fard": "fard xd",
       "item.poop.adachi_rei": "足立レイ",
@@ -2564,7 +2666,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.04.26",
+    "version": "2025.04.27",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

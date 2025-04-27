@@ -45,6 +45,7 @@ import net.mcreator.poop.item.DiamondNuggetItem;
 import net.mcreator.poop.item.DeuteriumItem;
 import net.mcreator.poop.item.DebianUnstableItem;
 import net.mcreator.poop.item.DebianItem;
+import net.mcreator.poop.item.CrazyFuelItem;
 import net.mcreator.poop.item.CarbonItem;
 import net.mcreator.poop.item.BedrockArmorItem;
 import net.mcreator.poop.item.BarrierArmorItem;
@@ -115,6 +116,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> BARRIER_ARMOR_CHESTPLATE = REGISTRY.register("barrier_armor_chestplate", () -> new BarrierArmorItem.Chestplate());
 	public static final RegistryObject<Item> BARRIER_ARMOR_LEGGINGS = REGISTRY.register("barrier_armor_leggings", () -> new BarrierArmorItem.Leggings());
 	public static final RegistryObject<Item> BARRIER_ARMOR_BOOTS = REGISTRY.register("barrier_armor_boots", () -> new BarrierArmorItem.Boots());
+	public static final RegistryObject<Item> CRAZY_FUEL = REGISTRY.register("crazy_fuel", () -> new CrazyFuelItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

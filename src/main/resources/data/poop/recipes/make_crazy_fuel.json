@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:coal_block"
+    },
+    "b": {
+      "item": "poop:tritium"
+    },
+    "c": {
+      "item": "poop:nuke"
+    },
+    "d": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "poop:crazy_fuel",
+    "count": 1
+  }
+}
