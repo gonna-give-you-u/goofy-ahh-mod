@@ -20,6 +20,7 @@ import net.mcreator.poop.item.ToiletItem;
 import net.mcreator.poop.item.ThreeCoalsItem;
 import net.mcreator.poop.item.TerafastTravelItem;
 import net.mcreator.poop.item.TNTLauncherItem;
+import net.mcreator.poop.item.SuperGoldPickaxeItem;
 import net.mcreator.poop.item.SteelItem;
 import net.mcreator.poop.item.SteelArmorItem;
 import net.mcreator.poop.item.StablerAnticarbonItem;
@@ -117,6 +118,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> BARRIER_ARMOR_LEGGINGS = REGISTRY.register("barrier_armor_leggings", () -> new BarrierArmorItem.Leggings());
 	public static final RegistryObject<Item> BARRIER_ARMOR_BOOTS = REGISTRY.register("barrier_armor_boots", () -> new BarrierArmorItem.Boots());
 	public static final RegistryObject<Item> CRAZY_FUEL = REGISTRY.register("crazy_fuel", () -> new CrazyFuelItem());
+	public static final RegistryObject<Item> SUPER_GOLD_PICKAXE = REGISTRY.register("super_gold_pickaxe", () -> new SuperGoldPickaxeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

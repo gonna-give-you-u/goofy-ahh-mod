@@ -2304,6 +2304,31 @@
           "src/main/resources/data/poop/recipes/make_crazy_fuel.json"
         ]
       }
+    },
+    {
+      "name": "SuperGoldPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_gold_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/item/SuperGoldPickaxeItem.java",
+          "src/main/resources/assets/poop/models/item/super_gold_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeTheFastPick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_the_fast_pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_the_fast_pick.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2362,6 +2387,29 @@
       "~CUSTOM:AlphaWater",
       "~CUSTOM:LiquidGallium"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SuperGoldPickaxe"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:PoopBiome"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.REDSTONE_BLOCK",
+      "~Blocks.LIT_REDSTONE_ORE",
+      "~CUSTOM:NonmeltingGallium",
+      "~Blocks.GRASS",
+      "~CUSTOM:HardPoopBlock",
+      "~CUSTOM:PoopBlock",
+      "~CUSTOM:SkibidiBlock"
+    ],
+    "BLOCKS:forge:ores": [
+      "CUSTOM:GalliumOre",
+      "CUSTOM:ExplosiveOre",
+      "CUSTOM:DeepslateExplosiveOre"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:SkibidiBiome"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:DeepslateExplosiveOre",
       "~CUSTOM:ExplosiveOre",
@@ -2379,27 +2427,7 @@
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:PoopBlock"
     ],
-    "BIOMES:minecraft:has_structure/mineshaft": [
-      "~CUSTOM:PoopBiome"
-    ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
-      "~CUSTOM:SkibidiBiome"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.REDSTONE_BLOCK",
-      "~Blocks.LIT_REDSTONE_ORE",
-      "~CUSTOM:NonmeltingGallium",
-      "~Blocks.GRASS",
-      "~CUSTOM:HardPoopBlock",
-      "~CUSTOM:PoopBlock",
-      "~CUSTOM:SkibidiBlock"
-    ],
-    "BLOCKS:forge:ores": [
-      "CUSTOM:GalliumOre",
-      "CUSTOM:ExplosiveOre",
-      "CUSTOM:DeepslateExplosiveOre"
-    ],
-    "BIOMES:minecraft:has_structure/end_city": [
       "~CUSTOM:SkibidiBiome"
     ]
   },
@@ -2434,6 +2462,7 @@
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
       "item.poop.diamond_nugget": "Кусочек алмаза",
+      "item.poop.super_gold_pickaxe": "Очень быстрая кирка",
       "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
       "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
       "subtitles.skibidi_music": "",
@@ -2511,6 +2540,7 @@
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
       "item.poop.diamond_nugget": "鑽石粒",
+      "item.poop.super_gold_pickaxe": "超快鎬",
       "item.poop.bedrock_armor_helmet": "基岩頭盔",
       "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
       "subtitles.skibidi_music": "",
@@ -2582,15 +2612,16 @@
       "item.poop.bedrock_armor_leggings": "基岩護腿"
     },
     "en_us": {
-      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.rickroll": "Rickroll",
+      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Special Toilet",
       "item.poop.diamond_nugget": "Diamond Nugget",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "item.poop.super_gold_pickaxe": "Super Efficient Pickaxe",
       "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
+      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "Pooper",
       "item.poop.crazy_fuel": "Nuclear Fuel",
       "item.poop.persistent_alpha_water_bucket": "Persistent Alpha Water Bucket",
@@ -2666,7 +2697,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.04.27",
+    "version": "2025.04.28",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

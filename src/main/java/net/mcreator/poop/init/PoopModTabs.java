@@ -66,6 +66,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());
 			tabData.accept(PoopModItems.TERAFAST_TRAVEL.get());
+			tabData.accept(PoopModItems.SUPER_GOLD_PICKAXE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
