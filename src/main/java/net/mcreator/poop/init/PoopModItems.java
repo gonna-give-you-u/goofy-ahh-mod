@@ -38,6 +38,7 @@ import net.mcreator.poop.item.NukeLauncherItem;
 import net.mcreator.poop.item.NeutronItem;
 import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
+import net.mcreator.poop.item.KnockbackStickItem;
 import net.mcreator.poop.item.HydrogenItem;
 import net.mcreator.poop.item.GigafastTravelItem;
 import net.mcreator.poop.item.ElectronItem;
@@ -119,6 +120,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> BARRIER_ARMOR_BOOTS = REGISTRY.register("barrier_armor_boots", () -> new BarrierArmorItem.Boots());
 	public static final RegistryObject<Item> CRAZY_FUEL = REGISTRY.register("crazy_fuel", () -> new CrazyFuelItem());
 	public static final RegistryObject<Item> SUPER_GOLD_PICKAXE = REGISTRY.register("super_gold_pickaxe", () -> new SuperGoldPickaxeItem());
+	public static final RegistryObject<Item> KNOCKBACK_STICK = REGISTRY.register("knockback_stick", () -> new KnockbackStickItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

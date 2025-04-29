@@ -2329,6 +2329,53 @@
           "src/main/resources/data/poop/recipes/make_the_fast_pick.json"
         ]
       }
+    },
+    {
+      "name": "KnockbackAThing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockback_a_thing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/KnockbackAThingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnockbackStick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockback_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/knockback_stick.json",
+          "src/main/java/net/mcreator/poop/item/KnockbackStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeKnockbackStick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_knockback_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_knockback_stick.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2429,6 +2476,9 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~CUSTOM:SkibidiBiome"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:KnockbackStick"
     ]
   },
   "tab_element_order": {
@@ -2456,16 +2506,16 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.rickroll": "Рикролл",
+      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
       "item.poop.diamond_nugget": "Кусочек алмаза",
       "item.poop.super_gold_pickaxe": "Очень быстрая кирка",
-      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
       "entity.poop.pooper": "Какашкер",
       "item.poop.crazy_fuel": "Ядерное топливо",
       "item.poop.persistent_alpha_water_bucket": "Ведро стойкого альфа-воды",
@@ -2486,6 +2536,7 @@
       "block.poop.poop_block": "Блок какашек",
       "block.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.poop.deuterium": "Дейтерий",
+      "item.poop.knockback_stick": "Отбрасывающая палка",
       "item.poop.hydrogen": "Водород",
       "block.poop.alpha_water": "Альфа-вода",
       "block.poop.skibidi_block": "Скибиди Туалет",
@@ -2534,16 +2585,16 @@
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
-      "item.poop.rickroll": "瑞克搖",
       "item.poop.stabler_anticarbon": "更穩反碳",
+      "item.poop.rickroll": "瑞克搖",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
       "item.poop.diamond_nugget": "鑽石粒",
       "item.poop.super_gold_pickaxe": "超快鎬",
-      "item.poop.bedrock_armor_helmet": "基岩頭盔",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.bedrock_armor_helmet": "基岩頭盔",
       "entity.poop.pooper": "屎力怕",
       "item.poop.crazy_fuel": "核燃料",
       "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
@@ -2564,6 +2615,7 @@
       "block.poop.poop_block": "屎塊",
       "block.poop.persistent_alpha_water": "一貫alpha水",
       "item.poop.deuterium": "氘",
+      "item.poop.knockback_stick": "擊退木棒",
       "item.poop.hydrogen": "氫",
       "block.poop.alpha_water": "alpha水",
       "block.poop.skibidi_block": "斯基比迪廁所",
@@ -2642,6 +2694,7 @@
       "block.poop.poop_block": "Poop Block",
       "block.poop.persistent_alpha_water": "Persistent Alpha Water",
       "item.poop.deuterium": "Deuterium",
+      "item.poop.knockback_stick": "Knockback Stick",
       "item.poop.hydrogen": "Hydrogen",
       "block.poop.alpha_water": "Alpha Water",
       "block.poop.skibidi_block": "Skibidi Toilet",
@@ -2697,7 +2750,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.04.28",
+    "version": "2025.04.30",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",
