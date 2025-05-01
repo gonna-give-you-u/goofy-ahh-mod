@@ -12,7 +12,7 @@ public class DropAnvilsProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Blocks.ANVIL)) : false) {
-			world.setBlock(BlockPos.containing(x, y + 20, z), Blocks.ANVIL.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y + 15, z), Blocks.ANVIL.defaultBlockState(), 3);
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(Blocks.ANVIL);
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
