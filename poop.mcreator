@@ -2376,6 +2376,65 @@
           "src/main/resources/data/poop/recipes/make_knockback_stick.json"
         ]
       }
+    },
+    {
+      "name": "DropAnvils",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_anvils",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/DropAnvilsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnvilDropper",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_dropper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/anvil_dropper.json",
+          "src/main/java/net/mcreator/poop/item/AnvilDropperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeAnvilDropper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_anvil_dropper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_anvil_dropper.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2506,16 +2565,16 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.rickroll": "Рикролл",
       "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
+      "item.poop.rickroll": "Рикролл",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
       "item.poop.diamond_nugget": "Кусочек алмаза",
       "item.poop.super_gold_pickaxe": "Очень быстрая кирка",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
       "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "Какашкер",
       "item.poop.crazy_fuel": "Ядерное топливо",
       "item.poop.persistent_alpha_water_bucket": "Ведро стойкого альфа-воды",
@@ -2556,6 +2615,7 @@
       "biome.poop.poop_biome": "Биом какашек",
       "item.poop.poop": "Какашка",
       "block.poop.nuke": "Ядерная бомба",
+      "item.poop.anvil_dropper": "Бросатель наковальни",
       "block.poop.solid_gallium": "Блок галлий",
       "item.poop.anticarbon.description_0": "пж не положи в инвентарь",
       "item.poop.nuke_launcher": "Запуститель ядерных бомб",
@@ -2585,16 +2645,16 @@
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
-      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.rickroll": "瑞克搖",
+      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
       "item.poop.diamond_nugget": "鑽石粒",
       "item.poop.super_gold_pickaxe": "超快鎬",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
       "item.poop.bedrock_armor_helmet": "基岩頭盔",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "屎力怕",
       "item.poop.crazy_fuel": "核燃料",
       "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
@@ -2635,6 +2695,7 @@
       "biome.poop.poop_biome": "屎地",
       "item.poop.poop": "屎",
       "block.poop.nuke": "核彈",
+      "item.poop.anvil_dropper": "鐵站掉落器",
       "block.poop.solid_gallium": "鎵塊",
       "item.poop.anticarbon.description_0": "請不要放入物品欄",
       "item.poop.nuke_launcher": "核彈炮",
@@ -2714,6 +2775,7 @@
       "biome.poop.poop_biome": "Poopland",
       "item.poop.poop": "Poop",
       "block.poop.nuke": "Nuke (Underwhelming)",
+      "item.poop.anvil_dropper": "Anvil Dropper",
       "block.poop.solid_gallium": "Block of Gallium",
       "item.poop.anticarbon.description_0": "please dont put this in your inventory",
       "item.poop.nuke_launcher": "Nuke Launcher",
@@ -2750,7 +2812,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.04.30",
+    "version": "2025.05.01",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

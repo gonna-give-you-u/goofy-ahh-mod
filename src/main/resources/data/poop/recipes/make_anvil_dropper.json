@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:anvil"
+    },
+    "b": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "poop:anvil_dropper",
+    "count": 1
+  }
+}

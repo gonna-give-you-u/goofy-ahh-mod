@@ -51,6 +51,7 @@ import net.mcreator.poop.item.CrazyFuelItem;
 import net.mcreator.poop.item.CarbonItem;
 import net.mcreator.poop.item.BedrockArmorItem;
 import net.mcreator.poop.item.BarrierArmorItem;
+import net.mcreator.poop.item.AnvilDropperItem;
 import net.mcreator.poop.item.AnticarbonItem;
 import net.mcreator.poop.item.AlphaWaterItem;
 import net.mcreator.poop.item.AdachiReiItem;
@@ -121,6 +122,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> CRAZY_FUEL = REGISTRY.register("crazy_fuel", () -> new CrazyFuelItem());
 	public static final RegistryObject<Item> SUPER_GOLD_PICKAXE = REGISTRY.register("super_gold_pickaxe", () -> new SuperGoldPickaxeItem());
 	public static final RegistryObject<Item> KNOCKBACK_STICK = REGISTRY.register("knockback_stick", () -> new KnockbackStickItem());
+	public static final RegistryObject<Item> ANVIL_DROPPER = REGISTRY.register("anvil_dropper", () -> new AnvilDropperItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AnvilDropper"
+    },
+    "name": "make_anvil_dropper",
+    "namespace": "mod"
+  }
+}

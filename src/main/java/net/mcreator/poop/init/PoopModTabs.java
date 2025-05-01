@@ -63,6 +63,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.BARRIER_ARMOR_LEGGINGS.get());
 			tabData.accept(PoopModItems.BARRIER_ARMOR_BOOTS.get());
 			tabData.accept(PoopModItems.KNOCKBACK_STICK.get());
+			tabData.accept(PoopModItems.ANVIL_DROPPER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());

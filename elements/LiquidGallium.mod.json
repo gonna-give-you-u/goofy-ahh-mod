@@ -8,11 +8,15 @@
     "textureFlowing": "gallium_i_think",
     "textureRenderOverlay": "gallium_i_think",
     "hasFog": true,
+    "fogColor": {
+      "value": -4932919,
+      "falpha": 0.0
+    },
     "fogStartDistance": {
-      "fixedValue": 0.0
+      "fixedValue": 0.01
     },
     "fogEndDistance": {
-      "fixedValue": 0.0
+      "fixedValue": 0.02
     },
     "tintType": "Fog",
     "canMultiply": false,

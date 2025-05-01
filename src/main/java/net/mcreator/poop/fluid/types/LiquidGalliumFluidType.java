@@ -1,6 +1,8 @@
 
 package net.mcreator.poop.fluid.types;
 
+import org.joml.Vector3f;
+
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.common.SoundActions;
 import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
@@ -13,6 +15,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.FogRenderer;
+import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Camera;
 
@@ -49,12 +52,17 @@ public class LiquidGalliumFluidType extends FluidType {
 				return RENDER_OVERLAY_TEXTURE;
 			}
 
+			@Override
+			public Vector3f modifyFogColor(Camera camera, float partialTick, ClientLevel level, int renderDistance, float darkenWorldAmount, Vector3f fluidFogColor) {
+				return new Vector3f(0.7058823529f, 0.7294117647f, 0.7882352941f);
+			}
+
 			public void modifyFogRender(Camera camera, FogRenderer.FogMode mode, float renderDistance, float partialTick, float nearDistance, float farDistance, FogShape shape) {
 				Entity entity = camera.getEntity();
 				Level world = entity.level();
 				RenderSystem.setShaderFogShape(FogShape.SPHERE);
-				RenderSystem.setShaderFogStart(0f);
-				RenderSystem.setShaderFogEnd(0f);
+				RenderSystem.setShaderFogStart(0.01f);
+				RenderSystem.setShaderFogEnd(0.02f);
 			}
 
 			@Override
