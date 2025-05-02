@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "poop:blocks/block_that_turns_stuff_into_baryons",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "poop:block_that_turns_stuff_into_baryons"
+        }
+      ]
+    }
+  ]
+}

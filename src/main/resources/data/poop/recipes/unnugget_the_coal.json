@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    },
+    {
+      "item": "poop:coal_nugget"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

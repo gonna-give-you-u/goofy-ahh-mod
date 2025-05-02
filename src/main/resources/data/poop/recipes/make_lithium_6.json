@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:neutron"
+    },
+    {
+      "item": "poop:neutron"
+    },
+    {
+      "item": "poop:neutron"
+    },
+    {
+      "item": "poop:proton"
+    },
+    {
+      "item": "poop:proton"
+    },
+    {
+      "item": "poop:proton"
+    },
+    {
+      "item": "poop:electron"
+    },
+    {
+      "item": "poop:electron"
+    },
+    {
+      "item": "poop:electron"
+    }
+  ],
+  "result": {
+    "item": "poop:lithium_6",
+    "count": 1
+  }
+}

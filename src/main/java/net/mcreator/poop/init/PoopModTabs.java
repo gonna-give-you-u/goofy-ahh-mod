@@ -71,6 +71,8 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.SUPER_GOLD_PICKAXE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(PoopModBlocks.BLOCK_THAT_TURNS_STUFF_INTO_BARYONS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(PoopModItems.POOP_FRAGMENT.get());
 			tabData.accept(PoopModItems.STEEL.get());
@@ -91,6 +93,8 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.PIECE_OF_GALLIUM.get());
 			tabData.accept(PoopModItems.THREE_COALS.get());
 			tabData.accept(PoopModItems.CRAZY_FUEL.get());
+			tabData.accept(PoopModItems.COAL_NUGGET.get());
+			tabData.accept(PoopModItems.LITHIUM_6.get());
 		}
 	}
 }

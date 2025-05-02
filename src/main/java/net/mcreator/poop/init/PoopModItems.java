@@ -36,6 +36,7 @@ import net.mcreator.poop.item.PersistentAlphaWaterItem;
 import net.mcreator.poop.item.NutritiousPoopItem;
 import net.mcreator.poop.item.NukeLauncherItem;
 import net.mcreator.poop.item.NeutronItem;
+import net.mcreator.poop.item.Lithium6Item;
 import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
 import net.mcreator.poop.item.KnockbackStickItem;
@@ -48,6 +49,8 @@ import net.mcreator.poop.item.DeuteriumItem;
 import net.mcreator.poop.item.DebianUnstableItem;
 import net.mcreator.poop.item.DebianItem;
 import net.mcreator.poop.item.CrazyFuelItem;
+import net.mcreator.poop.item.CopperNuggetItem;
+import net.mcreator.poop.item.CoalNuggetItem;
 import net.mcreator.poop.item.CarbonItem;
 import net.mcreator.poop.item.BedrockArmorItem;
 import net.mcreator.poop.item.BarrierArmorItem;
@@ -123,6 +126,10 @@ public class PoopModItems {
 	public static final RegistryObject<Item> SUPER_GOLD_PICKAXE = REGISTRY.register("super_gold_pickaxe", () -> new SuperGoldPickaxeItem());
 	public static final RegistryObject<Item> KNOCKBACK_STICK = REGISTRY.register("knockback_stick", () -> new KnockbackStickItem());
 	public static final RegistryObject<Item> ANVIL_DROPPER = REGISTRY.register("anvil_dropper", () -> new AnvilDropperItem());
+	public static final RegistryObject<Item> BLOCK_THAT_TURNS_STUFF_INTO_BARYONS = block(PoopModBlocks.BLOCK_THAT_TURNS_STUFF_INTO_BARYONS);
+	public static final RegistryObject<Item> COAL_NUGGET = REGISTRY.register("coal_nugget", () -> new CoalNuggetItem());
+	public static final RegistryObject<Item> COPPER_NUGGET = REGISTRY.register("copper_nugget", () -> new CopperNuggetItem());
+	public static final RegistryObject<Item> LITHIUM_6 = REGISTRY.register("lithium_6", () -> new Lithium6Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items

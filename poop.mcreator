@@ -2435,9 +2435,247 @@
           "src/main/resources/data/poop/recipes/make_anvil_dropper.json"
         ]
       }
+    },
+    {
+      "name": "BlockThatTurnsStuffIntoBaryons",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_that_turns_stuff_into_baryons",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/block_that_turns_stuff_into_baryons.json",
+          "src/main/resources/assets/poop/blockstates/block_that_turns_stuff_into_baryons.json",
+          "src/main/java/net/mcreator/poop/block/BlockThatTurnsStuffIntoBaryonsBlock.java",
+          "src/main/resources/assets/poop/models/block/block_that_turns_stuff_into_baryons.json",
+          "src/main/resources/data/poop/loot_tables/blocks/block_that_turns_stuff_into_baryons.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBaryonMaker",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_baryon_maker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_baryon_maker.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBaryonMakerUsable",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_baryon_maker_usable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/MakeBaryonMakerUsableProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/item/CoalNuggetItem.java",
+          "src/main/resources/assets/poop/models/item/coal_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalNuggetAsFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_nugget_as_fuel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MakeCoalNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_coal_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_coal_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "UnnuggetTheCoal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unnugget_the_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/unnugget_the_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/copper_nugget.json",
+          "src/main/java/net/mcreator/poop/item/CopperNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeCopperNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_copper_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "UnnuggetTheCopper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unnugget_the_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/unnugget_the_copper.json"
+        ]
+      }
+    },
+    {
+      "name": "Lithium6",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/item/Lithium6Item.java",
+          "src/main/resources/assets/poop/models/item/lithium_6.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeLithium6",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_lithium_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_lithium_6.json"
+        ]
+      }
+    },
+    {
+      "name": "MergeLithiumsIntoCarbon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merge_lithiums_into_carbon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/merge_lithiums_into_carbon.json"
+        ]
+      }
+    },
+    {
+      "name": "LithiumWaterReaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_water_reaction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/LithiumWaterReactionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LithiumDroppedItemWaterReaction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_dropped_item_water_reaction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/LithiumDroppedItemWaterReactionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "LithiumTicksPassed",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "poop_sports_music",
@@ -2517,6 +2755,7 @@
       "~CUSTOM:SkibidiBiome"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlockThatTurnsStuffIntoBaryons",
       "~CUSTOM:DeepslateExplosiveOre",
       "~CUSTOM:ExplosiveOre",
       "~CUSTOM:NonmeltingGallium",
@@ -2560,21 +2799,23 @@
       "DownQuark",
       "PieceOfGallium",
       "ThreeCoals",
-      "CrazyFuel"
+      "CrazyFuel",
+      "CoalNugget",
+      "Lithium6"
     ]
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.rickroll": "Рикролл",
+      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
-      "item.poop.skibidi_dimension": "Специальиый туалет",
-      "item.poop.diamond_nugget": "Кусочек алмаза",
       "item.poop.super_gold_pickaxe": "Очень быстрая кирка",
-      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.diamond_nugget": "Кусочек алмаза",
+      "item.poop.skibidi_dimension": "Специальиый туалет",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
       "entity.poop.pooper": "Какашкер",
       "item.poop.crazy_fuel": "Ядерное топливо",
       "item.poop.persistent_alpha_water_bucket": "Ведро стойкого альфа-воды",
@@ -2586,6 +2827,7 @@
       "block.poop.gallium_ore": "Галлиевая руда",
       "item.poop.piece_of_gallium": "Галлий",
       "item.poop.three_coals": "Тройной уголь",
+      "block.poop.block_that_turns_stuff_into_baryons": "Поменятель в барионам",
       "item.poop.debian": "Дэбиан",
       "item.poop.barrier_armor_helmet": "Барьеровый шлем",
       "item.poop.liquid_gallium_bucket": "Ведро жидкого галлия",
@@ -2601,6 +2843,7 @@
       "block.poop.skibidi_block": "Скибиди Туалет",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.terafast_travel": "Супер-саник",
+      "item.poop.lithium_6": "Литий-6",
       "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "block.poop.nonmelting_gallium": "Нетающий блок галлий",
       "item.poop.proton": "Протон",
@@ -2616,6 +2859,7 @@
       "item.poop.poop": "Какашка",
       "block.poop.nuke": "Ядерная бомба",
       "item.poop.anvil_dropper": "Бросатель наковальни",
+      "block.poop.block_that_turns_stuff_into_baryons.description_0": "да я знаю что электроны лептоны а не барионы",
       "block.poop.solid_gallium": "Блок галлий",
       "item.poop.anticarbon.description_0": "пж не положи в инвентарь",
       "item.poop.nuke_launcher": "Запуститель ядерных бомб",
@@ -2627,12 +2871,14 @@
       "item.poop.tnt_launcher": "Запуститель ТНТ",
       "item.poop.bedrock_armor_chestplate": "Бедроковый нагрудник",
       "fluid.poop.alpha_water": "Альфа-вода",
+      "item.poop.copper_nugget": "Кусочек меди",
       "fluid.poop.liquid_gallium": "Жидкий галий",
       "item.poop.toilet": "Туалет",
       "subtitles.sanic": "",
       "item.poop.steel_armor_chestplate": "Бедроковый нагрудник",
       "item.poop.tritium": "Тритий",
       "block.poop.explosive_ore": "Взрывчатая руда",
+      "item.poop.coal_nugget": "Кусочек угля",
       "item.poop.uno_reverse": "Карта переворачиваний Уно",
       "item.poop.poop_fragment": "Кусочек какашки",
       "subtitles.fard": "пёрнул",
@@ -2645,16 +2891,16 @@
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
-      "item.poop.rickroll": "瑞克搖",
       "item.poop.stabler_anticarbon": "更穩反碳",
+      "item.poop.rickroll": "瑞克搖",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
-      "item.poop.skibidi_dimension": "特別便器",
-      "item.poop.diamond_nugget": "鑽石粒",
       "item.poop.super_gold_pickaxe": "超快鎬",
-      "item.poop.bedrock_armor_helmet": "基岩頭盔",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.diamond_nugget": "鑽石粒",
+      "item.poop.skibidi_dimension": "特別便器",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.bedrock_armor_helmet": "基岩頭盔",
       "entity.poop.pooper": "屎力怕",
       "item.poop.crazy_fuel": "核燃料",
       "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
@@ -2666,6 +2912,7 @@
       "block.poop.gallium_ore": "鎵礦",
       "item.poop.piece_of_gallium": "鎵",
       "item.poop.three_coals": "三倍煤炭",
+      "block.poop.block_that_turns_stuff_into_baryons": "東西到重子轉換器",
       "item.poop.debian": "Debian",
       "item.poop.barrier_armor_helmet": "屏障頭盔",
       "item.poop.liquid_gallium_bucket": "液鎵桶",
@@ -2681,6 +2928,7 @@
       "block.poop.skibidi_block": "斯基比迪廁所",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.terafast_travel": "超Sanic",
+      "item.poop.lithium_6": "鋰-6",
       "fluid.poop.persistent_alpha_water": "一貫alpha水",
       "block.poop.nonmelting_gallium": "不融化鎵塊",
       "item.poop.proton": "質子",
@@ -2696,6 +2944,7 @@
       "item.poop.poop": "屎",
       "block.poop.nuke": "核彈",
       "item.poop.anvil_dropper": "鐵站掉落器",
+      "block.poop.block_that_turns_stuff_into_baryons.description_0": "我知電子是輕子 不是重子",
       "block.poop.solid_gallium": "鎵塊",
       "item.poop.anticarbon.description_0": "請不要放入物品欄",
       "item.poop.nuke_launcher": "核彈炮",
@@ -2707,12 +2956,14 @@
       "item.poop.tnt_launcher": "TNT炮",
       "item.poop.bedrock_armor_chestplate": "基岩胸甲",
       "fluid.poop.alpha_water": "alpha水",
+      "item.poop.copper_nugget": "銅粒",
       "fluid.poop.liquid_gallium": "液鎵",
       "item.poop.toilet": "便器",
       "subtitles.sanic": "",
       "item.poop.steel_armor_chestplate": "鋼製胸甲",
       "item.poop.tritium": "氚",
       "block.poop.explosive_ore": "易爆礦",
+      "item.poop.coal_nugget": "煤炭粒",
       "item.poop.uno_reverse": "Uno反向卡",
       "item.poop.poop_fragment": "屎片",
       "subtitles.fard": "放屁",
@@ -2746,6 +2997,7 @@
       "block.poop.gallium_ore": "Gallium Ore",
       "item.poop.piece_of_gallium": "Gallium",
       "item.poop.three_coals": "3 pieces of coal",
+      "block.poop.block_that_turns_stuff_into_baryons": "Item to Baryon Converter",
       "item.poop.debian": "Debian",
       "item.poop.barrier_armor_helmet": "Barrier Helmet",
       "item.poop.liquid_gallium_bucket": "Gallium Bucket",
@@ -2761,6 +3013,7 @@
       "block.poop.skibidi_block": "Skibidi Toilet",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.terafast_travel": "Super sanic",
+      "item.poop.lithium_6": "Lithium-6",
       "fluid.poop.persistent_alpha_water": "Persistent Alpha Water ",
       "block.poop.nonmelting_gallium": "Non-melting Block of Gallium",
       "item.poop.proton": "Proton",
@@ -2776,6 +3029,7 @@
       "item.poop.poop": "Poop",
       "block.poop.nuke": "Nuke (Underwhelming)",
       "item.poop.anvil_dropper": "Anvil Dropper",
+      "block.poop.block_that_turns_stuff_into_baryons.description_0": "yes i know electrons are leptons not baryons",
       "block.poop.solid_gallium": "Block of Gallium",
       "item.poop.anticarbon.description_0": "please dont put this in your inventory",
       "item.poop.nuke_launcher": "Nuke Launcher",
@@ -2787,12 +3041,14 @@
       "item.poop.tnt_launcher": "TNT Launcher",
       "item.poop.bedrock_armor_chestplate": "Bedrock Chestplate",
       "fluid.poop.alpha_water": "Alpha Water",
+      "item.poop.copper_nugget": "Copper Nugget",
       "fluid.poop.liquid_gallium": "Gallium",
       "item.poop.toilet": "Toilet",
       "subtitles.sanic": "",
       "item.poop.steel_armor_chestplate": "Steel Chestplate",
       "item.poop.tritium": "Tritium",
       "block.poop.explosive_ore": "Explosive Ore",
+      "item.poop.coal_nugget": "Coal Nugget",
       "item.poop.uno_reverse": "Uno reverse card",
       "item.poop.poop_fragment": "Poop Fragment",
       "subtitles.fard": "fard xd",
@@ -2812,7 +3068,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.05.01",
+    "version": "2025.05.02",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

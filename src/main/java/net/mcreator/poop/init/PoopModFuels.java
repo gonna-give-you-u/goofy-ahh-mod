@@ -19,5 +19,7 @@ public class PoopModFuels {
 			event.setBurnTime(4800);
 		else if (itemstack.getItem() == PoopModItems.CRAZY_FUEL.get())
 			event.setBurnTime(2147483647);
+		else if (itemstack.getItem() == PoopModItems.COAL_NUGGET.get())
+			event.setBurnTime(178);
 	}
 }

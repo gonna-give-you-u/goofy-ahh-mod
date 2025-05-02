@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "poop:block_that_turns_stuff_into_baryons",
     "poop:deepslate_explosive_ore",
     "poop:explosive_ore",
     "poop:nonmelting_gallium",

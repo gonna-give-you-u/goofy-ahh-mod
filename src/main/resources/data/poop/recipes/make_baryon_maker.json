@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "poop:electron"
+    },
+    "b": {
+      "item": "poop:proton"
+    },
+    "c": {
+      "item": "minecraft:crafting_table"
+    },
+    "d": {
+      "item": "poop:neutron"
+    },
+    "e": {
+      "item": "poop:crazy_fuel"
+    }
+  },
+  "result": {
+    "item": "poop:block_that_turns_stuff_into_baryons",
+    "count": 1
+  }
+}

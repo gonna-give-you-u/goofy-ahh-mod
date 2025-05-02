@@ -10,7 +10,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.poop.procedures.BOOOOOOOMProcedure;
 import net.mcreator.poop.procedures.BOOOOOOOM2Procedure;
 
 public class StablerAnticarbonItem extends Item {
@@ -43,7 +42,7 @@ public class StablerAnticarbonItem extends Item {
 	@Override
 	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
 		boolean retval = super.onEntitySwing(itemstack, entity);
-		BOOOOOOOMProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
+		BOOOOOOOM2Procedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		return retval;
 	}
 }

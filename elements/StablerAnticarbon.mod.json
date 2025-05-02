@@ -37,7 +37,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onEntitySwing": {
-      "name": "BOOOOOOOM"
+      "name": "BOOOOOOOM2"
     },
     "onFinishUsingItem": {
       "name": "BOOOOOOOM2"

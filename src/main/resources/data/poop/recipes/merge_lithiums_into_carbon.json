@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:lithium_6"
+    },
+    {
+      "item": "poop:lithium_6"
+    }
+  ],
+  "result": {
+    "item": "poop:carbon",
+    "count": 1
+  }
+}
