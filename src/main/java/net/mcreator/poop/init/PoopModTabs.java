@@ -65,6 +65,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.KNOCKBACK_STICK.get());
 			tabData.accept(PoopModItems.ANVIL_DROPPER.get());
 			tabData.accept(PoopModItems.ANVIL_DROPPER_PRO.get());
+			tabData.accept(PoopModItems.ANVIL_DROPPER_PRO_MAX.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());

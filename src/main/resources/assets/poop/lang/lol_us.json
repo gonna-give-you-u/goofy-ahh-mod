@@ -43,7 +43,7 @@
   "item.poop.carbon": "Koal atomz",
   "item.poop.poop_launcher": "poopoo blastur",
   "item.poop.steel_armor_helmet": "Carbonatd Irun Hat",
-  "item.poop.poop_launcher_pro": "apple newest product",
+  "item.poop.poop_launcher_pro": "not apple newest product",
   "biome.poop.poop_biome": "Icky poopy baium",
   "item.poop.poop": "eww poop",
   "block.poop.nuke": "SUPAH BOOM",
@@ -83,5 +83,6 @@
   "item.poop.copper_nugget": "Copurr nuget",
   "block.poop.block_that_turns_stuff_into_baryons.description_0": "yea ik dat electronz r leptons not baryons but who carez",
   "item.poop.lithium_6": "Lithium-6",
-  "item.poop.anvil_dropper_pro": "Anvehl drupper PRO"
+  "item.poop.anvil_dropper_pro": "Anvehl drupper PRO",
+  "item.poop.anvil_dropper_pro_max":"anvehl drupper PRO MAX"
 }

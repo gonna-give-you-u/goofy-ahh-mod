@@ -2755,6 +2755,65 @@
           "src/main/resources/data/poop/recipes/proify_anvil_dropper.json"
         ]
       }
+    },
+    {
+      "name": "AnvilDropperProMax",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_dropper_pro_max",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/anvil_dropper_pro_max.json",
+          "src/main/java/net/mcreator/poop/item/AnvilDropperProMaxItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DropAnvilsProMax",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_anvils_pro_max",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/DropAnvilsProMaxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaxifyAnvilDropperPro",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxify_anvil_dropper_pro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/maxify_anvil_dropper_pro.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2895,17 +2954,17 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.rickroll": "Рикролл",
+      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
-      "item.poop.anvil_dropper_pro": "Бросатель наковальни Про",
-      "item.poop.skibidi_dimension": "Специальиый туалет",
-      "item.poop.diamond_nugget": "Кусочек алмаза",
+      "item.poop.anvil_dropper_pro": "Бросатель наковальни Pro",
       "item.poop.super_gold_pickaxe": "Очень быстрая кирка",
-      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.diamond_nugget": "Кусочек алмаза",
+      "item.poop.skibidi_dimension": "Специальиый туалет",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
       "entity.poop.pooper": "Какашкер",
       "item.poop.crazy_fuel": "Ядерное топливо",
       "item.poop.persistent_alpha_water_bucket": "Ведро стойкого альфа-воды",
@@ -2944,7 +3003,7 @@
       "item.poop.carbon": "Углерод",
       "item.poop.poop_launcher": "Запуститель какашек",
       "item.poop.steel_armor_helmet": "Бедроковый шлем",
-      "item.poop.poop_launcher_pro": "Запуститель Какашек Про",
+      "item.poop.poop_launcher_pro": "Запуститель Какашек Pro",
       "biome.poop.poop_biome": "Биом какашек",
       "item.poop.poop": "Какашка",
       "block.poop.nuke": "Ядерная бомба",
@@ -2955,6 +3014,7 @@
       "item.poop.nuke_launcher": "Запуститель ядерных бомб",
       "item.poop.electron": "Электрон",
       "block.poop.liquid_gallium": "Жидкий галлий",
+      "item.poop.anvil_dropper_pro_max": "Бросатель наковальни Pro Max",
       "item.poop.steel_armor_leggings": "Бедроковые штаны",
       "item.poop.lightning_spawner": "Призыватель молний",
       "item.poop.barrier_armor_leggings": "Барьеровые штаны",
@@ -2981,17 +3041,17 @@
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
-      "item.poop.rickroll": "瑞克搖",
       "item.poop.stabler_anticarbon": "更穩反碳",
+      "item.poop.rickroll": "瑞克搖",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.anvil_dropper_pro": "鐵站掉落器Pro",
-      "item.poop.skibidi_dimension": "特別便器",
-      "item.poop.diamond_nugget": "鑽石粒",
       "item.poop.super_gold_pickaxe": "超快鎬",
-      "item.poop.bedrock_armor_helmet": "基岩頭盔",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.diamond_nugget": "鑽石粒",
+      "item.poop.skibidi_dimension": "特別便器",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.bedrock_armor_helmet": "基岩頭盔",
       "entity.poop.pooper": "屎力怕",
       "item.poop.crazy_fuel": "核燃料",
       "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
@@ -3041,6 +3101,7 @@
       "item.poop.nuke_launcher": "核彈炮",
       "item.poop.electron": "電子",
       "block.poop.liquid_gallium": "液鎵",
+      "item.poop.anvil_dropper_pro_max": "鐵站掉落器Pro Max",
       "item.poop.steel_armor_leggings": "鋼製護腿",
       "item.poop.lightning_spawner": "閃電召喚器",
       "item.poop.barrier_armor_leggings": "屏障護腿",
@@ -3127,6 +3188,7 @@
       "item.poop.nuke_launcher": "Nuke Launcher",
       "item.poop.electron": "Electron",
       "block.poop.liquid_gallium": "Gallium",
+      "item.poop.anvil_dropper_pro_max": "Anvil Dropper Pro Max",
       "item.poop.steel_armor_leggings": "Steel Leggings",
       "item.poop.lightning_spawner": "Lightning Summoner",
       "item.poop.barrier_armor_leggings": "Barrier Leggings",

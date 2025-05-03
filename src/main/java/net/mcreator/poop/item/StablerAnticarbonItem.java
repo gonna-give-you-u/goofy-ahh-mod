@@ -11,6 +11,7 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.poop.procedures.BOOOOOOOM2Procedure;
+import net.mcreator.poop.procedures.BOOM2NoRemoveItemProcedure;
 
 public class StablerAnticarbonItem extends Item {
 	public StablerAnticarbonItem() {
@@ -44,5 +45,11 @@ public class StablerAnticarbonItem extends Item {
 		boolean retval = super.onEntitySwing(itemstack, entity);
 		BOOOOOOOM2Procedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		return retval;
+	}
+
+	@Override
+	public boolean onDroppedByPlayer(ItemStack itemstack, Player entity) {
+		BOOM2NoRemoveItemProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		return true;
 	}
 }

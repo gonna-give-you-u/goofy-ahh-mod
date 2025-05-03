@@ -39,6 +39,9 @@
     "onEntitySwing": {
       "name": "BOOOOOOOM2"
     },
+    "onDroppedByPlayer": {
+      "name": "BOOM2NoRemoveItem"
+    },
     "onFinishUsingItem": {
       "name": "BOOOOOOOM2"
     },
