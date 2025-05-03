@@ -54,6 +54,7 @@ import net.mcreator.poop.item.CoalNuggetItem;
 import net.mcreator.poop.item.CarbonItem;
 import net.mcreator.poop.item.BedrockArmorItem;
 import net.mcreator.poop.item.BarrierArmorItem;
+import net.mcreator.poop.item.AnvilDropperProItem;
 import net.mcreator.poop.item.AnvilDropperItem;
 import net.mcreator.poop.item.AnticarbonItem;
 import net.mcreator.poop.item.AlphaWaterItem;
@@ -130,6 +131,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> COAL_NUGGET = REGISTRY.register("coal_nugget", () -> new CoalNuggetItem());
 	public static final RegistryObject<Item> COPPER_NUGGET = REGISTRY.register("copper_nugget", () -> new CopperNuggetItem());
 	public static final RegistryObject<Item> LITHIUM_6 = REGISTRY.register("lithium_6", () -> new Lithium6Item());
+	public static final RegistryObject<Item> ANVIL_DROPPER_PRO = REGISTRY.register("anvil_dropper_pro", () -> new AnvilDropperProItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -2666,6 +2666,95 @@
           }
         ]
       }
+    },
+    {
+      "name": "BOOM2NoRemoveItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_2_no_remove_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/BOOM2NoRemoveItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnvilDropperPro",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_dropper_pro",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/anvil_dropper_pro.json",
+          "src/main/java/net/mcreator/poop/item/AnvilDropperProItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DropAnvilsPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_anvils_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/DropAnvilsProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProifyAnvilDropper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proify_anvil_dropper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/proify_anvil_dropper.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2806,16 +2895,17 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.rickroll": "Рикролл",
       "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
+      "item.poop.rickroll": "Рикролл",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
-      "item.poop.super_gold_pickaxe": "Очень быстрая кирка",
-      "item.poop.diamond_nugget": "Кусочек алмаза",
+      "item.poop.anvil_dropper_pro": "Бросатель наковальни Про",
       "item.poop.skibidi_dimension": "Специальиый туалет",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.diamond_nugget": "Кусочек алмаза",
+      "item.poop.super_gold_pickaxe": "Очень быстрая кирка",
       "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "Какашкер",
       "item.poop.crazy_fuel": "Ядерное топливо",
       "item.poop.persistent_alpha_water_bucket": "Ведро стойкого альфа-воды",
@@ -2891,16 +2981,17 @@
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
-      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.rickroll": "瑞克搖",
+      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
-      "item.poop.super_gold_pickaxe": "超快鎬",
-      "item.poop.diamond_nugget": "鑽石粒",
+      "item.poop.anvil_dropper_pro": "鐵站掉落器Pro",
       "item.poop.skibidi_dimension": "特別便器",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.diamond_nugget": "鑽石粒",
+      "item.poop.super_gold_pickaxe": "超快鎬",
       "item.poop.bedrock_armor_helmet": "基岩頭盔",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "屎力怕",
       "item.poop.crazy_fuel": "核燃料",
       "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
@@ -2976,16 +3067,17 @@
       "item.poop.bedrock_armor_leggings": "基岩護腿"
     },
     "en_us": {
-      "item.poop.rickroll": "Rickroll",
       "item.poop.stabler_anticarbon": "Anticarbon but stabler",
+      "item.poop.rickroll": "Rickroll",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
-      "item.poop.skibidi_dimension": "Special Toilet",
-      "item.poop.diamond_nugget": "Diamond Nugget",
+      "item.poop.anvil_dropper_pro": "Anvil Dropper Pro",
       "item.poop.super_gold_pickaxe": "Super Efficient Pickaxe",
-      "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
-      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "item.poop.diamond_nugget": "Diamond Nugget",
+      "item.poop.skibidi_dimension": "Special Toilet",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
       "entity.poop.pooper": "Pooper",
       "item.poop.crazy_fuel": "Nuclear Fuel",
       "item.poop.persistent_alpha_water_bucket": "Persistent Alpha Water Bucket",

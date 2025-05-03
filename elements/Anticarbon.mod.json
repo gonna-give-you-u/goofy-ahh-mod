@@ -41,6 +41,9 @@
     "onItemInInventoryTick": {
       "name": "BOOOOOOOM"
     },
+    "onDroppedByPlayer": {
+      "name": "BOOM2NoRemoveItem"
+    },
     "onFinishUsingItem": {
       "name": "BOOOOOOOM"
     },

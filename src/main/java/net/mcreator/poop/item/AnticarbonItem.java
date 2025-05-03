@@ -15,6 +15,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.poop.procedures.BOOOOOOOMProcedure;
+import net.mcreator.poop.procedures.BOOM2NoRemoveItemProcedure;
 
 import java.util.List;
 
@@ -60,5 +61,11 @@ public class AnticarbonItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		BOOOOOOOMProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+	}
+
+	@Override
+	public boolean onDroppedByPlayer(ItemStack itemstack, Player entity) {
+		BOOM2NoRemoveItemProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		return true;
 	}
 }
