@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "minecraft:anvil"
+    },
+    "c": {
+      "item": "poop:anvil_dropper"
+    },
+    "d": {
+      "item": "poop:poop_launcher_pro"
+    },
+    "e": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "poop:anvil_dropper_pro",
+    "count": 1
+  }
+}

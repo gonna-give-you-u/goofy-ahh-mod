@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "poop:anvil_dropper"
+    },
+    "c": {
+      "item": "poop:anvil_dropper_pro"
+    }
+  },
+  "result": {
+    "item": "poop:anvil_dropper_pro_max",
+    "count": 1
+  }
+}
