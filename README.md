@@ -21,7 +21,7 @@ just imagine what "amazingness" this mod will have once i understand the forge a
 feel free to make your own stupid ahh suggestions and report issues<br>
 <br>
 <details>
-  <summary>BORING STUFF: credits for assets that are not mine and aren't public domain (or public-domain-like)</summary>
+  <summary>BORING STUFF: credits for assets that are not mine and aren't public domain (or public-domain-like) .Ok you know what i will just say that i, by default, am NOT claiming any assets used in this mod</summary>
   assets are in src/main/resources/assets/poop<br>
   textures/block:<br>
     ios_poop_huiwenzi.png, hardpoop.png: this Pile of Poo huiwenzi glyph style belongs to Apple Inc.<br>
