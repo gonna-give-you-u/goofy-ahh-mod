@@ -39,6 +39,7 @@ import net.mcreator.poop.item.NeutronItem;
 import net.mcreator.poop.item.Lithium6Item;
 import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
+import net.mcreator.poop.item.KnockbackStickProItem;
 import net.mcreator.poop.item.KnockbackStickItem;
 import net.mcreator.poop.item.HydrogenItem;
 import net.mcreator.poop.item.GigafastTravelItem;
@@ -134,6 +135,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> LITHIUM_6 = REGISTRY.register("lithium_6", () -> new Lithium6Item());
 	public static final RegistryObject<Item> ANVIL_DROPPER_PRO = REGISTRY.register("anvil_dropper_pro", () -> new AnvilDropperProItem());
 	public static final RegistryObject<Item> ANVIL_DROPPER_PRO_MAX = REGISTRY.register("anvil_dropper_pro_max", () -> new AnvilDropperProMaxItem());
+	public static final RegistryObject<Item> KNOCKBACK_STICK_PRO = REGISTRY.register("knockback_stick_pro", () -> new KnockbackStickProItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -14,11 +14,11 @@
       "item": "minecraft:bedrock"
     },
     "c": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:command_block"
     }
   },
   "result": {
     "item": "minecraft:barrier",
-    "count": 2
+    "count": 1
   }
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "poop:knockback_stick_pro",
     "poop:knockback_stick"
   ]
 }

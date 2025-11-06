@@ -2,13 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a a",
+    "aba",
     "aaa",
     "aaa"
   ],
   "key": {
     "a": {
       "item": "minecraft:bedrock"
+    },
+    "b": {
+      "item": "minecraft:netherite_chestplate"
     }
   },
   "result": {

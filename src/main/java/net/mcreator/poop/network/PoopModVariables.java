@@ -88,6 +88,7 @@ public class PoopModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "poop_mapvars";
 		public double LithiumTicksPassed = 0;
+		public double LithiumTicksNonPlayer = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -97,11 +98,13 @@ public class PoopModVariables {
 
 		public void read(CompoundTag nbt) {
 			LithiumTicksPassed = nbt.getDouble("LithiumTicksPassed");
+			LithiumTicksNonPlayer = nbt.getDouble("LithiumTicksNonPlayer");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putDouble("LithiumTicksPassed", LithiumTicksPassed);
+			nbt.putDouble("LithiumTicksNonPlayer", LithiumTicksNonPlayer);
 			return nbt;
 		}
 

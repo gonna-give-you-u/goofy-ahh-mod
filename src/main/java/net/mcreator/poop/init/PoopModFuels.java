@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
 
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 
 @Mod.EventBusSubscriber
@@ -21,5 +22,7 @@ public class PoopModFuels {
 			event.setBurnTime(2147483647);
 		else if (itemstack.getItem() == PoopModItems.COAL_NUGGET.get())
 			event.setBurnTime(178);
+		else if (itemstack.getItem() == Items.AXOLOTL_BUCKET)
+			event.setBurnTime(200);
 	}
 }

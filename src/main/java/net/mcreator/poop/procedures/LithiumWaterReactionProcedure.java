@@ -26,7 +26,7 @@ public class LithiumWaterReactionProcedure {
 		if (PoopModVariables.MapVariables.get(world).LithiumTicksPassed == 20) {
 			PoopModVariables.MapVariables.get(world).LithiumTicksPassed = 0;
 			PoopModVariables.MapVariables.get(world).syncData(world);
-			if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.WATER) {
+			if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(PoopModItems.LITHIUM_6.get())) : false) && (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.WATER) {
 				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.EXPLOSION)), 1);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {

@@ -10,30 +10,30 @@ public class PoopEffectProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.BAD_OMEN, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.BAD_OMEN, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 100, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 4200, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 100, 2));
 	}
 }

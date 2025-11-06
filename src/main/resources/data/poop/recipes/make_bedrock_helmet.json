@@ -3,11 +3,14 @@
   "category": "misc",
   "pattern": [
     "aaa",
-    "a a"
+    "aba"
   ],
   "key": {
     "a": {
       "item": "minecraft:bedrock"
+    },
+    "b": {
+      "item": "minecraft:netherite_helmet"
     }
   },
   "result": {

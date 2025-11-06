@@ -39,13 +39,13 @@
     "onEntityHitWith": {
       "name": "Die"
     },
-    "enableRanged": false,
-    "shootConstantly": false,
+    "enableRanged": true,
+    "shootConstantly": true,
     "rangedItemChargesPower": false,
     "projectile": {
-      "value": "CUSTOM:HardPoopProjectile"
+      "value": "CUSTOM:RickProjectile"
     },
-    "projectileDisableAmmoCheck": false,
+    "projectileDisableAmmoCheck": true,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

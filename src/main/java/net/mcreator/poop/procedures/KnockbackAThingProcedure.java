@@ -6,6 +6,6 @@ import net.minecraft.world.item.ItemStack;
 
 public class KnockbackAThingProcedure {
 	public static void execute(LevelAccessor world, ItemStack itemstack) {
-		itemstack.enchant(Enchantments.KNOCKBACK, 127);
+		itemstack.enchant(Enchantments.KNOCKBACK, 7);
 	}
 }

@@ -13,7 +13,7 @@ public class DieProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity)
 			_entity.setHealth(1);
-		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 1);
+		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 1000000);
 		if (entity instanceof LivingEntity _entity)
 			_entity.setHealth(0);
 	}

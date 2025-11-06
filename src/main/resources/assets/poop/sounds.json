@@ -40,5 +40,14 @@
         "stream": true
       }
     ]
+  },
+  "rick_scream": {
+    "subtitle": "subtitles.rick_scream",
+    "sounds": [
+      {
+        "name": "poop:rick_astley_aaaaaaaaaaaaaa",
+        "stream": false
+      }
+    ]
   }
 }

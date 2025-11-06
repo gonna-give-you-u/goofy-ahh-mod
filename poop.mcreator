@@ -1042,12 +1042,12 @@
       "name": "Rickroll",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "rickroll",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/RickrollItem.java",
-          "src/main/resources/assets/poop/models/item/rickroll.json"
+          "src/main/resources/assets/poop/models/item/rickroll.json",
+          "src/main/java/net/mcreator/poop/item/RickrollItem.java"
         ]
       }
     },
@@ -2087,54 +2087,6 @@
       }
     },
     {
-      "name": "MakeBarrierHelmet",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_barrier_helmet",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_barrier_helmet.json"
-        ]
-      }
-    },
-    {
-      "name": "MakeBarrierShirt",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_barrier_shirt",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_barrier_shirt.json"
-        ]
-      }
-    },
-    {
-      "name": "MakeBarrierTrousers",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_barrier_trousers",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_barrier_trousers.json"
-        ]
-      }
-    },
-    {
-      "name": "MakeBarrierShoes",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_barrier_shoes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_barrier_shoes.json"
-        ]
-      }
-    },
-    {
       "name": "MakeBarrier",
       "type": "recipe",
       "compiles": true,
@@ -2814,11 +2766,160 @@
           "src/main/resources/data/poop/recipes/maxify_anvil_dropper_pro.json"
         ]
       }
+    },
+    {
+      "name": "KnockbackStickPro",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockback_stick_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/item/KnockbackStickProItem.java",
+          "src/main/resources/assets/poop/models/item/knockback_stick_pro.json"
+        ]
+      }
+    },
+    {
+      "name": "KnockbackStuffPRO",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockback_stuff_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/KnockbackStuffPROProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProifyKnockbackStick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proify_knockback_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/proify_knockback_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "BucketOfAxolotlFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_axolotl_fuel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "UrGlass",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ur_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/potion/UrGlassMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "GlassPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MakeGlassPotion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_glass_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/recipes/brewing/MakeGlassPotionBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "UrGlassApply",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ur_glass_apply",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/UrGlassApplyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RickProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/entity/RickProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DieNoPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "die_no_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/DieNoPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
       "name": "LithiumTicksPassed",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "LithiumTicksNonPlayer",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -2864,6 +2965,14 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "rick_scream",
+      "files": [
+        "rick_astley_aaaaaaaaaaaaaa"
+      ],
+      "category": "neutral",
+      "subtitle": "rick goes aaaaaaaa"
     }
   ],
   "tag_elements": {
@@ -2924,6 +3033,7 @@
       "~CUSTOM:SkibidiBiome"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:KnockbackStickPro",
       "~CUSTOM:KnockbackStick"
     ]
   },
@@ -2954,8 +3064,8 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.rickroll": "Рикролл",
       "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
+      "item.poop.rickroll": "Рикролл",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.anvil_dropper_pro": "Бросатель наковальни Pro",
@@ -2974,6 +3084,7 @@
       "item.poop.steel_armor_boots": "Бедроковые ботинки",
       "block.poop.hard_poop_block": "Твёрдый блок какашек",
       "block.poop.gallium_ore": "Галлиевая руда",
+      "effect.poop.ur_glass": "Хрупкий",
       "item.poop.piece_of_gallium": "Галлий",
       "item.poop.three_coals": "Тройной уголь",
       "block.poop.block_that_turns_stuff_into_baryons": "Поменятель в барионам",
@@ -2993,8 +3104,11 @@
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.terafast_travel": "Супер-саник",
       "item.poop.lithium_6": "Литий-6",
+      "item.minecraft.potion.effect.glass_potion": "Взрывное зелье эффекта стекла",
       "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "block.poop.nonmelting_gallium": "Нетающий блок галлий",
+      "item.minecraft.lingering_potion.effect.glass_potion": "Зелье эффекта стекла",
+      "subtitles.rick_scream": "рик АААААААА",
       "item.poop.proton": "Протон",
       "block.poop.squashed_redstone": "Плотный редстоуновый блок",
       "item.poop.nutritious_poop": "Питательная какашка",
@@ -3005,6 +3119,8 @@
       "item.poop.steel_armor_helmet": "Бедроковый шлем",
       "item.poop.poop_launcher_pro": "Запуститель Какашек Pro",
       "biome.poop.poop_biome": "Биом какашек",
+      "item.minecraft.tipped_arrow.effect.glass_potion": "Стрела эффекта стекла",
+      "item.minecraft.splash_potion.effect.glass_potion": "Туманное зелье эффекта стекла",
       "item.poop.poop": "Какашка",
       "block.poop.nuke": "Ядерная бомба",
       "item.poop.anvil_dropper": "Бросатель наковальни",
@@ -3035,14 +3151,15 @@
       "item.poop.bedrock_armor_boots": "Бедроковые ботинки",
       "item.poop.barrier_armor_boots": "Барьеровые ботинки",
       "item.poop.neutron": "Нейтрон",
+      "item.poop.knockback_stick_pro": "Отбрасывающая палка Pro",
       "item.poop.debian_unstable": "Дэбиан нестабильный",
       "biome.poop.skibidi_biome": "Скибиди-биом",
       "item.poop.down_quark": "Нижний кварк",
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны"
     },
     "zh_tw": {
-      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.rickroll": "瑞克搖",
+      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.anvil_dropper_pro": "鐵站掉落器Pro",
@@ -3061,6 +3178,7 @@
       "item.poop.steel_armor_boots": "鋼製靴子",
       "block.poop.hard_poop_block": "硬屎塊",
       "block.poop.gallium_ore": "鎵礦",
+      "effect.poop.ur_glass": "易碎",
       "item.poop.piece_of_gallium": "鎵",
       "item.poop.three_coals": "三倍煤炭",
       "block.poop.block_that_turns_stuff_into_baryons": "東西到重子轉換器",
@@ -3080,8 +3198,11 @@
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.terafast_travel": "超Sanic",
       "item.poop.lithium_6": "鋰-6",
+      "item.minecraft.potion.effect.glass_potion": "玻璃效果藥水",
       "fluid.poop.persistent_alpha_water": "一貫alpha水",
       "block.poop.nonmelting_gallium": "不融化鎵塊",
+      "item.minecraft.lingering_potion.effect.glass_potion": "滯留玻璃效果藥水",
+      "subtitles.rick_scream": "瑞克啊啊啊啊啊",
       "item.poop.proton": "質子",
       "block.poop.squashed_redstone": "密紅石",
       "item.poop.nutritious_poop": "滋補的屎",
@@ -3092,6 +3213,8 @@
       "item.poop.steel_armor_helmet": "鋼製頭盔",
       "item.poop.poop_launcher_pro": "屎炮Pro",
       "biome.poop.poop_biome": "屎地",
+      "item.minecraft.tipped_arrow.effect.glass_potion": "玻璃效果之箭",
+      "item.minecraft.splash_potion.effect.glass_potion": "飛濺玻璃效果藥水",
       "item.poop.poop": "屎",
       "block.poop.nuke": "核彈",
       "item.poop.anvil_dropper": "鐵站掉落器",
@@ -3122,23 +3245,24 @@
       "item.poop.bedrock_armor_boots": "基岩靴子",
       "item.poop.barrier_armor_boots": "屏障靴子",
       "item.poop.neutron": "中子",
+      "item.poop.knockback_stick_pro": "擊退木棒Pro",
       "item.poop.debian_unstable": "Debian 不穩定版",
       "biome.poop.skibidi_biome": "斯基比地",
       "item.poop.down_quark": "下夸克",
       "item.poop.bedrock_armor_leggings": "基岩護腿"
     },
     "en_us": {
-      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.rickroll": "Rickroll",
+      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.anvil_dropper_pro": "Anvil Dropper Pro",
-      "item.poop.super_gold_pickaxe": "Super Efficient Pickaxe",
-      "item.poop.diamond_nugget": "Diamond Nugget",
       "item.poop.skibidi_dimension": "Special Toilet",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "item.poop.diamond_nugget": "Diamond Nugget",
+      "item.poop.super_gold_pickaxe": "Super Efficient Pickaxe",
       "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
+      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "subtitles.skibidi_music": "",
       "entity.poop.pooper": "Pooper",
       "item.poop.crazy_fuel": "Nuclear Fuel",
       "item.poop.persistent_alpha_water_bucket": "Persistent Alpha Water Bucket",
@@ -3148,6 +3272,7 @@
       "item.poop.steel_armor_boots": "Steel Boots",
       "block.poop.hard_poop_block": "Hard Poop Block",
       "block.poop.gallium_ore": "Gallium Ore",
+      "effect.poop.ur_glass": "Fragile",
       "item.poop.piece_of_gallium": "Gallium",
       "item.poop.three_coals": "3 pieces of coal",
       "block.poop.block_that_turns_stuff_into_baryons": "Item to Baryon Converter",
@@ -3167,8 +3292,11 @@
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
       "item.poop.terafast_travel": "Super sanic",
       "item.poop.lithium_6": "Lithium-6",
+      "item.minecraft.potion.effect.glass_potion": "Glass Effect Potion",
       "fluid.poop.persistent_alpha_water": "Persistent Alpha Water ",
       "block.poop.nonmelting_gallium": "Non-melting Block of Gallium",
+      "item.minecraft.lingering_potion.effect.glass_potion": "Glass Effect Lingering Potion",
+      "subtitles.rick_scream": "rick goes aaaaaaaa",
       "item.poop.proton": "Proton",
       "block.poop.squashed_redstone": "High Density Redstone",
       "item.poop.nutritious_poop": "Nutritious Poop",
@@ -3179,6 +3307,8 @@
       "item.poop.steel_armor_helmet": "Steel Helmet",
       "item.poop.poop_launcher_pro": "Poop Launcher Pro",
       "biome.poop.poop_biome": "Poopland",
+      "item.minecraft.tipped_arrow.effect.glass_potion": "Glass Effect Arrow",
+      "item.minecraft.splash_potion.effect.glass_potion": "Glass Effect Splash Potion",
       "item.poop.poop": "Poop",
       "block.poop.nuke": "Nuke (Underwhelming)",
       "item.poop.anvil_dropper": "Anvil Dropper",
@@ -3209,10 +3339,105 @@
       "item.poop.bedrock_armor_boots": "Bedrock Boots",
       "item.poop.barrier_armor_boots": "Barrier Boots",
       "item.poop.neutron": "Neutron",
+      "item.poop.knockback_stick_pro": "Knockback Stick Pro",
       "item.poop.debian_unstable": "Debian Unstable",
       "biome.poop.skibidi_biome": "Skibidiland",
       "item.poop.down_quark": "Down Quark",
       "item.poop.bedrock_armor_leggings": "Bedrock Leggings"
+    },
+    "lol_us": {
+      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
+      "item.poop.rickroll": "Rickroll",
+      "item.poop.gigafast_travel": "Sanic",
+      "subtitles.poop_sports_music": "",
+      "item.poop.anvil_dropper_pro": "Anvehl drupper PRO",
+      "item.poop.skibidi_dimension": "Speshul tolet",
+      "item.poop.diamond_nugget": "Dimand nuget",
+      "item.poop.super_gold_pickaxe": "Rly fazt pikakse",
+      "item.poop.bedrock_armor_helmet": "trol hat",
+      "block.poop.deepslate_explosive_ore": "Rockz dat go BOOM but dark",
+      "subtitles.skibidi_music": "",
+      "entity.poop.pooper": "Thing dat poops",
+      "item.poop.crazy_fuel": "Nuke fuel",
+      "item.poop.persistent_alpha_water_bucket": "Alpha Watr Buket but persistent",
+      "subtitles.reverb_fard": "Fard xd",
+      "item.poop.adachi_rei": "足立レイ",
+      "item.poop.alpha_water_bucket": "Alpha Watr Buket",
+      "item.poop.steel_armor_boots": "steely Shoes",
+      "block.poop.hard_poop_block": "poopy blok but hard",
+      "block.poop.gallium_ore": "Rockz wit Gallium",
+      "effect.poop.ur_glass": "Ur glazz",
+      "item.poop.piece_of_gallium": "Melty metalz",
+      "item.poop.three_coals": "3 coelz",
+      "block.poop.block_that_turns_stuff_into_baryons": "Bluk dat turnz ur stuffz in2 baryons",
+      "item.poop.debian": "Debian",
+      "item.poop.barrier_armor_helmet": "Hat dat make u invincibl",
+      "item.poop.liquid_gallium_bucket": "Gallium buket",
+      "item.poop.barrier_armor_chestplate": "shirt dat make u invincible",
+      "item.poop.anticarbon": "Anticarbon",
+      "item.poop.steel": "Carbonatd irun",
+      "block.poop.poop_block": "eww poopy blok",
+      "block.poop.persistent_alpha_water": "Alpha Watr but persistent",
+      "item.poop.deuterium": "Deuterium",
+      "item.poop.knockback_stick": "Nockback stik",
+      "item.poop.hydrogen": "Burny gas",
+      "block.poop.alpha_water": "Alpha watr",
+      "block.poop.skibidi_block": "Skibidi toilet",
+      "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
+      "item.poop.terafast_travel": "Supr sanic",
+      "item.poop.lithium_6": "Lithium-6",
+      "item.minecraft.potion.effect.glass_potion": "Glazz efekt pushun",
+      "fluid.poop.persistent_alpha_water": "Alpha Watr but persistent ",
+      "block.poop.nonmelting_gallium": "gallium blok dat doesnt melt",
+      "item.minecraft.lingering_potion.effect.glass_potion": "Linnerin Poshun dat turn u in2 glazz",
+      "subtitles.rick_scream": "rick go AAAAAAAAAAAAAAHHHHhh",
+      "item.poop.proton": "Protun",
+      "block.poop.squashed_redstone": "THICC Redstone",
+      "item.poop.nutritious_poop": "yummy poop",
+      "item.poop.pooper_spawn_egg": "poopy creepur spon ec",
+      "item.poop.up_quark": "Up kwork",
+      "item.poop.carbon": "Koal atomz",
+      "item.poop.poop_launcher": "poopoo blastur",
+      "item.poop.steel_armor_helmet": "Carbonatd Irun Hat",
+      "item.poop.poop_launcher_pro": "not apple newest product",
+      "biome.poop.poop_biome": "Icky poopy baium",
+      "item.minecraft.tipped_arrow.effect.glass_potion": "Speshul Shooty Tignh Dat Turnz U In2 Glazz",
+      "item.minecraft.splash_potion.effect.glass_potion": "Spleshy Poshun dat turn u in2 glazz",
+      "item.poop.poop": "eww poop",
+      "block.poop.nuke": "SUPAH BOOM",
+      "item.poop.anvil_dropper": "Anvehl drupper",
+      "block.poop.block_that_turns_stuff_into_baryons.description_0": "yea ik dat electronz r leptons not baryons but who carez",
+      "block.poop.solid_gallium": "Blok of Gallium",
+      "item.poop.anticarbon.description_0": "shift click to maek urself go BOOM",
+      "item.poop.nuke_launcher": "Nuke launchr",
+      "item.poop.electron": "Electron",
+      "block.poop.liquid_gallium": "Melty metal",
+      "item.poop.anvil_dropper_pro_max": "anvehl drupper PRO MAX",
+      "item.poop.steel_armor_leggings": "stealy pants",
+      "item.poop.lightning_spawner": "Litnin makr",
+      "item.poop.barrier_armor_leggings": "Invincibul Pants",
+      "item.poop.tnt_launcher": "BOOM BLASTUR",
+      "item.poop.bedrock_armor_chestplate": "Trol shirt",
+      "fluid.poop.alpha_water": "Alpha watr",
+      "item.poop.copper_nugget": "Copurr nuget",
+      "fluid.poop.liquid_gallium": "Melty metal",
+      "item.poop.toilet": "da tolet",
+      "subtitles.sanic": "",
+      "item.poop.steel_armor_chestplate": "shini shirt",
+      "item.poop.tritium": "Boomy hydrogen",
+      "block.poop.explosive_ore": "Rockz dat go BOOM",
+      "item.poop.coal_nugget": "koal nuget",
+      "item.poop.uno_reverse": "no U",
+      "item.poop.poop_fragment": "Poopy piece",
+      "subtitles.fard": "Fard xd",
+      "item.poop.bedrock_armor_boots": "Trol shoez",
+      "item.poop.barrier_armor_boots": "veri hard shoez",
+      "item.poop.neutron": "Neutrun",
+      "item.poop.knockback_stick_pro": "Nockback stik Pro",
+      "item.poop.debian_unstable": "Debian but breaky",
+      "biome.poop.skibidi_biome": "Skibidi plaec",
+      "item.poop.down_quark": "Down kwork",
+      "item.poop.bedrock_armor_leggings": "Trol pantz"
     }
   },
   "foldersRoot": {
@@ -3222,7 +3447,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.05.02",
+    "version": "2025.11.05",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

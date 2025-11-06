@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -24,7 +24,7 @@
         "value": "Blocks.BEDROCK"
       },
       {
-        "value": "Items.END_CRYSTAL"
+        "value": "Blocks.COMMAND_BLOCK"
       },
       {
         "value": "Blocks.BEDROCK"
