@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Glass Effect Potion",
+    "splashName": "Glass Effect Splash Potion",
+    "lingeringName": "Glass Effect Lingering Potion",
+    "arrowName": "Glass Effect Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:UrGlass"
+        },
+        "duration": 1200,
+        "infinite": true,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

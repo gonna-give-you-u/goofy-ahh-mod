@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "poop:squashed_redstone"
+    },
+    "b": {
+      "item": "poop:knockback_stick"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    },
+    "d": {
+      "item": "minecraft:tnt"
+    },
+    "e": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "poop:knockback_stick_pro",
+    "count": 1
+  }
+}

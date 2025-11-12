@@ -15,7 +15,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class AdachiReiButDoesntExplodeItem extends Item {
 	public AdachiReiButDoesntExplodeItem() {
-		super(new Item.Properties().durability(127999).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(99998).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class AdachiReiButDoesntExplodeItem extends Item {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
-			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Item modifier", 14d, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Item modifier", 7d, AttributeModifier.Operation.ADDITION));
 			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Item modifier", -2.4, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}

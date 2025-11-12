@@ -24,5 +24,7 @@ public class PoopModFuels {
 			event.setBurnTime(178);
 		else if (itemstack.getItem() == Items.AXOLOTL_BUCKET)
 			event.setBurnTime(200);
+		else if (itemstack.getItem() == PoopModItems.HYDROGEN.get())
+			event.setBurnTime(1600);
 	}
 }

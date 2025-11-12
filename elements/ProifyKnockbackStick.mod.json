@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SquashedRedstone"
+      },
+      {
+        "value": "CUSTOM:KnockbackStick"
+      },
+      {
+        "value": "CUSTOM:SquashedRedstone"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "CUSTOM:KnockbackStick"
+      },
+      {
+        "value": "Blocks.PISTON"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KnockbackStickPro"
+    },
+    "name": "proify_knockback_stick",
+    "namespace": "mod"
+  }
+}
