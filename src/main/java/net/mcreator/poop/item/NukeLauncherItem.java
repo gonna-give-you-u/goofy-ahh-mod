@@ -18,7 +18,7 @@ import net.mcreator.poop.entity.NukeProjectileEntity;
 
 public class NukeLauncherItem extends Item {
 	public NukeLauncherItem() {
-		super(new Item.Properties().durability(256).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(200).rarity(Rarity.COMMON));
 	}
 
 	@Override

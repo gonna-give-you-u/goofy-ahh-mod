@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "steel_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Steel Shovel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 6.5,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 2.3,
+    "usageCount": 500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Steel"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -21,7 +21,12 @@ import net.mcreator.poop.item.ThreeCoalsItem;
 import net.mcreator.poop.item.TerafastTravelItem;
 import net.mcreator.poop.item.TNTLauncherItem;
 import net.mcreator.poop.item.SuperGoldPickaxeItem;
+import net.mcreator.poop.item.SteelSwordItem;
+import net.mcreator.poop.item.SteelShovelItem;
+import net.mcreator.poop.item.SteelPickaxeItem;
 import net.mcreator.poop.item.SteelItem;
+import net.mcreator.poop.item.SteelHoeItem;
+import net.mcreator.poop.item.SteelAxeItem;
 import net.mcreator.poop.item.SteelArmorItem;
 import net.mcreator.poop.item.StablerAnticarbonItem;
 import net.mcreator.poop.item.SkibidiDimensionItem;
@@ -41,6 +46,7 @@ import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
 import net.mcreator.poop.item.KnockbackStickProItem;
 import net.mcreator.poop.item.KnockbackStickItem;
+import net.mcreator.poop.item.IQuitMusicGCSEDiscItem;
 import net.mcreator.poop.item.HydrogenItem;
 import net.mcreator.poop.item.GigafastTravelItem;
 import net.mcreator.poop.item.ElectronItem;
@@ -136,6 +142,13 @@ public class PoopModItems {
 	public static final RegistryObject<Item> ANVIL_DROPPER_PRO = REGISTRY.register("anvil_dropper_pro", () -> new AnvilDropperProItem());
 	public static final RegistryObject<Item> ANVIL_DROPPER_PRO_MAX = REGISTRY.register("anvil_dropper_pro_max", () -> new AnvilDropperProMaxItem());
 	public static final RegistryObject<Item> KNOCKBACK_STICK_PRO = REGISTRY.register("knockback_stick_pro", () -> new KnockbackStickProItem());
+	public static final RegistryObject<Item> I_QUIT_MUSIC_GCSE_DISC = REGISTRY.register("i_quit_music_gcse_disc", () -> new IQuitMusicGCSEDiscItem());
+	public static final RegistryObject<Item> REALLY_HARD_GLASS = block(PoopModBlocks.REALLY_HARD_GLASS);
+	public static final RegistryObject<Item> STEEL_PICKAXE = REGISTRY.register("steel_pickaxe", () -> new SteelPickaxeItem());
+	public static final RegistryObject<Item> STEEL_SWORD = REGISTRY.register("steel_sword", () -> new SteelSwordItem());
+	public static final RegistryObject<Item> STEEL_AXE = REGISTRY.register("steel_axe", () -> new SteelAxeItem());
+	public static final RegistryObject<Item> STEEL_HOE = REGISTRY.register("steel_hoe", () -> new SteelHoeItem());
+	public static final RegistryObject<Item> STEEL_SHOVEL = REGISTRY.register("steel_shovel", () -> new SteelShovelItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

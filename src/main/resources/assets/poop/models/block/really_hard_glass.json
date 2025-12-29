@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poop:block/glass",
+    "up": "poop:block/glass",
+    "north": "poop:block/glass",
+    "east": "poop:block/glass",
+    "south": "poop:block/glass",
+    "west": "poop:block/glass",
+    "particle": "poop:block/glass"
+  },
+  "render_type": "cutout"
+}

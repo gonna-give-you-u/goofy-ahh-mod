@@ -15,6 +15,7 @@ import net.mcreator.poop.block.SquashedRedstoneBlock;
 import net.mcreator.poop.block.SolidGalliumBlock;
 import net.mcreator.poop.block.SkibidiDimensionPortalBlock;
 import net.mcreator.poop.block.SkibidiBlockBlock;
+import net.mcreator.poop.block.ReallyHardGlassBlock;
 import net.mcreator.poop.block.PoopBlockBlock;
 import net.mcreator.poop.block.PersistentAlphaWaterBlock;
 import net.mcreator.poop.block.NukeBlock;
@@ -48,6 +49,7 @@ public class PoopModBlocks {
 	public static final RegistryObject<Block> EXPLOSIVE_ORE = REGISTRY.register("explosive_ore", () -> new ExplosiveOreBlock());
 	public static final RegistryObject<Block> DEEPSLATE_EXPLOSIVE_ORE = REGISTRY.register("deepslate_explosive_ore", () -> new DeepslateExplosiveOreBlock());
 	public static final RegistryObject<Block> BLOCK_THAT_TURNS_STUFF_INTO_BARYONS = REGISTRY.register("block_that_turns_stuff_into_baryons", () -> new BlockThatTurnsStuffIntoBaryonsBlock());
+	public static final RegistryObject<Block> REALLY_HARD_GLASS = REGISTRY.register("really_hard_glass", () -> new ReallyHardGlassBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.poop.init.PoopModTabs;
 import net.mcreator.poop.init.PoopModSounds;
 import net.mcreator.poop.init.PoopModPotions;
+import net.mcreator.poop.init.PoopModPaintings;
 import net.mcreator.poop.init.PoopModMobEffects;
 import net.mcreator.poop.init.PoopModItems;
 import net.mcreator.poop.init.PoopModFluids;
@@ -56,6 +57,7 @@ public class PoopMod {
 
 		PoopModMobEffects.REGISTRY.register(bus);
 		PoopModPotions.REGISTRY.register(bus);
+		PoopModPaintings.REGISTRY.register(bus);
 
 		PoopModFluids.REGISTRY.register(bus);
 		PoopModFluidTypes.REGISTRY.register(bus);

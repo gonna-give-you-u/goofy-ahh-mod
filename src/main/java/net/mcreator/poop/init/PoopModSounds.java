@@ -21,4 +21,5 @@ public class PoopModSounds {
 	public static final RegistryObject<SoundEvent> SKIBIDI_MUSIC = REGISTRY.register("skibidi_music", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "skibidi_music")));
 	public static final RegistryObject<SoundEvent> SANIC = REGISTRY.register("sanic", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "sanic")));
 	public static final RegistryObject<SoundEvent> RICK_SCREAM = REGISTRY.register("rick_scream", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "rick_scream")));
+	public static final RegistryObject<SoundEvent> I_QUIT_MUSIC_IN_SCHOOL = REGISTRY.register("i_quit_music_in_school", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "i_quit_music_in_school")));
 }

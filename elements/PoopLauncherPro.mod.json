@@ -16,9 +16,9 @@
     ],
     "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 10,
+    "useDuration": 25,
     "toolType": 1.0,
-    "damageCount": 10000,
+    "damageCount": 3000,
     "recipeRemainder": {
       "value": ""
     },

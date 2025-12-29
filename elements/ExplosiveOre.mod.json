@@ -49,7 +49,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Blocks.TNT"
+      "value": "Items.GUNPOWDER"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

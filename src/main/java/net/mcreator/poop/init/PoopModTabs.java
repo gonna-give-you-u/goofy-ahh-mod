@@ -67,11 +67,17 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.ANVIL_DROPPER_PRO.get());
 			tabData.accept(PoopModItems.ANVIL_DROPPER_PRO_MAX.get());
 			tabData.accept(PoopModItems.KNOCKBACK_STICK_PRO.get());
+			tabData.accept(PoopModItems.STEEL_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());
 			tabData.accept(PoopModItems.TERAFAST_TRAVEL.get());
 			tabData.accept(PoopModItems.SUPER_GOLD_PICKAXE.get());
+			tabData.accept(PoopModItems.I_QUIT_MUSIC_GCSE_DISC.get());
+			tabData.accept(PoopModItems.STEEL_PICKAXE.get());
+			tabData.accept(PoopModItems.STEEL_AXE.get());
+			tabData.accept(PoopModItems.STEEL_HOE.get());
+			tabData.accept(PoopModItems.STEEL_SHOVEL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

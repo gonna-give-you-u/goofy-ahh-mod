@@ -20,7 +20,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.poop.procedures.PoopEffectProcedure;
+import net.mcreator.poop.procedures.PoopEffectLiteProcedure;
 import net.mcreator.poop.init.PoopModItems;
 import net.mcreator.poop.init.PoopModEntities;
 
@@ -69,7 +69,7 @@ public class HardPoopProjectileEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		PoopEffectProcedure.execute(entityHitResult.getEntity());
+		PoopEffectLiteProcedure.execute(entityHitResult.getEntity());
 	}
 
 	@Override
@@ -80,11 +80,11 @@ public class HardPoopProjectileEntity extends AbstractArrow implements ItemSuppl
 	}
 
 	public static HardPoopProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 20f, 0.35, 3);
+		return shoot(world, entity, source, 20f, 0.2, 3);
 	}
 
 	public static HardPoopProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source, float pullingPower) {
-		return shoot(world, entity, source, pullingPower * 20f, 0.35, 3);
+		return shoot(world, entity, source, pullingPower * 20f, 0.2, 3);
 	}
 
 	public static HardPoopProjectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -106,7 +106,7 @@ public class HardPoopProjectileEntity extends AbstractArrow implements ItemSuppl
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 20f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(0.35);
+		entityarrow.setBaseDamage(0.2);
 		entityarrow.setKnockback(3);
 		entityarrow.setCritArrow(false);
 		entity.level().addFreshEntity(entityarrow);

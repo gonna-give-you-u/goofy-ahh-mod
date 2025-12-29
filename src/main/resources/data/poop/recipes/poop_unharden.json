@@ -1,17 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab"
-  ],
-  "key": {
-    "a": {
+  "ingredients": [
+    {
       "item": "poop:hard_poop_block"
     },
-    "b": {
+    {
       "item": "minecraft:water_bucket"
     }
-  },
+  ],
   "result": {
     "item": "poop:poop_block",
     "count": 1

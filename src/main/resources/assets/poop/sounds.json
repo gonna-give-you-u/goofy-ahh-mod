@@ -49,5 +49,13 @@
         "stream": false
       }
     ]
+  },
+  "i_quit_music_in_school": {
+    "sounds": [
+      {
+        "name": "poop:i_quit_music_in_school_lmao",
+        "stream": true
+      }
+    ]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "poop:blocks/really_hard_glass",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "poop:really_hard_glass"
+        }
+      ]
+    }
+  ]
+}

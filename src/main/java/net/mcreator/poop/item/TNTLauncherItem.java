@@ -18,7 +18,7 @@ import net.mcreator.poop.entity.TNTProjectileEntity;
 
 public class TNTLauncherItem extends Item {
 	public TNTLauncherItem() {
-		super(new Item.Properties().durability(5555).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(1000).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class TNTLauncherItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 10;
+		return 20;
 	}
 
 	@Override

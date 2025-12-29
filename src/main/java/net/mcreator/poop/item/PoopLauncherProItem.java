@@ -18,7 +18,7 @@ import net.mcreator.poop.entity.HardPoopProjectileEntity;
 
 public class PoopLauncherProItem extends Item {
 	public PoopLauncherProItem() {
-		super(new Item.Properties().durability(10000).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(3000).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class PoopLauncherProItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 10;
+		return 25;
 	}
 
 	@Override
