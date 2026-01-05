@@ -7,6 +7,8 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.poop.PoopMod;
+
 public class DieNoPlayerProcedure {
 	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
@@ -17,6 +19,10 @@ public class DieNoPlayerProcedure {
 			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 1000000);
 			if (entity instanceof LivingEntity _entity)
 				_entity.setHealth(0);
+			PoopMod.queueServerWork(40, () -> {
+				if (!entity.level().isClientSide())
+					entity.discard();
+			});
 		}
 	}
 }

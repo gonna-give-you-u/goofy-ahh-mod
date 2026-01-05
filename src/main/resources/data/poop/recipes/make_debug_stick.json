@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:enchanted_book"
+    },
+    "b": {
+      "item": "poop:anticarbon"
+    },
+    "c": {
+      "item": "poop:squashed_redstone"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    },
+    "e": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "minecraft:debug_stick",
+    "count": 1
+  }
+}

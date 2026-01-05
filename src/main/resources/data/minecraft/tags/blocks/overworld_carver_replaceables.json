@@ -2,9 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:redstone_block",
-    "minecraft:redstone_ore",
     "poop:nonmelting_gallium",
-    "minecraft:grass_block",
     "poop:hard_poop_block",
     "poop:poop_block",
     "poop:skibidi_block"

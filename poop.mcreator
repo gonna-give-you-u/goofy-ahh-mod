@@ -8,11 +8,11 @@
       "registry_name": "poop_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/poop/models/item/poop_block.json",
           "src/main/resources/assets/poop/models/block/poop_block.json",
           "src/main/resources/assets/poop/blockstates/poop_block.json",
-          "src/main/java/net/mcreator/poop/block/PoopBlockBlock.java",
           "src/main/resources/data/poop/loot_tables/blocks/poop_block.json",
-          "src/main/resources/assets/poop/models/item/poop_block.json"
+          "src/main/java/net/mcreator/poop/block/PoopBlockBlock.java"
         ]
       }
     },
@@ -67,11 +67,11 @@
       "registry_name": "hard_poop_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/poop/block/HardPoopBlockBlock.java",
           "src/main/resources/assets/poop/models/block/hard_poop_block.json",
-          "src/main/resources/assets/poop/models/item/hard_poop_block.json",
-          "src/main/resources/assets/poop/blockstates/hard_poop_block.json",
           "src/main/resources/data/poop/loot_tables/blocks/hard_poop_block.json",
-          "src/main/java/net/mcreator/poop/block/HardPoopBlockBlock.java"
+          "src/main/resources/assets/poop/models/item/hard_poop_block.json",
+          "src/main/resources/assets/poop/blockstates/hard_poop_block.json"
         ]
       }
     },
@@ -119,8 +119,8 @@
       "registry_name": "poop_fragment",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/poop_fragment.json",
-          "src/main/java/net/mcreator/poop/item/PoopFragmentItem.java"
+          "src/main/java/net/mcreator/poop/item/PoopFragmentItem.java",
+          "src/main/resources/assets/poop/models/item/poop_fragment.json"
         ]
       }
     },
@@ -132,10 +132,10 @@
       "registry_name": "pooper",
       "metadata": {
         "files": [
-          "src/main/resources/data/poop/forge/biome_modifier/pooper_biome_modifier.json",
           "src/main/java/net/mcreator/poop/client/renderer/PooperRenderer.java",
+          "src/main/java/net/mcreator/poop/entity/PooperEntity.java",
           "src/main/resources/assets/poop/models/item/pooper_spawn_egg.json",
-          "src/main/java/net/mcreator/poop/entity/PooperEntity.java"
+          "src/main/resources/data/poop/forge/biome_modifier/pooper_biome_modifier.json"
         ]
       }
     },
@@ -184,10 +184,10 @@
       "registry_name": "skibidi_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/blockstates/skibidi_block.json",
-          "src/main/java/net/mcreator/poop/block/SkibidiBlockBlock.java",
-          "src/main/resources/assets/poop/models/block/skibidi_block.json",
           "src/main/resources/data/poop/loot_tables/blocks/skibidi_block.json",
+          "src/main/resources/assets/poop/blockstates/skibidi_block.json",
+          "src/main/resources/assets/poop/models/block/skibidi_block.json",
+          "src/main/java/net/mcreator/poop/block/SkibidiBlockBlock.java",
           "src/main/resources/assets/poop/models/item/skibidi_block.json"
         ]
       }
@@ -224,8 +224,8 @@
       "registry_name": "steel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/steel.json",
-          "src/main/java/net/mcreator/poop/item/SteelItem.java"
+          "src/main/java/net/mcreator/poop/item/SteelItem.java",
+          "src/main/resources/assets/poop/models/item/steel.json"
         ]
       }
     },
@@ -298,8 +298,8 @@
       "registry_name": "diamond_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/diamond_nugget.json",
-          "src/main/java/net/mcreator/poop/item/DiamondNuggetItem.java"
+          "src/main/java/net/mcreator/poop/item/DiamondNuggetItem.java",
+          "src/main/resources/assets/poop/models/item/diamond_nugget.json"
         ]
       }
     },
@@ -421,8 +421,8 @@
       "registry_name": "electron",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/ElectronItem.java",
-          "src/main/resources/assets/poop/models/item/electron.json"
+          "src/main/resources/assets/poop/models/item/electron.json",
+          "src/main/java/net/mcreator/poop/item/ElectronItem.java"
         ]
       }
     },
@@ -460,8 +460,8 @@
       "registry_name": "hydrogen",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/HydrogenItem.java",
-          "src/main/resources/assets/poop/models/item/hydrogen.json"
+          "src/main/resources/assets/poop/models/item/hydrogen.json",
+          "src/main/java/net/mcreator/poop/item/HydrogenItem.java"
         ]
       }
     },
@@ -485,8 +485,8 @@
       "registry_name": "deuterium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/DeuteriumItem.java",
-          "src/main/resources/assets/poop/models/item/deuterium.json"
+          "src/main/resources/assets/poop/models/item/deuterium.json",
+          "src/main/java/net/mcreator/poop/item/DeuteriumItem.java"
         ]
       }
     },
@@ -593,8 +593,8 @@
       "registry_name": "adachi_rei",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/adachi_rei.json",
-          "src/main/java/net/mcreator/poop/item/AdachiReiItem.java"
+          "src/main/java/net/mcreator/poop/item/AdachiReiItem.java",
+          "src/main/resources/assets/poop/models/item/adachi_rei.json"
         ]
       }
     },
@@ -665,8 +665,8 @@
       "registry_name": "debian",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/DebianItem.java",
-          "src/main/resources/assets/poop/models/item/debian.json"
+          "src/main/resources/assets/poop/models/item/debian.json",
+          "src/main/java/net/mcreator/poop/item/DebianItem.java"
         ]
       }
     },
@@ -772,8 +772,8 @@
       "registry_name": "lightning_spawner",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/lightning_spawner.json",
-          "src/main/java/net/mcreator/poop/item/LightningSpawnerItem.java"
+          "src/main/java/net/mcreator/poop/item/LightningSpawnerItem.java",
+          "src/main/resources/assets/poop/models/item/lightning_spawner.json"
         ]
       }
     },
@@ -809,8 +809,8 @@
       "registry_name": "debian_unstable",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/debian_unstable.json",
-          "src/main/java/net/mcreator/poop/item/DebianUnstableItem.java"
+          "src/main/java/net/mcreator/poop/item/DebianUnstableItem.java",
+          "src/main/resources/assets/poop/models/item/debian_unstable.json"
         ]
       }
     },
@@ -868,8 +868,8 @@
       "registry_name": "uno_reverse",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/uno_reverse.json",
-          "src/main/java/net/mcreator/poop/item/UnoReverseItem.java"
+          "src/main/java/net/mcreator/poop/item/UnoReverseItem.java",
+          "src/main/resources/assets/poop/models/item/uno_reverse.json"
         ]
       }
     },
@@ -903,8 +903,8 @@
       "registry_name": "anticarbon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/AnticarbonItem.java",
-          "src/main/resources/assets/poop/models/item/anticarbon.json"
+          "src/main/resources/assets/poop/models/item/anticarbon.json",
+          "src/main/java/net/mcreator/poop/item/AnticarbonItem.java"
         ]
       }
     },
@@ -1013,16 +1013,16 @@
       "registry_name": "skibidi_dimension",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/SkibidiDimensionItem.java",
-          "src/main/resources/data/poop/dimension/skibidi_dimension.json",
-          "src/main/resources/assets/poop/blockstates/skibidi_dimension_portal.json",
-          "src/main/resources/assets/poop/models/item/skibidi_dimension.json",
+          "src/main/resources/assets/poop/models/block/skibidi_dimension_portal_ns.json",
           "src/main/java/net/mcreator/poop/world/teleporter/SkibidiDimensionTeleporter.java",
-          "src/main/resources/assets/poop/models/block/skibidi_dimension_portal_ew.json",
-          "src/main/resources/data/poop/dimension_type/skibidi_dimension.json",
+          "src/main/resources/assets/poop/blockstates/skibidi_dimension_portal.json",
           "src/main/java/net/mcreator/poop/world/teleporter/SkibidiDimensionPortalShape.java",
           "src/main/java/net/mcreator/poop/block/SkibidiDimensionPortalBlock.java",
-          "src/main/resources/assets/poop/models/block/skibidi_dimension_portal_ns.json"
+          "src/main/resources/data/poop/dimension_type/skibidi_dimension.json",
+          "src/main/resources/data/poop/dimension/skibidi_dimension.json",
+          "src/main/resources/assets/poop/models/block/skibidi_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/poop/item/SkibidiDimensionItem.java",
+          "src/main/resources/assets/poop/models/item/skibidi_dimension.json"
         ]
       }
     },
@@ -1071,8 +1071,8 @@
       "registry_name": "up_quark",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/UpQuarkItem.java",
-          "src/main/resources/assets/poop/models/item/up_quark.json"
+          "src/main/resources/assets/poop/models/item/up_quark.json",
+          "src/main/java/net/mcreator/poop/item/UpQuarkItem.java"
         ]
       }
     },
@@ -1097,11 +1097,11 @@
       "registry_name": "squashed_redstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/squashed_redstone.json",
-          "src/main/resources/assets/poop/models/block/squashed_redstone.json",
           "src/main/resources/assets/poop/blockstates/squashed_redstone.json",
+          "src/main/resources/data/poop/loot_tables/blocks/squashed_redstone.json",
           "src/main/java/net/mcreator/poop/block/SquashedRedstoneBlock.java",
-          "src/main/resources/data/poop/loot_tables/blocks/squashed_redstone.json"
+          "src/main/resources/assets/poop/models/block/squashed_redstone.json",
+          "src/main/resources/assets/poop/models/item/squashed_redstone.json"
         ]
       }
     },
@@ -1156,10 +1156,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/poop/models/item/nuke.json",
-          "src/main/resources/data/poop/loot_tables/blocks/nuke.json",
-          "src/main/resources/assets/poop/models/block/nuke.json",
+          "src/main/java/net/mcreator/poop/block/NukeBlock.java",
           "src/main/resources/assets/poop/blockstates/nuke.json",
-          "src/main/java/net/mcreator/poop/block/NukeBlock.java"
+          "src/main/resources/assets/poop/models/block/nuke.json",
+          "src/main/resources/data/poop/loot_tables/blocks/nuke.json"
         ]
       }
     },
@@ -1243,13 +1243,13 @@
       "registry_name": "liquid_gallium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/fluid/types/LiquidGalliumFluidType.java",
-          "src/main/resources/assets/poop/models/item/liquid_gallium_bucket.json",
-          "src/main/resources/assets/poop/models/block/liquid_gallium.json",
           "src/main/java/net/mcreator/poop/block/LiquidGalliumBlock.java",
-          "src/main/java/net/mcreator/poop/fluid/LiquidGalliumFluid.java",
+          "src/main/resources/assets/poop/models/item/liquid_gallium_bucket.json",
           "src/main/java/net/mcreator/poop/item/LiquidGalliumItem.java",
-          "src/main/resources/assets/poop/blockstates/liquid_gallium.json"
+          "src/main/java/net/mcreator/poop/fluid/LiquidGalliumFluid.java",
+          "src/main/resources/assets/poop/blockstates/liquid_gallium.json",
+          "src/main/java/net/mcreator/poop/fluid/types/LiquidGalliumFluidType.java",
+          "src/main/resources/assets/poop/models/block/liquid_gallium.json"
         ]
       }
     },
@@ -1261,11 +1261,11 @@
       "registry_name": "solid_gallium",
       "metadata": {
         "files": [
-          "src/main/resources/data/poop/loot_tables/blocks/solid_gallium.json",
-          "src/main/resources/assets/poop/models/item/solid_gallium.json",
-          "src/main/resources/assets/poop/models/block/solid_gallium.json",
           "src/main/java/net/mcreator/poop/block/SolidGalliumBlock.java",
-          "src/main/resources/assets/poop/blockstates/solid_gallium.json"
+          "src/main/resources/assets/poop/models/item/solid_gallium.json",
+          "src/main/resources/data/poop/loot_tables/blocks/solid_gallium.json",
+          "src/main/resources/assets/poop/blockstates/solid_gallium.json",
+          "src/main/resources/assets/poop/models/block/solid_gallium.json"
         ]
       }
     },
@@ -1320,14 +1320,14 @@
       "registry_name": "gallium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/poop/forge/biome_modifier/gallium_ore_biome_modifier.json",
-          "src/main/resources/data/poop/loot_tables/blocks/gallium_ore.json",
-          "src/main/resources/assets/poop/models/block/gallium_ore.json",
-          "src/main/resources/assets/poop/blockstates/gallium_ore.json",
-          "src/main/resources/assets/poop/models/item/gallium_ore.json",
           "src/main/java/net/mcreator/poop/block/GalliumOreBlock.java",
+          "src/main/resources/data/poop/loot_tables/blocks/gallium_ore.json",
+          "src/main/resources/data/poop/worldgen/configured_feature/gallium_ore.json",
+          "src/main/resources/assets/poop/models/block/gallium_ore.json",
+          "src/main/resources/data/poop/forge/biome_modifier/gallium_ore_biome_modifier.json",
           "src/main/resources/data/poop/worldgen/placed_feature/gallium_ore.json",
-          "src/main/resources/data/poop/worldgen/configured_feature/gallium_ore.json"
+          "src/main/resources/assets/poop/models/item/gallium_ore.json",
+          "src/main/resources/assets/poop/blockstates/gallium_ore.json"
         ]
       }
     },
@@ -1393,13 +1393,13 @@
       "registry_name": "alpha_water",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/block/alpha_water.json",
-          "src/main/java/net/mcreator/poop/block/AlphaWaterBlock.java",
-          "src/main/resources/assets/poop/models/item/alpha_water_bucket.json",
-          "src/main/resources/assets/poop/blockstates/alpha_water.json",
+          "src/main/java/net/mcreator/poop/fluid/AlphaWaterFluid.java",
           "src/main/java/net/mcreator/poop/fluid/types/AlphaWaterFluidType.java",
+          "src/main/resources/assets/poop/blockstates/alpha_water.json",
+          "src/main/java/net/mcreator/poop/block/AlphaWaterBlock.java",
           "src/main/java/net/mcreator/poop/item/AlphaWaterItem.java",
-          "src/main/java/net/mcreator/poop/fluid/AlphaWaterFluid.java"
+          "src/main/resources/assets/poop/models/item/alpha_water_bucket.json",
+          "src/main/resources/assets/poop/models/block/alpha_water.json"
         ]
       }
     },
@@ -1456,10 +1456,10 @@
           "src/main/java/net/mcreator/poop/item/PersistentAlphaWaterItem.java",
           "src/main/resources/assets/poop/models/block/persistent_alpha_water.json",
           "src/main/java/net/mcreator/poop/fluid/types/PersistentAlphaWaterFluidType.java",
-          "src/main/java/net/mcreator/poop/fluid/PersistentAlphaWaterFluid.java",
-          "src/main/resources/assets/poop/models/item/persistent_alpha_water_bucket.json",
           "src/main/resources/assets/poop/blockstates/persistent_alpha_water.json",
-          "src/main/java/net/mcreator/poop/block/PersistentAlphaWaterBlock.java"
+          "src/main/java/net/mcreator/poop/fluid/PersistentAlphaWaterFluid.java",
+          "src/main/java/net/mcreator/poop/block/PersistentAlphaWaterBlock.java",
+          "src/main/resources/assets/poop/models/item/persistent_alpha_water_bucket.json"
         ]
       }
     },
@@ -1513,17 +1513,17 @@
       "registry_name": "gigafast_travel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/gigafast_travel.json",
-          "src/main/resources/assets/poop/models/block/gigafast_travel_portal_ew.json",
-          "src/main/java/net/mcreator/poop/world/teleporter/GigafastTravelTeleporter.java",
-          "src/main/java/net/mcreator/poop/world/dimension/GigafastTravelDimension.java",
-          "src/main/resources/data/poop/dimension_type/gigafast_travel.json",
           "src/main/resources/assets/poop/models/block/gigafast_travel_portal_ns.json",
-          "src/main/java/net/mcreator/poop/block/GigafastTravelPortalBlock.java",
-          "src/main/resources/assets/poop/blockstates/gigafast_travel_portal.json",
-          "src/main/java/net/mcreator/poop/world/teleporter/GigafastTravelPortalShape.java",
+          "src/main/java/net/mcreator/poop/world/teleporter/GigafastTravelTeleporter.java",
+          "src/main/java/net/mcreator/poop/item/GigafastTravelItem.java",
           "src/main/resources/data/poop/dimension/gigafast_travel.json",
-          "src/main/java/net/mcreator/poop/item/GigafastTravelItem.java"
+          "src/main/resources/assets/poop/blockstates/gigafast_travel_portal.json",
+          "src/main/resources/assets/poop/models/block/gigafast_travel_portal_ew.json",
+          "src/main/resources/assets/poop/models/item/gigafast_travel.json",
+          "src/main/java/net/mcreator/poop/world/teleporter/GigafastTravelPortalShape.java",
+          "src/main/java/net/mcreator/poop/block/GigafastTravelPortalBlock.java",
+          "src/main/java/net/mcreator/poop/world/dimension/GigafastTravelDimension.java",
+          "src/main/resources/data/poop/dimension_type/gigafast_travel.json"
         ]
       }
     },
@@ -1547,11 +1547,11 @@
       "registry_name": "nonmelting_gallium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/block/NonmeltingGalliumBlock.java",
           "src/main/resources/assets/poop/models/item/nonmelting_gallium.json",
           "src/main/resources/assets/poop/models/block/nonmelting_gallium.json",
           "src/main/resources/data/poop/loot_tables/blocks/nonmelting_gallium.json",
-          "src/main/resources/assets/poop/blockstates/nonmelting_gallium.json"
+          "src/main/resources/assets/poop/blockstates/nonmelting_gallium.json",
+          "src/main/java/net/mcreator/poop/block/NonmeltingGalliumBlock.java"
         ]
       }
     },
@@ -1587,17 +1587,17 @@
       "registry_name": "terafast_travel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/block/terafast_travel_portal_ns.json",
-          "src/main/java/net/mcreator/poop/block/TerafastTravelPortalBlock.java",
-          "src/main/resources/data/poop/dimension/terafast_travel.json",
-          "src/main/java/net/mcreator/poop/world/teleporter/TerafastTravelPortalShape.java",
           "src/main/resources/assets/poop/models/block/terafast_travel_portal_ew.json",
-          "src/main/java/net/mcreator/poop/world/dimension/TerafastTravelDimension.java",
           "src/main/java/net/mcreator/poop/world/teleporter/TerafastTravelTeleporter.java",
-          "src/main/java/net/mcreator/poop/item/TerafastTravelItem.java",
+          "src/main/java/net/mcreator/poop/world/teleporter/TerafastTravelPortalShape.java",
+          "src/main/java/net/mcreator/poop/block/TerafastTravelPortalBlock.java",
+          "src/main/resources/assets/poop/models/block/terafast_travel_portal_ns.json",
+          "src/main/java/net/mcreator/poop/world/dimension/TerafastTravelDimension.java",
           "src/main/resources/data/poop/dimension_type/terafast_travel.json",
-          "src/main/resources/assets/poop/blockstates/terafast_travel_portal.json",
-          "src/main/resources/assets/poop/models/item/terafast_travel.json"
+          "src/main/java/net/mcreator/poop/item/TerafastTravelItem.java",
+          "src/main/resources/assets/poop/models/item/terafast_travel.json",
+          "src/main/resources/data/poop/dimension/terafast_travel.json",
+          "src/main/resources/assets/poop/blockstates/terafast_travel_portal.json"
         ]
       }
     },
@@ -1950,11 +1950,11 @@
       "registry_name": "steel_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/steel_armor_chestplate.json",
           "src/main/resources/assets/poop/models/item/steel_armor_boots.json",
           "src/main/java/net/mcreator/poop/item/SteelArmorItem.java",
-          "src/main/resources/assets/poop/models/item/steel_armor_helmet.json",
-          "src/main/resources/assets/poop/models/item/steel_armor_leggings.json"
+          "src/main/resources/assets/poop/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/poop/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/poop/models/item/steel_armor_helmet.json"
         ]
       }
     },
@@ -2014,9 +2014,9 @@
       "registry_name": "bedrock_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/poop/models/item/bedrock_armor_chestplate.json",
           "src/main/resources/assets/poop/models/item/bedrock_armor_helmet.json",
           "src/main/resources/assets/poop/models/item/bedrock_armor_leggings.json",
-          "src/main/resources/assets/poop/models/item/bedrock_armor_chestplate.json",
           "src/main/java/net/mcreator/poop/item/BedrockArmorItem.java",
           "src/main/resources/assets/poop/models/item/bedrock_armor_boots.json"
         ]
@@ -2078,11 +2078,11 @@
       "registry_name": "barrier_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/barrier_armor_boots.json",
-          "src/main/resources/assets/poop/models/item/barrier_armor_chestplate.json",
-          "src/main/resources/assets/poop/models/item/barrier_armor_leggings.json",
           "src/main/resources/assets/poop/models/item/barrier_armor_helmet.json",
-          "src/main/java/net/mcreator/poop/item/BarrierArmorItem.java"
+          "src/main/resources/assets/poop/models/item/barrier_armor_chestplate.json",
+          "src/main/java/net/mcreator/poop/item/BarrierArmorItem.java",
+          "src/main/resources/assets/poop/models/item/barrier_armor_boots.json",
+          "src/main/resources/assets/poop/models/item/barrier_armor_leggings.json"
         ]
       }
     },
@@ -2265,8 +2265,8 @@
       "registry_name": "super_gold_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/SuperGoldPickaxeItem.java",
-          "src/main/resources/assets/poop/models/item/super_gold_pickaxe.json"
+          "src/main/resources/assets/poop/models/item/super_gold_pickaxe.json",
+          "src/main/java/net/mcreator/poop/item/SuperGoldPickaxeItem.java"
         ]
       }
     },
@@ -2312,8 +2312,8 @@
       "registry_name": "knockback_stick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/knockback_stick.json",
-          "src/main/java/net/mcreator/poop/item/KnockbackStickItem.java"
+          "src/main/java/net/mcreator/poop/item/KnockbackStickItem.java",
+          "src/main/resources/assets/poop/models/item/knockback_stick.json"
         ]
       }
     },
@@ -2371,8 +2371,8 @@
       "registry_name": "anvil_dropper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/anvil_dropper.json",
-          "src/main/java/net/mcreator/poop/item/AnvilDropperItem.java"
+          "src/main/java/net/mcreator/poop/item/AnvilDropperItem.java",
+          "src/main/resources/assets/poop/models/item/anvil_dropper.json"
         ]
       }
     },
@@ -2396,11 +2396,11 @@
       "registry_name": "block_that_turns_stuff_into_baryons",
       "metadata": {
         "files": [
-          "src/main/resources/assets/poop/models/item/block_that_turns_stuff_into_baryons.json",
+          "src/main/resources/assets/poop/models/block/block_that_turns_stuff_into_baryons.json",
+          "src/main/resources/data/poop/loot_tables/blocks/block_that_turns_stuff_into_baryons.json",
           "src/main/resources/assets/poop/blockstates/block_that_turns_stuff_into_baryons.json",
           "src/main/java/net/mcreator/poop/block/BlockThatTurnsStuffIntoBaryonsBlock.java",
-          "src/main/resources/assets/poop/models/block/block_that_turns_stuff_into_baryons.json",
-          "src/main/resources/data/poop/loot_tables/blocks/block_that_turns_stuff_into_baryons.json"
+          "src/main/resources/assets/poop/models/item/block_that_turns_stuff_into_baryons.json"
         ]
       }
     },
@@ -2442,8 +2442,8 @@
       "registry_name": "coal_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/poop/item/CoalNuggetItem.java",
-          "src/main/resources/assets/poop/models/item/coal_nugget.json"
+          "src/main/resources/assets/poop/models/item/coal_nugget.json",
+          "src/main/java/net/mcreator/poop/item/CoalNuggetItem.java"
         ]
       }
     },
@@ -3205,6 +3205,30 @@
           "src/main/resources/data/poop/recipes/make_steel_sword.json"
         ]
       }
+    },
+    {
+      "name": "MakeCommandBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_command_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_command_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeDebugStick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_debug_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_debug_stick.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3302,19 +3326,17 @@
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:SteelHoe"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.REDSTONE_BLOCK",
-      "~Blocks.LIT_REDSTONE_ORE",
-      "~CUSTOM:NonmeltingGallium",
-      "~Blocks.GRASS",
-      "~CUSTOM:HardPoopBlock",
-      "~CUSTOM:PoopBlock",
-      "~CUSTOM:SkibidiBlock"
-    ],
     "BLOCKS:forge:ores": [
       "CUSTOM:GalliumOre",
       "CUSTOM:ExplosiveOre",
       "CUSTOM:DeepslateExplosiveOre"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.REDSTONE_BLOCK",
+      "~CUSTOM:NonmeltingGallium",
+      "~CUSTOM:HardPoopBlock",
+      "~CUSTOM:PoopBlock",
+      "~CUSTOM:SkibidiBlock"
     ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:IQuitMusicGCSEDisc"
@@ -3391,7 +3413,7 @@
       "subtitles.skibidi_music": "",
       "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
       "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
-      "block.poop.really_hard_glass": "Reinforced Glass",
+      "block.poop.really_hard_glass": "Усиленное стекло",
       "item.poop.steel_hoe": "Стальная мотыга",
       "entity.poop.pooper": "Какашкер",
       "item.poop.crazy_fuel": "Ядерное топливо",
@@ -3504,7 +3526,7 @@
       "subtitles.skibidi_music": "",
       "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
       "item.poop.bedrock_armor_helmet": "基岩頭盔",
-      "block.poop.really_hard_glass": "Reinforced Glass",
+      "block.poop.really_hard_glass": "強化玻璃",
       "item.poop.steel_hoe": "鋼鋤",
       "entity.poop.pooper": "屎力怕",
       "item.poop.crazy_fuel": "核燃料",
@@ -3540,7 +3562,7 @@
       "painting.poop.sad_hamster_painting.title": "悲傷的倉鼠",
       "item.poop.poop": "屎",
       "block.poop.nuke": "核彈",
-      "painting.poop.my_cat_painting.title": "我貓",
+      "painting.poop.my_cat_painting.title": "我的貓",
       "block.poop.block_that_turns_stuff_into_baryons.description_0": "我知電子是輕子 不是重子",
       "painting.poop.bpainting.author": "未知",
       "block.poop.solid_gallium": "鎵塊",
@@ -3595,7 +3617,7 @@
       "item.poop.anvil_dropper_pro_max": "鐵站掉落器Pro Max",
       "item.poop.steel_armor_leggings": "鋼製護腿",
       "item.poop.lightning_spawner": "閃電召喚器",
-      "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, using Zint",
+      "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, 用Zint",
       "painting.poop.sad_hamster_painting.author": "未知",
       "item.poop.bedrock_armor_chestplate": "基岩胸甲",
       "fluid.poop.liquid_gallium": "液鎵",
@@ -3609,8 +3631,8 @@
       "item.poop.debian_unstable": "Debian 不穩定版"
     },
     "en_us": {
-      "item.poop.rickroll": "Rickroll",
       "item.poop.stabler_anticarbon": "Anticarbon but stabler",
+      "item.poop.rickroll": "Rickroll",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Special Toilet",
@@ -3630,16 +3652,16 @@
       "item.poop.three_coals": "3 pieces of coal",
       "item.poop.steel": "Steel",
       "block.poop.poop_block": "Poop Block",
-      "block.poop.persistent_alpha_water": "Persistent Alpha Water",
+      "block.poop.persistent_alpha_water": "Alpha Water",
       "item.poop.deuterium": "Deuterium",
       "item.poop.knockback_stick": "Knockback Stick",
-      "item.poop.hydrogen": "Hydrogen",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "Hydrogen",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "Super sanic",
+      "fluid.poop.persistent_alpha_water": "Alpha Water",
       "item.poop.steel_axe": "Steel Axe",
-      "fluid.poop.persistent_alpha_water": "Persistent Alpha Water ",
       "item.minecraft.lingering_potion.effect.glass_potion": "Glass Effect Lingering Potion",
       "item.poop.proton": "Proton",
       "item.poop.nutritious_poop": "Nutritious Poop",
@@ -3676,7 +3698,7 @@
       "item.poop.diamond_nugget": "Diamond Nugget",
       "item.poop.super_gold_pickaxe": "Super Efficient Pickaxe",
       "item.poop.steel_shovel": "Steel Shovel",
-      "item.poop.persistent_alpha_water_bucket": "Persistent Alpha Water Bucket",
+      "item.poop.persistent_alpha_water_bucket": "Alpha Water Bucket",
       "item.poop.i_quit_music_gcse_disc.desc": "I quit music in school lmao",
       "subtitles.reverb_fard": "fard xd",
       "block.poop.hard_poop_block": "Hard Poop Block",
@@ -3730,7 +3752,7 @@
       "item.poop.bedrock_armor_helmet": "Bedstone Helm",
       "block.poop.deepslate_explosive_ore": "Deepstone Blasty Ore",
       "subtitles.skibidi_music": "",
-      "block.poop.really_hard_glass": "Reinforced Glass",
+      "block.poop.really_hard_glass": "Strengthened Glass",
       "item.poop.steel_hoe": "Steel Tiller",
       "entity.poop.pooper": "Pooper",
       "item.poop.crazy_fuel": "Kernelfirefood",
@@ -3835,8 +3857,8 @@
       "item.poop.debian_unstable": "Debian Unsteady"
     },
     "be_by": {
-      "item.poop.rickroll": "Рікролл",
       "item.poop.stabler_anticarbon": "Анты-вуглярод але больш стабільна",
+      "item.poop.rickroll": "Рікролл",
       "item.poop.gigafast_travel": "Санік",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Спецыяльны туалет",
@@ -3859,13 +3881,13 @@
       "block.poop.persistent_alpha_water": "Устойлівая альфа-вада",
       "item.poop.deuterium": "Дэйтэрый",
       "item.poop.knockback_stick": "Адкідванная палка",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "Вадарод",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Код Азтэк (не рікролл)",
       "item.poop.terafast_travel": "Супер-санік",
-      "item.poop.steel_axe": "Steel Axe",
       "fluid.poop.persistent_alpha_water": "Устойлівая альфа-вада",
+      "item.poop.steel_axe": "Steel Axe",
       "item.minecraft.lingering_potion.effect.glass_potion": "Трывалае зелле эфекта шкла",
       "item.poop.proton": "Пратон",
       "item.poop.nutritious_poop": "Пажыўная какашка",
@@ -3948,8 +3970,8 @@
       "item.poop.debian_unstable": "Дэбіан нестабільны"
     },
     "enprunic": {
-      "item.poop.rickroll": "ᚱᛁᛣᚹᛖᚾᛏ",
       "item.poop.stabler_anticarbon": "ᚢᚾᛣᚩᚢᛚᛋᚳᚪᚠᛏ᛫ᛒᚢᛏ᛫ᛥᛖᛞᛁᛖᚱ",
+      "item.poop.rickroll": "ᚱᛁᛣᚹᛖᚾᛏ",
       "item.poop.gigafast_travel": "ᛚᚫᚢᛞᛁᛋᚳ",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "ᛋᚢᚾᛞᛖᚱᛚᛁ᛫ᛥᚢᛚ",
@@ -3972,13 +3994,13 @@
       "block.poop.persistent_alpha_water": "ᛥᛖᛞᚠᚪᛥ᛫ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ",
       "item.poop.deuterium": "ᛏᚹᚩᚦᛋᚳᚪᚠᛏ",
       "item.poop.knockback_stick": "ᚾᚩᛣᛒᚫᛣ᛫ᛥᛁᛣ",
-      "item.poop.hydrogen": "ᚹᚪᛏᛖᚱᛋᚳᚪᚠᛏ",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "ᚹᚪᛏᛖᚱᛋᚳᚪᚠᛏ",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "ᚩᚠᛖᚱᛚᚫᚢᛞᛁᛋᚳ",
-      "item.poop.steel_axe": "Steel Axe",
       "fluid.poop.persistent_alpha_water": "ᛥᛖᛞᚠᚪᛥ᛫ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ",
+      "item.poop.steel_axe": "Steel Axe",
       "item.minecraft.lingering_potion.effect.glass_potion": "ᚷᛚᚪᛋᛋ᛫ᚱᚪᛁᚾ᛫ᛚᛁᛝᚷᛖᚱᛁᛝ᛫ᛚᛁᛒ",
       "item.poop.proton": "ᛁᛣᛗᚩᚢᛏ",
       "item.poop.nutritious_poop": "ᚻᛖᛚᚦᚠᚢᛚ᛫ᛈᚢᛈ",
@@ -4061,8 +4083,8 @@
       "item.poop.debian_unstable": "ᛞᛖᛒᛁᚪᚾ᛫ᚢᚾᛥᛖᛞᛁ"
     },
     "lol_us": {
-      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.rickroll": "Rickroll",
+      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Speshul tolet",
@@ -4085,13 +4107,13 @@
       "block.poop.persistent_alpha_water": "Alpha Watr but persistent",
       "item.poop.deuterium": "Deuterium",
       "item.poop.knockback_stick": "Nockback stik",
-      "item.poop.hydrogen": "Burny gas",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "Burny gas",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "Supr sanic",
-      "item.poop.steel_axe": "Steel Axe",
       "fluid.poop.persistent_alpha_water": "Alpha Watr but persistent ",
+      "item.poop.steel_axe": "Steel Axe",
       "item.minecraft.lingering_potion.effect.glass_potion": "Linnerin Poshun dat turn u in2 glazz",
       "item.poop.proton": "Protun",
       "item.poop.nutritious_poop": "yummy poop",
@@ -4181,7 +4203,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2025.12.29",
+    "version": "2026.01.02",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

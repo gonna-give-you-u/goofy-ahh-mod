@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bedrock"
+    },
+    "b": {
+      "item": "minecraft:debug_stick"
+    },
+    "c": {
+      "item": "poop:crazy_fuel"
+    },
+    "d": {
+      "item": "poop:debian"
+    }
+  },
+  "result": {
+    "item": "minecraft:command_block",
+    "count": 4
+  }
+}

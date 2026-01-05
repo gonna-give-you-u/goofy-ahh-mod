@@ -17,7 +17,6 @@
   ],
   "result": {
     "item": "minecraft:light",
-    "count": 1,
-    "nbt": "{BlockStateTag:{level:\"14\"}}"
+    "count": 1
   }
 }

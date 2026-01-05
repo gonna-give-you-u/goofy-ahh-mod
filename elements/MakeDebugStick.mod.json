@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.ENCHANTED_BOOK"
+      },
+      {
+        "value": "CUSTOM:Anticarbon"
+      },
+      {
+        "value": "Items.ENCHANTED_BOOK"
+      },
+      {
+        "value": "CUSTOM:SquashedRedstone"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:SquashedRedstone"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "CUSTOM:Anticarbon"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.DEBUG_STICK"
+    },
+    "name": "make_debug_stick",
+    "namespace": "mod"
+  }
+}
