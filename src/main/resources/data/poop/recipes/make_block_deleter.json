@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "poop:crazy_fuel"
+    },
+    "b": {
+      "item": "minecraft:lava_bucket"
+    },
+    "c": {
+      "item": "minecraft:barrier"
+    },
+    "d": {
+      "tag": "poop:anticarbons"
+    }
+  },
+  "result": {
+    "item": "poop:block_deleter",
+    "count": 1
+  }
+}

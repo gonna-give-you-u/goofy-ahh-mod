@@ -59,6 +59,7 @@ import net.mcreator.poop.item.CrazyFuelItem;
 import net.mcreator.poop.item.CopperNuggetItem;
 import net.mcreator.poop.item.CoalNuggetItem;
 import net.mcreator.poop.item.CarbonItem;
+import net.mcreator.poop.item.BlockDeleterItem;
 import net.mcreator.poop.item.BedrockArmorItem;
 import net.mcreator.poop.item.BarrierArmorItem;
 import net.mcreator.poop.item.AnvilDropperProMaxItem;
@@ -149,6 +150,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> STEEL_AXE = REGISTRY.register("steel_axe", () -> new SteelAxeItem());
 	public static final RegistryObject<Item> STEEL_HOE = REGISTRY.register("steel_hoe", () -> new SteelHoeItem());
 	public static final RegistryObject<Item> STEEL_SHOVEL = REGISTRY.register("steel_shovel", () -> new SteelShovelItem());
+	public static final RegistryObject<Item> BLOCK_DELETER = REGISTRY.register("block_deleter", () -> new BlockDeleterItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

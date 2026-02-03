@@ -3265,6 +3265,31 @@
           }
         ]
       }
+    },
+    {
+      "name": "BlockDeleter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_deleter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/block_deleter.json",
+          "src/main/java/net/mcreator/poop/item/BlockDeleterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeBlockDeleter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_block_deleter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_block_deleter.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3413,6 +3438,10 @@
     "ITEMS:forge:storage_blocks/gallium": [
       "CUSTOM:SolidGallium"
     ],
+    "ITEMS:mod:anticarbons": [
+      "CUSTOM:Anticarbon",
+      "CUSTOM:StablerAnticarbon"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:ReallyHardGlass",
       "~CUSTOM:BlockThatTurnsStuffIntoBaryons",
@@ -3469,14 +3498,14 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.rickroll": "Рикролл",
+      "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
       "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "subtitles.skibidi_music": "",
       "block.poop.really_hard_glass": "Усиленное стекло",
       "item.poop.steel_hoe": "Стальная мотыга",
       "entity.poop.pooper": "Какашкер",
@@ -3493,13 +3522,13 @@
       "block.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.poop.deuterium": "Дейтерий",
       "item.poop.knockback_stick": "Отбрасывающая палка",
-      "item.poop.hydrogen": "Водород",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "Водород",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Код Азтэк (не рикролл)",
       "item.poop.terafast_travel": "Супер-саник",
-      "item.poop.steel_axe": "Стальной топор",
       "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
+      "item.poop.steel_axe": "Стальной топор",
       "item.minecraft.lingering_potion.effect.glass_potion": "Зелье эффекта стекла",
       "item.poop.proton": "Протон",
       "item.poop.nutritious_poop": "Питательная какашка",
@@ -3509,8 +3538,8 @@
       "item.poop.poop_launcher_pro": "Запуститель Какашек Pro",
       "item.minecraft.tipped_arrow.effect.glass_potion": "Стрела эффекта стекла",
       "item.minecraft.splash_potion.effect.glass_potion": "Туманное зелье эффекта стекла",
-      "painting.poop.sad_hamster_painting.title": "Грустный Хомяк",
       "painting.poop.bpainting.title": "🅱️",
+      "painting.poop.sad_hamster_painting.title": "Грустный Хомяк",
       "item.poop.poop": "Какашка",
       "block.poop.nuke": "Ядерная бомба",
       "painting.poop.my_cat_painting.title": "мой кот",
@@ -3531,6 +3560,7 @@
       "painting.poop.pukeko_painting.title": "Пукеко",
       "biome.poop.skibidi_biome": "Скибиди-биом",
       "item.poop.down_quark": "Нижний кварк",
+      "item.poop.block_deleter": "Удалитель блоков",
       "item.poop.bedrock_armor_leggings": "Бедроковые штаны",
       "item.poop.anvil_dropper_pro": "Бросатель наковальни Pro",
       "item.poop.diamond_nugget": "Кусочек алмаза",
@@ -3583,17 +3613,18 @@
       "item.poop.bedrock_armor_boots": "Бедроковые ботинки",
       "item.poop.barrier_armor_boots": "Барьеровые ботинки",
       "item.poop.neutron": "Нейтрон",
+      "item.poop.block_deleter.description_0": "Нажми ПКМ на блок штобы удалить его",
       "item.poop.debian_unstable": "Дэбиан нестабильный"
     },
     "zh_tw": {
-      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.rickroll": "瑞克搖",
+      "item.poop.stabler_anticarbon": "更穩反碳",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
       "item.poop.bedrock_armor_helmet": "基岩頭盔",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "subtitles.skibidi_music": "",
       "block.poop.really_hard_glass": "強化玻璃",
       "item.poop.steel_hoe": "鋼鋤",
       "entity.poop.pooper": "屎力怕",
@@ -3610,13 +3641,13 @@
       "block.poop.persistent_alpha_water": "一貫alpha水",
       "item.poop.deuterium": "氘",
       "item.poop.knockback_stick": "擊退木棒",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "氫",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec碼 (不是瑞克搖)",
       "item.poop.terafast_travel": "超Sanic",
-      "item.poop.steel_axe": "鋼斧",
       "fluid.poop.persistent_alpha_water": "一貫alpha水",
+      "item.poop.steel_axe": "鋼斧",
       "item.minecraft.lingering_potion.effect.glass_potion": "滯留玻璃效果藥水",
       "item.poop.proton": "質子",
       "item.poop.nutritious_poop": "滋補的屎",
@@ -3626,8 +3657,8 @@
       "item.poop.poop_launcher_pro": "屎炮Pro",
       "item.minecraft.tipped_arrow.effect.glass_potion": "玻璃效果之箭",
       "item.minecraft.splash_potion.effect.glass_potion": "飛濺玻璃效果藥水",
-      "painting.poop.sad_hamster_painting.title": "悲傷的倉鼠",
       "painting.poop.bpainting.title": "🅱️",
+      "painting.poop.sad_hamster_painting.title": "悲傷的倉鼠",
       "item.poop.poop": "屎",
       "block.poop.nuke": "核彈",
       "painting.poop.my_cat_painting.title": "我的貓",
@@ -3648,6 +3679,7 @@
       "painting.poop.pukeko_painting.title": "Pukeko",
       "biome.poop.skibidi_biome": "斯基比地",
       "item.poop.down_quark": "下夸克",
+      "item.poop.block_deleter": "方塊刪除工具",
       "item.poop.bedrock_armor_leggings": "基岩護腿",
       "item.poop.anvil_dropper_pro": "鐵站掉落器Pro",
       "item.poop.diamond_nugget": "鑽石粒",
@@ -3700,17 +3732,18 @@
       "item.poop.bedrock_armor_boots": "基岩靴子",
       "item.poop.barrier_armor_boots": "屏障靴子",
       "item.poop.neutron": "中子",
+      "item.poop.block_deleter.description_0": "按右鍵以刪除方塊",
       "item.poop.debian_unstable": "Debian 不穩定版"
     },
     "en_us": {
-      "item.poop.rickroll": "Rickroll",
       "item.poop.stabler_anticarbon": "Anticarbon but stabler",
+      "item.poop.rickroll": "Rickroll",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Special Toilet",
-      "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
-      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
       "block.poop.really_hard_glass": "Reinforced Glass",
       "item.poop.steel_hoe": "Steel Hoe",
       "entity.poop.pooper": "Pooper",
@@ -3727,13 +3760,13 @@
       "block.poop.persistent_alpha_water": "Alpha Water",
       "item.poop.deuterium": "Deuterium",
       "item.poop.knockback_stick": "Knockback Stick",
-      "item.poop.hydrogen": "Hydrogen",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "Hydrogen",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "Super sanic",
-      "item.poop.steel_axe": "Steel Axe",
       "fluid.poop.persistent_alpha_water": "Alpha Water",
+      "item.poop.steel_axe": "Steel Axe",
       "item.minecraft.lingering_potion.effect.glass_potion": "Glass Effect Lingering Potion",
       "item.poop.proton": "Proton",
       "item.poop.nutritious_poop": "Nutritious Poop",
@@ -3743,8 +3776,8 @@
       "item.poop.poop_launcher_pro": "Poop Launcher Pro",
       "item.minecraft.tipped_arrow.effect.glass_potion": "Glass Effect Arrow",
       "item.minecraft.splash_potion.effect.glass_potion": "Glass Effect Splash Potion",
-      "painting.poop.sad_hamster_painting.title": "Sad Hamster",
       "painting.poop.bpainting.title": "🅱️",
+      "painting.poop.sad_hamster_painting.title": "Sad Hamster",
       "item.poop.poop": "Poop",
       "block.poop.nuke": "Nuke (Underwhelming)",
       "painting.poop.my_cat_painting.title": "my cat",
@@ -3765,6 +3798,7 @@
       "painting.poop.pukeko_painting.title": "Pukeko",
       "biome.poop.skibidi_biome": "Skibidiland",
       "item.poop.down_quark": "Down Quark",
+      "item.poop.block_deleter": "Block Deleter",
       "item.poop.bedrock_armor_leggings": "Bedrock Leggings",
       "item.poop.anvil_dropper_pro": "Anvil Dropper Pro",
       "item.poop.diamond_nugget": "Diamond Nugget",
@@ -3817,17 +3851,18 @@
       "item.poop.bedrock_armor_boots": "Bedrock Boots",
       "item.poop.barrier_armor_boots": "Barrier Boots",
       "item.poop.neutron": "Neutron",
+      "item.poop.block_deleter.description_0": "Right-click a block to delete it",
       "item.poop.debian_unstable": "Debian Unstable"
     },
     "enp": {
-      "item.poop.stabler_anticarbon": "Withercoalshaft but steadier",
       "item.poop.rickroll": "Rickwelt",
+      "item.poop.stabler_anticarbon": "Withercoalshaft but steadier",
       "item.poop.gigafast_travel": "Læudish",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Sunderly Stool",
-      "item.poop.bedrock_armor_helmet": "Bedstone Helm",
-      "block.poop.deepslate_explosive_ore": "Deepstone Blasty Ore",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "Deepstone Blasty Ore",
+      "item.poop.bedrock_armor_helmet": "Bedstone Helm",
       "block.poop.really_hard_glass": "Strengthened Glass",
       "item.poop.steel_hoe": "Steel Tiller",
       "entity.poop.pooper": "Pooper",
@@ -3844,13 +3879,13 @@
       "block.poop.persistent_alpha_water": "Steadfast Early Water",
       "item.poop.deuterium": "Twothshaft",
       "item.poop.knockback_stick": "Knockback Stick",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "Watershaft",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec givensbild (not rickwelt)",
       "item.poop.terafast_travel": "Over-Læudish",
-      "item.poop.steel_axe": "Steel Axe",
       "fluid.poop.persistent_alpha_water": "Steadfast Early Water ",
+      "item.poop.steel_axe": "Steel Axe",
       "item.minecraft.lingering_potion.effect.glass_potion": "Glass Rine Lingering Lib",
       "item.poop.proton": "Ekemote",
       "item.poop.nutritious_poop": "Healthful Poop",
@@ -3860,8 +3895,8 @@
       "item.poop.poop_launcher_pro": "Craftsman\u0027s Poop Shooter",
       "item.minecraft.tipped_arrow.effect.glass_potion": "Glass Rine Arrow",
       "item.minecraft.splash_potion.effect.glass_potion": "Glass Rine Splash Lib",
-      "painting.poop.sad_hamster_painting.title": "Sad Hamster",
       "painting.poop.bpainting.title": "🅱️",
+      "painting.poop.sad_hamster_painting.title": "Sad Hamster",
       "item.poop.poop": "Poop",
       "block.poop.nuke": "Kernelblaster (Underwhelming)",
       "painting.poop.my_cat_painting.title": "my cat",
@@ -3882,6 +3917,7 @@
       "painting.poop.pukeko_painting.title": "Pukeko",
       "biome.poop.skibidi_biome": "Skibidiland",
       "item.poop.down_quark": "Down Quark",
+      "item.poop.block_deleter": "Clot Adwasher",
       "item.poop.bedrock_armor_leggings": "Bedstone Hoses",
       "item.poop.anvil_dropper_pro": "Craftsman\u0027s Anvil Dropper",
       "item.poop.diamond_nugget": "Athamans Lumpling",
@@ -3934,6 +3970,7 @@
       "item.poop.bedrock_armor_boots": "Bedstone Shoes",
       "item.poop.barrier_armor_boots": "Hinderer Shoes",
       "item.poop.neutron": "Evenmote",
+      "item.poop.block_deleter.description_0": "Right Mouse on a clot to adwash it",
       "item.poop.debian_unstable": "Debian Unsteady"
     },
     "be_by": {
@@ -3999,6 +4036,7 @@
       "painting.poop.pukeko_painting.title": "Пукеко",
       "biome.poop.skibidi_biome": "Скібіді-біём",
       "item.poop.down_quark": "Ніжні кварк",
+      "item.poop.block_deleter": "Block Deleter",
       "item.poop.bedrock_armor_leggings": "Бедроковы штаны",
       "item.poop.anvil_dropper_pro": "Кідальнік кавадлы Pro",
       "item.poop.diamond_nugget": "Кавалак дыямента",
@@ -4051,6 +4089,7 @@
       "item.poop.bedrock_armor_boots": "Бедроковые боты",
       "item.poop.barrier_armor_boots": "Бар’еравы боты",
       "item.poop.neutron": "Нейтрон",
+      "item.poop.block_deleter.description_0": "Right-click on a block to delete it",
       "item.poop.debian_unstable": "Дэбіан нестабільны"
     },
     "enprunic": {
@@ -4116,6 +4155,7 @@
       "painting.poop.pukeko_painting.title": "Pukeko",
       "biome.poop.skibidi_biome": "ᛋᛣᛁᛒᛁᛞᛁᛚᚫᚾᛞ",
       "item.poop.down_quark": "ᛞᚫᚹᚾ᛫ᛣᚹᚪᚱᛣ",
+      "item.poop.block_deleter": "Block Deleter",
       "item.poop.bedrock_armor_leggings": "ᛒᛖᛞᛥᚩᚢᚾ᛫ᚻᚩᚢᛋᛖᛋ",
       "item.poop.anvil_dropper_pro": "ᛣᚱᚪᚠᛏᛋᛗᚫᚾᛋ᛫ᚫᚾᚠᛁᛚ᛫ᛞᚱᚩᛈᛈᛖᚱ",
       "item.poop.diamond_nugget": "ᚪᚦᚪᛗᚪᚾᛋ᛫ᛚᚢᛗᛈᛚᛁᛝ",
@@ -4168,6 +4208,7 @@
       "item.poop.bedrock_armor_boots": "ᛒᛖᛞᛥᚩᚢᚾ᛫ᛋᚳᚢᛋ",
       "item.poop.barrier_armor_boots": "ᚻᛁᚾᛞᛖᚱᛖᚱ᛫ᛋᚳᚢᛋ",
       "item.poop.neutron": "ᛁᚠᛖᚾᛗᚩᚢᛏ",
+      "item.poop.block_deleter.description_0": "Right-click on a block to delete it",
       "item.poop.debian_unstable": "ᛞᛖᛒᛁᚪᚾ᛫ᚢᚾᛥᛖᛞᛁ"
     },
     "lol_us": {
@@ -4233,6 +4274,7 @@
       "painting.poop.pukeko_painting.title": "Pukeko",
       "biome.poop.skibidi_biome": "Skibidi plaec",
       "item.poop.down_quark": "Down kwork",
+      "item.poop.block_deleter": "Block Deleter",
       "item.poop.bedrock_armor_leggings": "Trol pantz",
       "item.poop.anvil_dropper_pro": "Anvehl drupper PRO",
       "item.poop.diamond_nugget": "Dimand nuget",
@@ -4285,6 +4327,7 @@
       "item.poop.bedrock_armor_boots": "Trol shoez",
       "item.poop.barrier_armor_boots": "veri hard shoez",
       "item.poop.neutron": "Neutrun",
+      "item.poop.block_deleter.description_0": "Right-click on a block to delete it",
       "item.poop.debian_unstable": "Debian but breaky"
     }
   },

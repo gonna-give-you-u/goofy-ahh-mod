@@ -78,6 +78,7 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.STEEL_AXE.get());
 			tabData.accept(PoopModItems.STEEL_HOE.get());
 			tabData.accept(PoopModItems.STEEL_SHOVEL.get());
+			tabData.accept(PoopModItems.BLOCK_DELETER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

@@ -113,5 +113,7 @@
   "item.poop.steel_sword": "Стальны меч",
   "block.poop.gigafast_travel_portal": "Санік-партал",
   "block.poop.terafast_travel_portal": "Супер-санік-партал",
-  "block.poop.skibidi_dimension_portal": "Скібіді-партал"
+  "block.poop.skibidi_dimension_portal": "Скібіді-партал",
+  "item.poop.block_deleter": "Выдаліцель блокаў",
+  "item.poop.block_deleter.description_0": "Націснуць на блок каб выдаліць яго"
 }

@@ -11,7 +11,7 @@
       "item": "poop:crazy_fuel"
     },
     "b": {
-      "item": "poop:anticarbon"
+      "tag": "poop:anticarbons"
     },
     "c": {
       "item": "poop:squashed_redstone"

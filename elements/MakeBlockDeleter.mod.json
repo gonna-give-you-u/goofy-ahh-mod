@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CrazyFuel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "Blocks.BARRIER"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mod:anticarbons"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockDeleter"
+    },
+    "name": "make_block_deleter",
+    "namespace": "mod"
+  }
+}
