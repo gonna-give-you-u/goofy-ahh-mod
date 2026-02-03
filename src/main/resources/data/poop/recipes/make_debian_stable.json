@@ -14,7 +14,7 @@
       "item": "poop:carbon"
     },
     "c": {
-      "item": "poop:steel"
+      "tag": "c:ingots/steel"
     },
     "d": {
       "item": "poop:debian_unstable"

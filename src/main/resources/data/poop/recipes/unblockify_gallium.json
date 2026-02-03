@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "poop:solid_gallium"
+      "tag": "forge:storage_blocks/gallium"
     }
   ],
   "result": {

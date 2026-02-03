@@ -14,7 +14,7 @@
       "item": "poop:carbon"
     },
     "c": {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     "d": {
       "item": "minecraft:tnt"

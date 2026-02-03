@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       },
       {
-        "value": "CUSTOM:PieceOfGallium"
+        "value": "TAG:c:ingots/gallium"
       }
     ],
     "recipeReturnStack": {

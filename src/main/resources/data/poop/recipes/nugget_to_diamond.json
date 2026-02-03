@@ -3,31 +3,31 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     },
     {
-      "item": "poop:diamond_nugget"
+      "tag": "forge:nuggets/diamond"
     }
   ],
   "result": {

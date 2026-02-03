@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.ENCHANTED_BOOK"
+        "value": "CUSTOM:CrazyFuel"
       },
       {
         "value": "CUSTOM:Anticarbon"
       },
       {
-        "value": "Items.ENCHANTED_BOOK"
+        "value": "CUSTOM:CrazyFuel"
       },
       {
         "value": "CUSTOM:SquashedRedstone"

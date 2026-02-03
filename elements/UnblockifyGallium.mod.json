@@ -12,7 +12,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SolidGallium"
+        "value": "TAG:forge:storage_blocks/gallium"
       },
       {
         "value": ""

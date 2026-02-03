@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       },
       {
-        "value": "CUSTOM:CopperNugget"
+        "value": "TAG:forge:nuggets/copper"
       }
     ],
     "recipeReturnStack": {

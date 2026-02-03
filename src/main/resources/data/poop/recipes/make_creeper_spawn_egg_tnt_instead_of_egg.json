@@ -1,18 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab",
-    "bb"
-  ],
-  "key": {
-    "a": {
+  "ingredients": [
+    {
       "item": "minecraft:creeper_head"
     },
-    "b": {
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
       "item": "minecraft:tnt"
     }
-  },
+  ],
   "result": {
     "item": "minecraft:creeper_spawn_egg",
     "count": 16

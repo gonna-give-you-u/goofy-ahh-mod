@@ -11,7 +11,7 @@
       "item": "minecraft:glass"
     },
     "b": {
-      "item": "poop:steel"
+      "tag": "c:ingots/steel"
     }
   },
   "result": {

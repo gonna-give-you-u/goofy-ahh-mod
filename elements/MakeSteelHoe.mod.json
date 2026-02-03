@@ -12,10 +12,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Steel"
+        "value": "TAG:c:ingots/steel"
       },
       {
-        "value": "CUSTOM:Steel"
+        "value": "TAG:c:ingots/steel"
       },
       {
         "value": ""

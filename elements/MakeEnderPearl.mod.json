@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 6,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.TORCH"
+        "value": "Items.EMERALD"
       },
       {
-        "value": "Items.TORCH"
+        "value": "Blocks.GLASS"
       },
       {
-        "value": "Items.TORCH"
+        "value": "Items.EMERALD"
       },
       {
-        "value": "Items.TORCH"
+        "value": "Blocks.GLASS"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:GigafastTravel"
       },
       {
-        "value": "Items.TORCH"
+        "value": "Blocks.GLASS"
       },
       {
-        "value": "Items.TORCH"
+        "value": "Items.DIAMOND"
       },
       {
-        "value": ""
+        "value": "Blocks.GLASS"
       },
       {
-        "value": "Items.TORCH"
+        "value": "Items.DIAMOND"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.LIGHT"
+      "value": "Items.ENDER_PEARL"
     },
-    "name": "make_light_block_7",
+    "name": "make_ender_pearl",
     "namespace": "mod"
   }
 }

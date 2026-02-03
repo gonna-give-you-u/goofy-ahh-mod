@@ -2165,30 +2165,6 @@
       }
     },
     {
-      "name": "MakeLightBlock1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_light_block_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_light_block_1.json"
-        ]
-      }
-    },
-    {
-      "name": "MakeLightBlock7",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_light_block_7",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_light_block_7.json"
-        ]
-      }
-    },
-    {
       "name": "MakeLightBlock15",
       "type": "recipe",
       "compiles": true,
@@ -2197,18 +2173,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/poop/recipes/make_light_block_15.json"
-        ]
-      }
-    },
-    {
-      "name": "MakeLightBlock14",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_light_block_14",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poop/recipes/make_light_block_14.json"
         ]
       }
     },
@@ -3229,6 +3193,30 @@
           "src/main/resources/data/poop/recipes/make_debug_stick.json"
         ]
       }
+    },
+    {
+      "name": "MakeEnchantedGoldenApple",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_enchanted_golden_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_enchanted_golden_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeEnderPearl",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_ender_pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_ender_pearl.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3307,14 +3295,47 @@
     "BIOMES:minecraft:has_structure/stronghold": [
       "~CUSTOM:PoopBiome"
     ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:Nuke",
-      "~CUSTOM:SquashedRedstone"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:PersistentAlphaWater",
       "~CUSTOM:AlphaWater",
       "~CUSTOM:LiquidGallium"
+    ],
+    "ITEMS:forge:nuggets/diamond": [
+      "CUSTOM:DiamondNugget"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:SteelHoe"
+    ],
+    "ITEMS:forge:nuggets/copper": [
+      "CUSTOM:CopperNugget"
+    ],
+    "BLOCKS:forge:ores/gallium": [
+      "CUSTOM:GalliumOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SkibidiBlock"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SteelAxe"
+    ],
+    "BLOCKS:forge:storage_blocks/gallium": [
+      "CUSTOM:SolidGallium"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SteelSword",
+      "~CUSTOM:KnockbackStickPro",
+      "~CUSTOM:KnockbackStick"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Nuke",
+      "~CUSTOM:SquashedRedstone"
+    ],
+    "ITEMS:c:ingots/steel": [
+      "CUSTOM:Steel"
+    ],
+    "BLOCKS:forge:ores/gunpowder": [
+      "CUSTOM:DeepslateExplosiveOre",
+      "CUSTOM:ExplosiveOre"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:SteelPickaxe",
@@ -3322,9 +3343,6 @@
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:PoopBiome"
-    ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:SteelHoe"
     ],
     "BLOCKS:forge:ores": [
       "CUSTOM:GalliumOre",
@@ -3344,6 +3362,9 @@
     "BIOMES:minecraft:has_structure/end_city": [
       "~CUSTOM:SkibidiBiome"
     ],
+    "ITEMS:forge:storage_blocks/gallium": [
+      "CUSTOM:SolidGallium"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:ReallyHardGlass",
       "~CUSTOM:BlockThatTurnsStuffIntoBaryons",
@@ -3357,25 +3378,20 @@
       "~CUSTOM:SkibidiBlock",
       "~CUSTOM:HardPoopBlock"
     ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:SkibidiBlock"
-    ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:PoopBlock"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:SteelAxe"
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~CUSTOM:SkibidiBiome"
     ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:SteelSword",
-      "~CUSTOM:KnockbackStickPro",
-      "~CUSTOM:KnockbackStick"
-    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:SteelShovel"
+    ],
+    "ITEMS:forge:nuggets/coal": [
+      "CUSTOM:CoalNugget"
+    ],
+    "ITEMS:c:ingots/gallium": [
+      "CUSTOM:PieceOfGallium"
     ]
   },
   "tab_element_order": {
@@ -3405,8 +3421,8 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.rickroll": "Рикролл",
       "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
+      "item.poop.rickroll": "Рикролл",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
@@ -3429,13 +3445,13 @@
       "block.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.poop.deuterium": "Дейтерий",
       "item.poop.knockback_stick": "Отбрасывающая палка",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "Водород",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Код Азтэк (не рикролл)",
       "item.poop.terafast_travel": "Супер-саник",
-      "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.poop.steel_axe": "Стальной топор",
+      "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.minecraft.lingering_potion.effect.glass_potion": "Зелье эффекта стекла",
       "item.poop.proton": "Протон",
       "item.poop.nutritious_poop": "Питательная какашка",
@@ -3518,8 +3534,8 @@
       "item.poop.debian_unstable": "Дэбиан нестабильный"
     },
     "zh_tw": {
-      "item.poop.rickroll": "瑞克搖",
       "item.poop.stabler_anticarbon": "更穩反碳",
+      "item.poop.rickroll": "瑞克搖",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
@@ -3542,13 +3558,13 @@
       "block.poop.persistent_alpha_water": "一貫alpha水",
       "item.poop.deuterium": "氘",
       "item.poop.knockback_stick": "擊退木棒",
-      "item.poop.hydrogen": "氫",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "氫",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec碼 (不是瑞克搖)",
       "item.poop.terafast_travel": "超Sanic",
-      "fluid.poop.persistent_alpha_water": "一貫alpha水",
       "item.poop.steel_axe": "鋼斧",
+      "fluid.poop.persistent_alpha_water": "一貫alpha水",
       "item.minecraft.lingering_potion.effect.glass_potion": "滯留玻璃效果藥水",
       "item.poop.proton": "質子",
       "item.poop.nutritious_poop": "滋補的屎",
@@ -3631,8 +3647,8 @@
       "item.poop.debian_unstable": "Debian 不穩定版"
     },
     "en_us": {
-      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.rickroll": "Rickroll",
+      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Special Toilet",
@@ -3655,13 +3671,13 @@
       "block.poop.persistent_alpha_water": "Alpha Water",
       "item.poop.deuterium": "Deuterium",
       "item.poop.knockback_stick": "Knockback Stick",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "Hydrogen",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "Super sanic",
-      "fluid.poop.persistent_alpha_water": "Alpha Water",
       "item.poop.steel_axe": "Steel Axe",
+      "fluid.poop.persistent_alpha_water": "Alpha Water",
       "item.minecraft.lingering_potion.effect.glass_potion": "Glass Effect Lingering Potion",
       "item.poop.proton": "Proton",
       "item.poop.nutritious_poop": "Nutritious Poop",
@@ -3744,8 +3760,8 @@
       "item.poop.debian_unstable": "Debian Unstable"
     },
     "enp": {
-      "item.poop.rickroll": "Rickwelt",
       "item.poop.stabler_anticarbon": "Withercoalshaft but steadier",
+      "item.poop.rickroll": "Rickwelt",
       "item.poop.gigafast_travel": "Læudish",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Sunderly Stool",
@@ -3768,13 +3784,13 @@
       "block.poop.persistent_alpha_water": "Steadfast Early Water",
       "item.poop.deuterium": "Twothshaft",
       "item.poop.knockback_stick": "Knockback Stick",
-      "item.poop.hydrogen": "Watershaft",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "Watershaft",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec givensbild (not rickwelt)",
       "item.poop.terafast_travel": "Over-Læudish",
-      "fluid.poop.persistent_alpha_water": "Steadfast Early Water ",
       "item.poop.steel_axe": "Steel Axe",
+      "fluid.poop.persistent_alpha_water": "Steadfast Early Water ",
       "item.minecraft.lingering_potion.effect.glass_potion": "Glass Rine Lingering Lib",
       "item.poop.proton": "Ekemote",
       "item.poop.nutritious_poop": "Healthful Poop",
@@ -3857,8 +3873,8 @@
       "item.poop.debian_unstable": "Debian Unsteady"
     },
     "be_by": {
-      "item.poop.stabler_anticarbon": "Анты-вуглярод але больш стабільна",
       "item.poop.rickroll": "Рікролл",
+      "item.poop.stabler_anticarbon": "Анты-вуглярод але больш стабільна",
       "item.poop.gigafast_travel": "Санік",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Спецыяльны туалет",
@@ -3881,13 +3897,13 @@
       "block.poop.persistent_alpha_water": "Устойлівая альфа-вада",
       "item.poop.deuterium": "Дэйтэрый",
       "item.poop.knockback_stick": "Адкідванная палка",
-      "item.poop.hydrogen": "Вадарод",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "Вадарод",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Код Азтэк (не рікролл)",
       "item.poop.terafast_travel": "Супер-санік",
-      "fluid.poop.persistent_alpha_water": "Устойлівая альфа-вада",
       "item.poop.steel_axe": "Steel Axe",
+      "fluid.poop.persistent_alpha_water": "Устойлівая альфа-вада",
       "item.minecraft.lingering_potion.effect.glass_potion": "Трывалае зелле эфекта шкла",
       "item.poop.proton": "Пратон",
       "item.poop.nutritious_poop": "Пажыўная какашка",
@@ -3970,8 +3986,8 @@
       "item.poop.debian_unstable": "Дэбіан нестабільны"
     },
     "enprunic": {
-      "item.poop.stabler_anticarbon": "ᚢᚾᛣᚩᚢᛚᛋᚳᚪᚠᛏ᛫ᛒᚢᛏ᛫ᛥᛖᛞᛁᛖᚱ",
       "item.poop.rickroll": "ᚱᛁᛣᚹᛖᚾᛏ",
+      "item.poop.stabler_anticarbon": "ᚢᚾᛣᚩᚢᛚᛋᚳᚪᚠᛏ᛫ᛒᚢᛏ᛫ᛥᛖᛞᛁᛖᚱ",
       "item.poop.gigafast_travel": "ᛚᚫᚢᛞᛁᛋᚳ",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "ᛋᚢᚾᛞᛖᚱᛚᛁ᛫ᛥᚢᛚ",
@@ -3994,13 +4010,13 @@
       "block.poop.persistent_alpha_water": "ᛥᛖᛞᚠᚪᛥ᛫ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ",
       "item.poop.deuterium": "ᛏᚹᚩᚦᛋᚳᚪᚠᛏ",
       "item.poop.knockback_stick": "ᚾᚩᛣᛒᚫᛣ᛫ᛥᛁᛣ",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "ᚹᚪᛏᛖᚱᛋᚳᚪᚠᛏ",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "ᚩᚠᛖᚱᛚᚫᚢᛞᛁᛋᚳ",
-      "fluid.poop.persistent_alpha_water": "ᛥᛖᛞᚠᚪᛥ᛫ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ",
       "item.poop.steel_axe": "Steel Axe",
+      "fluid.poop.persistent_alpha_water": "ᛥᛖᛞᚠᚪᛥ᛫ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ",
       "item.minecraft.lingering_potion.effect.glass_potion": "ᚷᛚᚪᛋᛋ᛫ᚱᚪᛁᚾ᛫ᛚᛁᛝᚷᛖᚱᛁᛝ᛫ᛚᛁᛒ",
       "item.poop.proton": "ᛁᛣᛗᚩᚢᛏ",
       "item.poop.nutritious_poop": "ᚻᛖᛚᚦᚠᚢᛚ᛫ᛈᚢᛈ",
@@ -4083,8 +4099,8 @@
       "item.poop.debian_unstable": "ᛞᛖᛒᛁᚪᚾ᛫ᚢᚾᛥᛖᛞᛁ"
     },
     "lol_us": {
-      "item.poop.rickroll": "Rickroll",
       "item.poop.stabler_anticarbon": "Anticarbon but stabler",
+      "item.poop.rickroll": "Rickroll",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Speshul tolet",
@@ -4107,13 +4123,13 @@
       "block.poop.persistent_alpha_water": "Alpha Watr but persistent",
       "item.poop.deuterium": "Deuterium",
       "item.poop.knockback_stick": "Nockback stik",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "Burny gas",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "Supr sanic",
-      "fluid.poop.persistent_alpha_water": "Alpha Watr but persistent ",
       "item.poop.steel_axe": "Steel Axe",
+      "fluid.poop.persistent_alpha_water": "Alpha Watr but persistent ",
       "item.minecraft.lingering_potion.effect.glass_potion": "Linnerin Poshun dat turn u in2 glazz",
       "item.poop.proton": "Protun",
       "item.poop.nutritious_poop": "yummy poop",
@@ -4203,7 +4219,7 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2026.01.02",
+    "version": "2026.02.03",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",

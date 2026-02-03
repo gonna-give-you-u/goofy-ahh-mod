@@ -12,31 +12,31 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       },
       {
-        "value": "CUSTOM:DiamondNugget"
+        "value": "TAG:forge:nuggets/diamond"
       }
     ],
     "recipeReturnStack": {

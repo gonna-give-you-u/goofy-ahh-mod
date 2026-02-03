@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "poop:solid_gallium"
+      "tag": "forge:storage_blocks/gallium"
     },
     {
-      "item": "poop:solid_gallium"
+      "tag": "forge:storage_blocks/gallium"
     },
     {
-      "item": "poop:solid_gallium"
+      "tag": "forge:storage_blocks/gallium"
     },
     {
       "item": "minecraft:packed_ice"

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "poop:steel"
+      "tag": "c:ingots/steel"
     },
     {
       "item": "minecraft:flint"

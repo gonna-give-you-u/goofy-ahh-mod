@@ -12,31 +12,31 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       },
       {
-        "value": "CUSTOM:CoalNugget"
+        "value": "TAG:forge:nuggets/coal"
       }
     ],
     "recipeReturnStack": {

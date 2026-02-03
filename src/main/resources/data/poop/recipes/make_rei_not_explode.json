@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "template": {
-    "item": "poop:steel"
+    "tag": "c:ingots/steel"
   },
   "base": {
     "item": "poop:adachi_rei"

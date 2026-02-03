@@ -3,31 +3,31 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     },
     {
-      "item": "poop:coal_nugget"
+      "tag": "forge:nuggets/coal"
     }
   ],
   "result": {

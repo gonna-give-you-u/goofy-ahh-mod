@@ -7,7 +7,7 @@
     },
     "enableFuel": true,
     "fuelPower": {
-      "fixedValue": 200.0
+      "fixedValue": 6400.0
     },
     "hasDispenseBehavior": false,
     "compostLayerChance": 0.0
