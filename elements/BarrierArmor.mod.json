@@ -13,6 +13,9 @@
     "onBodyTick": {
       "name": "BarrierArmorSetBonus"
     },
+    "onLeggingsTick": {
+      "name": "BarrierArmourCancelAttack"
+    },
     "creativeTabs": [
       {
         "value": "COMBAT"
