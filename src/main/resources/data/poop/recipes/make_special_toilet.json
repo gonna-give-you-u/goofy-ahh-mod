@@ -12,7 +12,7 @@
       "item": "poop:poop_fragment"
     },
     {
-      "item": "poop:steel"
+      "tag": "c:ingots/steel"
     }
   ],
   "result": {
