@@ -95,7 +95,8 @@
   "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, выкарыстоўваючы Zint",
   "painting.poop.sad_hamster_painting.author": "Невядомы",
   "item.poop.bedrock_armor_chestplate": "Бедроковая кіраса",
-  "fluid.poop.liquid_gallium": "Жидкий галий",
+  "fluid.poop.liquid_gallium": "Вадкі галій",
+  "fluid_type.poop.liquid_gallium": "Вадкі галій",
   "item.poop.steel_armor_chestplate": "Стальная кіраса",
   "block.poop.explosive_ore": "Выбуховая руда",
   "item.poop.poop_fragment": "Кавалак какашкі",
@@ -109,5 +110,8 @@
   "item.poop.steel_hoe": "Стальная матыка",
   "item.poop.steel_pickaxe": "Стальная кірка",
   "item.poop.steel_shovel": "Стальная рыдлёўка",
-  "item.poop.steel_sword": "Стальны меч"
+  "item.poop.steel_sword": "Стальны меч",
+  "block.poop.gigafast_travel_portal": "Санік-партал",
+  "block.poop.terafast_travel_portal": "Супер-санік-партал",
+  "block.poop.skibidi_dimension_portal": "Скібіді-партал"
 }

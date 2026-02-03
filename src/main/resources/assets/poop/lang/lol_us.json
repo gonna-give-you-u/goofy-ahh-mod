@@ -95,7 +95,8 @@
   "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, using Zint",
   "painting.poop.sad_hamster_painting.author": "Unknown",
   "item.poop.bedrock_armor_chestplate": "Trol shirt",
-  "fluid.poop.liquid_gallium": "Melty metal",
+  "fluid.poop.liquid_gallium": "Wtry gallium",
+  "fluid_type.poop.liquid_gallium": "Wtry gallium",
   "item.poop.steel_armor_chestplate": "shini shirt",
   "block.poop.explosive_ore": "Rockz dat go BOOM",
   "item.poop.poop_fragment": "Poopy piece",
@@ -109,5 +110,8 @@
   "item.poop.steel_hoe": "Stele Hoe",
   "item.poop.steel_pickaxe": "Steel Pikakse",
   "item.poop.steel_shovel": "steal spoon",
-  "item.poop.steel_sword": "Steel sword"
+  "item.poop.steel_sword": "Steel sword",
+  "block.poop.gigafast_travel_portal": "Sanic portl",
+  "block.poop.terafast_travel_portal": "Supr sanic portl",
+  "block.poop.skibidi_dimension_portal": "Skibidi portl"
 }
