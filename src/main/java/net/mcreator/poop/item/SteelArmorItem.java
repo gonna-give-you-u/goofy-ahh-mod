@@ -10,10 +10,9 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.poop.init.PoopModItems;
 
 public abstract class SteelArmorItem extends ArmorItem {
 	public SteelArmorItem(ArmorItem.Type type, Item.Properties properties) {
@@ -40,7 +39,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PoopModItems.STEEL.get()));
+				return Ingredient.of(ItemTags.create(new ResourceLocation("c:ingots/steel")));
 			}
 
 			@Override

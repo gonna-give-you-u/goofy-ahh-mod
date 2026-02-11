@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:music_disc_13"
+    },
+    {
+      "item": "poop:poop"
+    },
+    {
+      "item": "poop:poop"
+    },
+    {
+      "item": "poop:poop"
+    }
+  ],
+  "result": {
+    "item": "poop:i_quit_music_gcse_disc",
+    "count": 1
+  }
+}

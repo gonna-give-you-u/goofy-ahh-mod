@@ -3,11 +3,10 @@ package net.mcreator.poop.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
-
-import net.mcreator.poop.init.PoopModItems;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 
 public class SteelAxeItem extends AxeItem {
 	public SteelAxeItem() {
@@ -33,7 +32,7 @@ public class SteelAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PoopModItems.STEEL.get()));
+				return Ingredient.of(ItemTags.create(new ResourceLocation("c:ingots/steel")));
 			}
 		}, 1, -3.1f, new Item.Properties());
 	}

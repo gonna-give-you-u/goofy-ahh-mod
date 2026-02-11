@@ -130,13 +130,7 @@
     "onDestroyedByPlayer": {
       "name": "NuclearExplosion"
     },
-    "onDestroyedByExplosion": {
-      "name": "NuclearExplosion"
-    },
     "onStartToDestroy": {
-      "name": "NuclearExplosion"
-    },
-    "onRedstoneOn": {
       "name": "NuclearExplosion"
     },
     "onHitByProjectile": {

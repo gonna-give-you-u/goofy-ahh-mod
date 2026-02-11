@@ -38,18 +38,21 @@ import net.mcreator.poop.item.PoopItem;
 import net.mcreator.poop.item.PoopFragmentItem;
 import net.mcreator.poop.item.PieceOfGalliumItem;
 import net.mcreator.poop.item.PersistentAlphaWaterItem;
+import net.mcreator.poop.item.ObamaSphereItem;
 import net.mcreator.poop.item.NutritiousPoopItem;
 import net.mcreator.poop.item.NukeLauncherItem;
 import net.mcreator.poop.item.NeutronItem;
 import net.mcreator.poop.item.Lithium6Item;
 import net.mcreator.poop.item.LiquidGalliumItem;
 import net.mcreator.poop.item.LightningSpawnerItem;
+import net.mcreator.poop.item.LRADItem;
 import net.mcreator.poop.item.KnockbackStickProItem;
 import net.mcreator.poop.item.KnockbackStickItem;
 import net.mcreator.poop.item.IQuitMusicGCSEDiscItem;
 import net.mcreator.poop.item.HydrogenItem;
 import net.mcreator.poop.item.GigafastTravelItem;
 import net.mcreator.poop.item.ElectronItem;
+import net.mcreator.poop.item.EarmuffsItem;
 import net.mcreator.poop.item.DownQuarkItem;
 import net.mcreator.poop.item.DiamondNuggetItem;
 import net.mcreator.poop.item.DeuteriumItem;
@@ -151,6 +154,9 @@ public class PoopModItems {
 	public static final RegistryObject<Item> STEEL_HOE = REGISTRY.register("steel_hoe", () -> new SteelHoeItem());
 	public static final RegistryObject<Item> STEEL_SHOVEL = REGISTRY.register("steel_shovel", () -> new SteelShovelItem());
 	public static final RegistryObject<Item> BLOCK_DELETER = REGISTRY.register("block_deleter", () -> new BlockDeleterItem());
+	public static final RegistryObject<Item> LRAD = REGISTRY.register("lrad", () -> new LRADItem());
+	public static final RegistryObject<Item> EARMUFFS_HELMET = REGISTRY.register("earmuffs_helmet", () -> new EarmuffsItem.Helmet());
+	public static final RegistryObject<Item> OBAMA_SPHERE = REGISTRY.register("obama_sphere", () -> new ObamaSphereItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

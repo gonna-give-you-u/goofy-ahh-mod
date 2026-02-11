@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/steel"
+    },
+    "b": {
+      "item": "minecraft:lever"
+    },
+    "c": {
+      "item": "minecraft:note_block"
+    },
+    "d": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "poop:lrad",
+    "count": 1
+  }
+}

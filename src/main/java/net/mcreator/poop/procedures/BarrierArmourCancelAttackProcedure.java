@@ -11,6 +11,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.poop.init.PoopModItems;
+import net.mcreator.poop.configuration.GoofyAhhModServerConfigConfiguration;
 
 import javax.annotation.Nullable;
 
@@ -30,7 +31,7 @@ public class BarrierArmourCancelAttackProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == PoopModItems.BARRIER_ARMOR_HELMET.get()
+		if (GoofyAhhModServerConfigConfiguration.BARRIER_ARMOUR_SET_BONUS.get() && (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == PoopModItems.BARRIER_ARMOR_HELMET.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == PoopModItems.BARRIER_ARMOR_CHESTPLATE.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == PoopModItems.BARRIER_ARMOR_LEGGINGS.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == PoopModItems.BARRIER_ARMOR_BOOTS.get()) {

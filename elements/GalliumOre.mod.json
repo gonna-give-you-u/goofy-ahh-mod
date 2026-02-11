@@ -51,7 +51,7 @@
     "customDrop": {
       "value": "CUSTOM:PieceOfGallium"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,

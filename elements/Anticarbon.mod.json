@@ -30,7 +30,8 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "please dont put this in your inventory"
+        "please dont put this in your inventory",
+        "if you blow up your house, kill (signal 9) minecraft's process immediately, do NOT pause the game after the explosion!"
       ]
     },
     "glowCondition": {

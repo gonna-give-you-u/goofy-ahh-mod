@@ -4,9 +4,8 @@ license="MIT License"
 
 [[mods]]
 modId="poop"
-version="2026.02.03"
+version="2026.02.09"
 displayName="goofy ahh mod"
-updateJSONURL="https://github.com/gonna-give-you-u/goofy-ahh-mod/releases"
 displayURL="https://youtu.be/xvFZjo5PgG0"
 logoFile="logo.png"
 credits="made in mcreator lol. some of the textures are not mine (except the ones that are crappily drawn), some are public domain"

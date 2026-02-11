@@ -7,9 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.brewing.IBrewingRecipe;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 
 import net.mcreator.poop.init.PoopModItems;
@@ -23,7 +21,7 @@ public class DiamondToCoalBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isInput(ItemStack input) {
-		return Ingredient.of(new ItemStack(Items.DIAMOND)).test(input);
+		return Ingredient.of(new ItemStack(PoopModItems.DIAMOND_NUGGET.get())).test(input);
 	}
 
 	@Override
@@ -34,7 +32,7 @@ public class DiamondToCoalBrewingRecipe implements IBrewingRecipe {
 	@Override
 	public ItemStack getOutput(ItemStack input, ItemStack ingredient) {
 		if (isInput(input) && isIngredient(ingredient)) {
-			return new ItemStack(Blocks.COAL_BLOCK);
+			return new ItemStack(PoopModItems.THREE_COALS.get());
 		}
 		return ItemStack.EMPTY;
 	}

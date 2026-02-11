@@ -68,6 +68,8 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.ANVIL_DROPPER_PRO_MAX.get());
 			tabData.accept(PoopModItems.KNOCKBACK_STICK_PRO.get());
 			tabData.accept(PoopModItems.STEEL_SWORD.get());
+			tabData.accept(PoopModItems.LRAD.get());
+			tabData.accept(PoopModItems.OBAMA_SPHERE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PoopModItems.SKIBIDI_DIMENSION.get());
 			tabData.accept(PoopModItems.GIGAFAST_TRAVEL.get());
@@ -79,6 +81,12 @@ public class PoopModTabs {
 			tabData.accept(PoopModItems.STEEL_HOE.get());
 			tabData.accept(PoopModItems.STEEL_SHOVEL.get());
 			tabData.accept(PoopModItems.BLOCK_DELETER.get());
+			tabData.accept(PoopModItems.EARMUFFS_HELMET.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
+			if (tabData.hasPermissions()) {
+				tabData.accept(PoopModItems.RICKROLL.get());
+				tabData.accept(PoopModItems.OBAMA_SPHERE.get());
+			}
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

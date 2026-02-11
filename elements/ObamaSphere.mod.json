@@ -1,0 +1,74 @@
+{
+  "_fv": 73,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "obama_sphere",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Obama Sphere",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      },
+      {
+        "value": "OP_BLOCKS"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 128000,
+    "useDuration": 1,
+    "toolType": 128000.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 128000.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Kills any living entity in a spherical area with radius 10."
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "DieNoPlayerSphere"
+    },
+    "onEntitySwing": {
+      "name": "DieNoPlayerSphere"
+    },
+    "enableRanged": false,
+    "shootConstantly": true,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:RickProjectile"
+    },
+    "projectileDisableAmmoCheck": true,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

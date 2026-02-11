@@ -57,5 +57,14 @@
         "stream": true
       }
     ]
+  },
+  "lrad_sound": {
+    "subtitle": "subtitles.lrad_sound",
+    "sounds": [
+      {
+        "name": "poop:lrad",
+        "stream": true
+      }
+    ]
   }
 }

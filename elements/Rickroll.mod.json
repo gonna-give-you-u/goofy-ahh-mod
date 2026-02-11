@@ -12,6 +12,9 @@
     "creativeTabs": [
       {
         "value": "COMBAT"
+      },
+      {
+        "value": "OP_BLOCKS"
       }
     ],
     "stackSize": 64,
@@ -36,11 +39,8 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "RickrollBreakBlockPro"
-    },
     "onEntityHitWith": {
-      "name": "Die"
+      "name": "DieNoPlayer"
     },
     "enableRanged": true,
     "shootConstantly": true,

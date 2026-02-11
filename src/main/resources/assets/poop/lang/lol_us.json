@@ -87,6 +87,7 @@
   "biome.poop.poop_biome": "Icky poopy baium",
   "item.poop.anvil_dropper": "Anvehl drupper",
   "item.poop.anticarbon.description_0": "shift click to maek urself go BOOM",
+  "item.poop.anticarbon.description_1": "if u acidentally BOOM ur haus, kill (signl 9) da minceraft proces asap, DONT pauze da gaem aftr boom!!!111!1!",
   "item.poop.nuke_launcher": "Nuke launchr",
   "item.poop.electron": "Electron",
   "item.poop.anvil_dropper_pro_max": "anvehl drupper PRO MAX",
@@ -115,5 +116,12 @@
   "block.poop.terafast_travel_portal": "Supr sanic portl",
   "block.poop.skibidi_dimension_portal": "Skibidi portl",
   "item.poop.block_deleter": "Blok deletur",
-  "item.poop.block_deleter.description_0": "Rite-klik a blok 2 delet it"
+  "item.poop.block_deleter.description_0": "Rite-klik a blok 2 delet it",
+  "item.poop.lrad": "Annoying note blok",
+  "item.poop.lrad.description_0": "pls dont use 4 2 long",
+  "key.poop.lrad_key": "Uze da Laoud notbloc",
+  "subtitles.lrad_sound": "Annoying notblok iz LOUD",
+  "item.poop.earmuffs_helmet": "Ear disabler",
+  "item.poop.obama_sphere": "Obama bawl",
+  "item.poop.obama_sphere.description_0": "Rite-klik 2 delet all entitiez in a 10 blok radius"
 }

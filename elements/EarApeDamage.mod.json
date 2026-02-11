@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.0,
+    "scaling": "when_caused_by_living_non_player",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s's ears were destroyed so badly that they died",
+    "itemDeathMessage": "%1$s's ears were destroyed by %2$s using %3$s so badly that they died",
+    "playerDeathMessage": "%1$s's ears were destroyed so badly that they died whilst trying to escape %2$s"
+  }
+}

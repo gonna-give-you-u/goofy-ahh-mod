@@ -27,7 +27,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Steel"
+        "value": "TAG:c:ingots/steel"
       }
     ],
     "immuneToFire": false,

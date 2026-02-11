@@ -11,13 +11,13 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "brewingInputStack": {
-      "value": "Items.DIAMOND"
+      "value": "CUSTOM:DiamondNugget"
     },
     "brewingIngredientStack": {
       "value": "CUSTOM:Poop"
     },
     "brewingReturnStack": {
-      "value": "Blocks.COAL_BLOCK"
+      "value": "CUSTOM:ThreeCoals"
     },
     "name": "diamond_to_coal",
     "namespace": "mod"

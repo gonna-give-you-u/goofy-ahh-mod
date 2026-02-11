@@ -3,11 +3,10 @@ package net.mcreator.poop.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-
-import net.mcreator.poop.init.PoopModItems;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 
 public class SteelHoeItem extends HoeItem {
 	public SteelHoeItem() {
@@ -33,7 +32,7 @@ public class SteelHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PoopModItems.STEEL.get()));
+				return Ingredient.of(ItemTags.create(new ResourceLocation("c:ingots/steel")));
 			}
 		}, 0, -1f, new Item.Properties());
 	}

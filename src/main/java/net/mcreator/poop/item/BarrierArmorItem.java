@@ -24,12 +24,12 @@ public abstract class BarrierArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 1024;
+				return new int[]{1073741823, 1073741823, 1073741823, 1073741823}[type.getSlot().getIndex()] * 1;
 			}
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{1024, 1024, 1024, 1024}[type.getSlot().getIndex()];
+				return new int[]{10000, 10000, 10000, 10000}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -89,7 +89,7 @@ public abstract class BarrierArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				BarrierArmorSetBonusProcedure.execute(entity);
+				BarrierArmorSetBonusProcedure.execute(world, entity);
 			}
 		}
 	}

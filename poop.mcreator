@@ -2074,7 +2074,7 @@
       "name": "BarrierArmor",
       "type": "armor",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "barrier_armor",
       "metadata": {
         "files": [
@@ -2112,6 +2112,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -3290,6 +3294,263 @@
           "src/main/resources/data/poop/recipes/make_block_deleter.json"
         ]
       }
+    },
+    {
+      "name": "LRAD",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lrad",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/lrad.json",
+          "src/main/java/net/mcreator/poop/item/LRADItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VeryLoudProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_loud_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/VeryLoudProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LradKeyDown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lrad_key_down",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/LradKeyDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LradKeyUp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lrad_key_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/LradKeyUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LradKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lrad_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/network/LradKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeLRAD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_lrad",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_lrad.json"
+        ]
+      }
+    },
+    {
+      "name": "Earmuffs",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earmuffs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/item/EarmuffsItem.java",
+          "src/main/resources/assets/poop/models/item/earmuffs_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockSound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/BlockSoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MakeEarmuffs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_earmuffs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_earmuffs.json"
+        ]
+      }
+    },
+    {
+      "name": "EarApeDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ear_ape_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/damage_type/ear_ape_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "DieNoPlayerSphere",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "die_no_player_sphere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/procedures/DieNoPlayerSphereProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObamaSphere",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "obama_sphere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poop/models/item/obama_sphere.json",
+          "src/main/java/net/mcreator/poop/item/ObamaSphereItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoofyAhhModServerConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goofy_ahh_mod_server_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poop/configuration/GoofyAhhModServerConfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeIQuitMusicGCSEDisc",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_i_quit_music_gcse_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poop/recipes/make_i_quit_music_gcse_disc.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3304,6 +3565,18 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "lradSoundTicks",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "shouldBeLoud",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -3362,6 +3635,14 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "lrad_sound",
+      "files": [
+        "lrad"
+      ],
+      "category": "music",
+      "subtitle": "LRAD bes loud"
     }
   ],
   "tag_elements": {
@@ -3376,11 +3657,11 @@
     "ITEMS:forge:nuggets/diamond": [
       "CUSTOM:DiamondNugget"
     ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:SteelHoe"
-    ],
     "ITEMS:forge:nuggets/copper": [
       "CUSTOM:CopperNugget"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:SteelHoe"
     ],
     "BLOCKS:forge:ores/gallium": [
       "CUSTOM:GalliumOre"
@@ -3399,12 +3680,12 @@
       "~CUSTOM:KnockbackStickPro",
       "~CUSTOM:KnockbackStick"
     ],
+    "ITEMS:c:ingots/steel": [
+      "CUSTOM:Steel"
+    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:Nuke",
       "~CUSTOM:SquashedRedstone"
-    ],
-    "ITEMS:c:ingots/steel": [
-      "CUSTOM:Steel"
     ],
     "BLOCKS:forge:ores/gunpowder": [
       "CUSTOM:DeepslateExplosiveOre",
@@ -3498,17 +3779,19 @@
   },
   "language_map": {
     "ru_ru": {
-      "item.poop.rickroll": "Рикролл",
       "item.poop.stabler_anticarbon": "Анти-углерод но более стабильно",
+      "item.poop.rickroll": "Рикролл",
       "item.poop.gigafast_travel": "Саник",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Специальиый туалет",
-      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
-      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "Взрывчатый глубинный сланец",
+      "item.poop.bedrock_armor_helmet": "Бедроковый шлем",
+      "death.attack.ear_ape_damage.player": "%1$s\u0027s ears were destroyed so badly that they died whilst trying to escape %2$s",
       "block.poop.really_hard_glass": "Усиленное стекло",
       "item.poop.steel_hoe": "Стальная мотыга",
       "entity.poop.pooper": "Какашкер",
+      "death.attack.ear_ape_damage.item": "%1$s\u0027s ears were destroyed by %2$s using %3$s so badly that they died",
       "item.poop.crazy_fuel": "Ядерное топливо",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "Ведро альфа-воды",
@@ -3517,21 +3800,24 @@
       "effect.poop.ur_glass": "Хрупкий",
       "item.poop.three_coals": "Тройной уголь",
       "block.poop.block_that_turns_stuff_into_baryons": "Поменятель в барионам",
+      "item.poop.lrad": "LRAD",
+      "item.poop.obama_sphere.description_0": "Right click to kill any living entity in a spherical area with radius 10.",
       "item.poop.steel": "Сталь",
       "block.poop.poop_block": "Блок какашек",
       "block.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.poop.deuterium": "Дейтерий",
       "item.poop.knockback_stick": "Отбрасывающая палка",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "Водород",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Код Азтэк (не рикролл)",
       "item.poop.terafast_travel": "Супер-саник",
-      "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.poop.steel_axe": "Стальной топор",
+      "fluid.poop.persistent_alpha_water": "Стойкая альфа-вода",
       "item.minecraft.lingering_potion.effect.glass_potion": "Зелье эффекта стекла",
       "item.poop.proton": "Протон",
       "item.poop.nutritious_poop": "Питательная какашка",
+      "item.poop.lrad.description_0": "pls dont use this for too long",
       "item.poop.pooper_spawn_egg": "Яйцо призыва Какашкера",
       "item.poop.up_quark": "Верхний кварк",
       "item.poop.steel_armor_helmet": "Стальной шлем",
@@ -3548,6 +3834,7 @@
       "block.poop.solid_gallium": "Блок галлий",
       "block.poop.liquid_gallium": "Жидкий галлий",
       "item.poop.barrier_armor_leggings": "Барьеровые штаны",
+      "death.attack.ear_ape_damage": "%1$s\u0027s ears were destroyed so badly that they died",
       "item.poop.tnt_launcher": "Запуститель ТНТ",
       "fluid.poop.alpha_water": "Альфа-вода",
       "item.poop.copper_nugget": "Кусочек меди",
@@ -3555,6 +3842,7 @@
       "item.poop.toilet": "Туалет",
       "item.poop.tritium": "Тритий",
       "item.poop.coal_nugget": "Кусочек угля",
+      "item.poop.obama_sphere": "Obama Sphere",
       "item.poop.uno_reverse": "Карта переворачиваний Уно",
       "item.poop.knockback_stick_pro": "Отбрасывающая палка Pro",
       "painting.poop.pukeko_painting.title": "Пукеко",
@@ -3591,8 +3879,11 @@
       "block.poop.squashed_redstone": "Плотный редстоуновый блок",
       "item.poop.poop_launcher": "Запуститель какашек",
       "item.poop.carbon": "Углерод",
+      "item.poop.earmuffs_helmet": "Earmuffs",
       "item.poop.i_quit_music_gcse_disc": "Пластинка",
+      "subtitles.lrad_sound": "LRAD bes loud",
       "biome.poop.poop_biome": "Биом какашек",
+      "key.poop.lrad_key": "Use LRAD",
       "block.poop.gigafast_travel_portal": "Саник-портал",
       "item.poop.anvil_dropper": "Бросатель наковальни",
       "item.poop.anticarbon.description_0": "пж не положи в инвентарь",
@@ -3601,6 +3892,7 @@
       "item.poop.electron": "Электрон",
       "item.poop.anvil_dropper_pro_max": "Бросатель наковальни Pro Max",
       "item.poop.steel_armor_leggings": "Стальные штаны",
+      "item.poop.anticarbon.description_1": "if you blow up your house, kill (signal 9) minecraft\u0027s process immediately, do NOT pause the game after the explosion!",
       "item.poop.lightning_spawner": "Призыватель молний",
       "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, используя Zint",
       "painting.poop.sad_hamster_painting.author": "Неведомый",
@@ -3617,48 +3909,53 @@
       "item.poop.debian_unstable": "Дэбиан нестабильный"
     },
     "zh_tw": {
-      "item.poop.rickroll": "瑞克搖",
       "item.poop.stabler_anticarbon": "更穩反碳",
+      "item.poop.rickroll": "瑞克搖",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "特別便器",
-      "item.poop.bedrock_armor_helmet": "基岩頭盔",
-      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
       "subtitles.skibidi_music": "",
+      "block.poop.deepslate_explosive_ore": "深板岩易爆礦",
+      "item.poop.bedrock_armor_helmet": "基岩頭盔",
+      "death.attack.ear_ape_damage.player": "%1$s\u0027s ears were destroyed so badly that they died whilst trying to escape %2$s",
       "block.poop.really_hard_glass": "強化玻璃",
       "item.poop.steel_hoe": "鋼鋤",
       "entity.poop.pooper": "屎力怕",
+      "death.attack.ear_ape_damage.item": "%1$s\u0027s ears were destroyed by %2$s using %3$s so badly that they died",
       "item.poop.crazy_fuel": "核燃料",
       "item.poop.adachi_rei": "足立レイ",
-      "item.poop.alpha_water_bucket": "alpha水桶",
+      "item.poop.alpha_water_bucket": "阿爾法水桶",
       "item.poop.steel_armor_boots": "鋼製靴子",
       "block.poop.gallium_ore": "鎵礦",
       "effect.poop.ur_glass": "易碎",
       "item.poop.three_coals": "三倍煤炭",
       "block.poop.block_that_turns_stuff_into_baryons": "東西到重子轉換器",
+      "item.poop.lrad": "長距離揚聲裝置",
+      "item.poop.obama_sphere.description_0": "右鍵以破壞每個實體在半徑10方塊的球形。",
       "item.poop.steel": "鋼",
       "block.poop.poop_block": "屎塊",
-      "block.poop.persistent_alpha_water": "一貫alpha水",
+      "block.poop.persistent_alpha_water": "一貫阿爾法水",
       "item.poop.deuterium": "氘",
       "item.poop.knockback_stick": "擊退木棒",
-      "item.poop.hydrogen": "氫",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "氫",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec碼 (不是瑞克搖)",
       "item.poop.terafast_travel": "超Sanic",
-      "fluid.poop.persistent_alpha_water": "一貫alpha水",
       "item.poop.steel_axe": "鋼斧",
+      "fluid.poop.persistent_alpha_water": "一貫阿爾法水",
       "item.minecraft.lingering_potion.effect.glass_potion": "滯留玻璃效果藥水",
       "item.poop.proton": "質子",
       "item.poop.nutritious_poop": "滋補的屎",
+      "item.poop.lrad.description_0": "請不要太長時間使用",
       "item.poop.pooper_spawn_egg": "屎力怕 生怪蛋",
       "item.poop.up_quark": "上夸克",
       "item.poop.steel_armor_helmet": "鋼製頭盔",
       "item.poop.poop_launcher_pro": "屎炮Pro",
       "item.minecraft.tipped_arrow.effect.glass_potion": "玻璃效果之箭",
       "item.minecraft.splash_potion.effect.glass_potion": "飛濺玻璃效果藥水",
-      "painting.poop.bpainting.title": "🅱️",
       "painting.poop.sad_hamster_painting.title": "悲傷的倉鼠",
+      "painting.poop.bpainting.title": "🅱️",
       "item.poop.poop": "屎",
       "block.poop.nuke": "核彈",
       "painting.poop.my_cat_painting.title": "我的貓",
@@ -3667,13 +3964,15 @@
       "block.poop.solid_gallium": "鎵塊",
       "block.poop.liquid_gallium": "液鎵",
       "item.poop.barrier_armor_leggings": "屏障護腿",
+      "death.attack.ear_ape_damage": "%1$s\u0027s ears were destroyed so badly that they died",
       "item.poop.tnt_launcher": "TNT炮",
-      "fluid.poop.alpha_water": "alpha水",
+      "fluid.poop.alpha_water": "阿爾法水",
       "item.poop.copper_nugget": "銅粒",
       "item.poop.toilet": "便器",
       "subtitles.sanic": "",
       "item.poop.coal_nugget": "煤炭粒",
       "item.poop.tritium": "氚",
+      "item.poop.obama_sphere": "奧巴馬球",
       "item.poop.uno_reverse": "Uno反向卡",
       "item.poop.knockback_stick_pro": "擊退木棒Pro",
       "painting.poop.pukeko_painting.title": "Pukeko",
@@ -3687,7 +3986,7 @@
       "fluid_type.poop.liquid_gallium": "液鎵",
       "item.poop.steel_shovel": "鋼鏟",
       "block.poop.skibidi_dimension_portal": "斯基比迪傳送門",
-      "item.poop.persistent_alpha_water_bucket": "一貫alpha水桶",
+      "item.poop.persistent_alpha_water_bucket": "一貫阿爾法水桶",
       "item.poop.i_quit_music_gcse_disc.desc": "我在學校放棄學習音樂了",
       "subtitles.reverb_fard": "放屁",
       "block.poop.terafast_travel_portal": "超Sanic傳送門",
@@ -3699,7 +3998,7 @@
       "item.poop.barrier_armor_chestplate": "屏障胸甲",
       "item.poop.anticarbon": "反碳",
       "item.poop.steel_pickaxe": "鋼鎬",
-      "block.poop.alpha_water": "alpha水",
+      "block.poop.alpha_water": "阿爾法水",
       "painting.poop.pukeko_painting.author": "未知",
       "block.poop.skibidi_block": "斯基比迪廁所",
       "item.poop.adachi_rei_but_doesnt_explode": "足立レイ",
@@ -3710,8 +4009,11 @@
       "block.poop.squashed_redstone": "密紅石",
       "item.poop.poop_launcher": "屎炮",
       "item.poop.carbon": "碳",
+      "item.poop.earmuffs_helmet": "耳套",
       "item.poop.i_quit_music_gcse_disc": "唱片",
+      "subtitles.lrad_sound": "長距離揚聲裝置是大聲的",
       "biome.poop.poop_biome": "屎地",
+      "key.poop.lrad_key": "使用長距離揚聲裝置",
       "block.poop.gigafast_travel_portal": "Sanic傳送門",
       "item.poop.anvil_dropper": "鐵站掉落器",
       "item.poop.anticarbon.description_0": "請不要放入物品欄",
@@ -3720,6 +4022,7 @@
       "item.poop.electron": "電子",
       "item.poop.anvil_dropper_pro_max": "鐵站掉落器Pro Max",
       "item.poop.steel_armor_leggings": "鋼製護腿",
+      "item.poop.anticarbon.description_1": "如果你偶然炸你的家、立刻強制停止（發送第9信號給) minecraft的行程、**不要**爆炸後暫停遊戲!!!1",
       "item.poop.lightning_spawner": "閃電召喚器",
       "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, 用Zint",
       "painting.poop.sad_hamster_painting.author": "未知",
@@ -3736,17 +4039,19 @@
       "item.poop.debian_unstable": "Debian 不穩定版"
     },
     "en_us": {
-      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.rickroll": "Rickroll",
+      "item.poop.stabler_anticarbon": "Anticarbon but stabler",
       "item.poop.gigafast_travel": "Sanic",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Special Toilet",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
       "item.poop.bedrock_armor_helmet": "Bedrock Helmet",
+      "block.poop.deepslate_explosive_ore": "Deepslate Explosive Ore",
+      "subtitles.skibidi_music": "",
+      "death.attack.ear_ape_damage.player": "%1$s\u0027s ears were destroyed so badly that they died whilst trying to escape %2$s",
       "block.poop.really_hard_glass": "Reinforced Glass",
       "item.poop.steel_hoe": "Steel Hoe",
       "entity.poop.pooper": "Pooper",
+      "death.attack.ear_ape_damage.item": "%1$s\u0027s ears were destroyed by %2$s using %3$s so badly that they died",
       "item.poop.crazy_fuel": "Nuclear Fuel",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "Alpha Water Bucket",
@@ -3755,21 +4060,24 @@
       "effect.poop.ur_glass": "Fragile",
       "block.poop.block_that_turns_stuff_into_baryons": "Item to Baryon Converter",
       "item.poop.three_coals": "3 pieces of coal",
+      "item.poop.lrad": "LRAD",
+      "item.poop.obama_sphere.description_0": "Kills any living entity in a spherical area with radius 10.",
       "item.poop.steel": "Steel",
       "block.poop.poop_block": "Poop Block",
       "block.poop.persistent_alpha_water": "Alpha Water",
       "item.poop.deuterium": "Deuterium",
       "item.poop.knockback_stick": "Knockback Stick",
-      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "item.poop.hydrogen": "Hydrogen",
+      "painting.poop.my_cat_painting.author": "gonna_give_you_u",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec code (not rickroll)",
       "item.poop.terafast_travel": "Super sanic",
-      "fluid.poop.persistent_alpha_water": "Alpha Water",
       "item.poop.steel_axe": "Steel Axe",
+      "fluid.poop.persistent_alpha_water": "Alpha Water",
       "item.minecraft.lingering_potion.effect.glass_potion": "Glass Effect Lingering Potion",
       "item.poop.proton": "Proton",
       "item.poop.nutritious_poop": "Nutritious Poop",
+      "item.poop.lrad.description_0": "pls dont use this for too long",
       "item.poop.pooper_spawn_egg": "Pooper Spawn Egg",
       "item.poop.up_quark": "Up Quark",
       "item.poop.steel_armor_helmet": "Steel Helmet",
@@ -3786,6 +4094,7 @@
       "block.poop.solid_gallium": "Block of Gallium",
       "block.poop.liquid_gallium": "Gallium",
       "item.poop.barrier_armor_leggings": "Barrier Leggings",
+      "death.attack.ear_ape_damage": "%1$s\u0027s ears were destroyed so badly that they died",
       "item.poop.tnt_launcher": "TNT Launcher",
       "fluid.poop.alpha_water": "Alpha Water",
       "item.poop.copper_nugget": "Copper Nugget",
@@ -3793,6 +4102,7 @@
       "item.poop.toilet": "Toilet",
       "item.poop.tritium": "Tritium",
       "item.poop.coal_nugget": "Coal Nugget",
+      "item.poop.obama_sphere": "Obama Sphere",
       "item.poop.uno_reverse": "Uno reverse card",
       "item.poop.knockback_stick_pro": "Knockback Stick Pro",
       "painting.poop.pukeko_painting.title": "Pukeko",
@@ -3807,7 +4117,7 @@
       "item.poop.steel_shovel": "Steel Shovel",
       "block.poop.skibidi_dimension_portal": "Skibidi Portal",
       "item.poop.persistent_alpha_water_bucket": "Alpha Water Bucket",
-      "item.poop.i_quit_music_gcse_disc.desc": "I quit music in school lmao",
+      "item.poop.i_quit_music_gcse_disc.desc": "gonna_give_you_u - I quit music in school lmao",
       "subtitles.reverb_fard": "fard xd",
       "block.poop.terafast_travel_portal": "Super Sanic Portal",
       "block.poop.hard_poop_block": "Hard Poop Block",
@@ -3829,8 +4139,11 @@
       "block.poop.squashed_redstone": "High Density Redstone",
       "item.poop.poop_launcher": "Poop Launcher",
       "item.poop.carbon": "Carbon",
+      "item.poop.earmuffs_helmet": "Earmuffs",
       "item.poop.i_quit_music_gcse_disc": "Music Disc",
+      "subtitles.lrad_sound": "LRAD bes loud",
       "biome.poop.poop_biome": "Poopland",
+      "key.poop.lrad_key": "Use LRAD",
       "block.poop.gigafast_travel_portal": "Sanic Portal",
       "item.poop.anvil_dropper": "Anvil Dropper",
       "item.poop.anticarbon.description_0": "please dont put this in your inventory",
@@ -3839,6 +4152,7 @@
       "item.poop.electron": "Electron",
       "item.poop.anvil_dropper_pro_max": "Anvil Dropper Pro Max",
       "item.poop.steel_armor_leggings": "Steel Leggings",
+      "item.poop.anticarbon.description_1": "if you blow up your house, kill (signal 9) minecraft\u0027s process immediately, do NOT pause the game after the explosion!",
       "item.poop.lightning_spawner": "Lightning Summoner",
       "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, using Zint",
       "painting.poop.sad_hamster_painting.author": "Unknown",
@@ -3851,21 +4165,23 @@
       "item.poop.bedrock_armor_boots": "Bedrock Boots",
       "item.poop.barrier_armor_boots": "Barrier Boots",
       "item.poop.neutron": "Neutron",
-      "item.poop.block_deleter.description_0": "Right-click a block to delete it",
+      "item.poop.block_deleter.description_0": "Right-click on a block to delete it",
       "item.poop.debian_unstable": "Debian Unstable"
     },
     "enp": {
-      "item.poop.rickroll": "Rickwelt",
       "item.poop.stabler_anticarbon": "Withercoalshaft but steadier",
+      "item.poop.rickroll": "Rickwelt",
       "item.poop.gigafast_travel": "Læudish",
       "subtitles.poop_sports_music": "",
       "item.poop.skibidi_dimension": "Sunderly Stool",
-      "subtitles.skibidi_music": "",
-      "block.poop.deepslate_explosive_ore": "Deepstone Blasty Ore",
       "item.poop.bedrock_armor_helmet": "Bedstone Helm",
+      "block.poop.deepslate_explosive_ore": "Deepstone Blasty Ore",
+      "subtitles.skibidi_music": "",
+      "death.attack.ear_ape_damage.player": "%1$s\u0027s ears were wrecked so badly that they died whilst fanding to run away from %2$s",
       "block.poop.really_hard_glass": "Strengthened Glass",
       "item.poop.steel_hoe": "Steel Tiller",
       "entity.poop.pooper": "Pooper",
+      "death.attack.ear_ape_damage.item": "%1$s\u0027s ears were wrecked by %2$s using %3$s so badly that they died",
       "item.poop.crazy_fuel": "Kernelfirefood",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "Early Water Stoop",
@@ -3874,29 +4190,32 @@
       "effect.poop.ur_glass": "Brittle",
       "item.poop.three_coals": "3 bits of coal",
       "block.poop.block_that_turns_stuff_into_baryons": "Thing to Heavymote Wender",
+      "item.poop.lrad": "LFLS",
+      "item.poop.obama_sphere.description_0": "Right mouse to kill any living ansen in a ballish room with spoke 10.",
       "item.poop.steel": "Steel",
       "block.poop.poop_block": "Poop Clot",
       "block.poop.persistent_alpha_water": "Steadfast Early Water",
       "item.poop.deuterium": "Twothshaft",
       "item.poop.knockback_stick": "Knockback Stick",
-      "item.poop.hydrogen": "Watershaft",
       "painting.poop.my_cat_painting.author": "gonna_give_you_u",
+      "item.poop.hydrogen": "Watershaft",
       "subtitles.i_quit_music_in_school": "",
       "painting.poop.aztec_code_not_rickroll.title": "Aztec givensbild (not rickwelt)",
       "item.poop.terafast_travel": "Over-Læudish",
-      "fluid.poop.persistent_alpha_water": "Steadfast Early Water ",
       "item.poop.steel_axe": "Steel Axe",
+      "fluid.poop.persistent_alpha_water": "Steadfast Early Water ",
       "item.minecraft.lingering_potion.effect.glass_potion": "Glass Rine Lingering Lib",
       "item.poop.proton": "Ekemote",
       "item.poop.nutritious_poop": "Healthful Poop",
+      "item.poop.lrad.description_0": "dont brook this for too long",
       "item.poop.pooper_spawn_egg": "Pooper Making Ey",
       "item.poop.up_quark": "Up Quark",
       "item.poop.steel_armor_helmet": "Steel Helm",
       "item.poop.poop_launcher_pro": "Craftsman\u0027s Poop Shooter",
       "item.minecraft.tipped_arrow.effect.glass_potion": "Glass Rine Arrow",
       "item.minecraft.splash_potion.effect.glass_potion": "Glass Rine Splash Lib",
-      "painting.poop.bpainting.title": "🅱️",
       "painting.poop.sad_hamster_painting.title": "Sad Hamster",
+      "painting.poop.bpainting.title": "🅱️",
       "item.poop.poop": "Poop",
       "block.poop.nuke": "Kernelblaster (Underwhelming)",
       "painting.poop.my_cat_painting.title": "my cat",
@@ -3905,6 +4224,7 @@
       "block.poop.solid_gallium": "Gaulshaft Clot",
       "block.poop.liquid_gallium": "Gaulshaft",
       "item.poop.barrier_armor_leggings": "Hinderer Hoses",
+      "death.attack.ear_ape_damage": "%1$s\u0027s ears were wrecked so badly that they died",
       "item.poop.tnt_launcher": "Blastle Shooter",
       "fluid.poop.alpha_water": "Early Water",
       "item.poop.copper_nugget": "Are Lumpling",
@@ -3912,6 +4232,7 @@
       "subtitles.sanic": "",
       "item.poop.coal_nugget": "Coal Lumpling",
       "item.poop.tritium": "Thirdshaft",
+      "item.poop.obama_sphere": "Obama Ball",
       "item.poop.uno_reverse": "\u0027One\u0027 backwending sheet",
       "item.poop.knockback_stick_pro": "Craftsman\u0027s Knockback Stick",
       "painting.poop.pukeko_painting.title": "Pukeko",
@@ -3948,8 +4269,11 @@
       "block.poop.squashed_redstone": "High Thickness Redstone",
       "item.poop.poop_launcher": "Poop Shooter",
       "item.poop.carbon": "Coalshaft",
+      "item.poop.earmuffs_helmet": "Earmuffs",
       "item.poop.i_quit_music_gcse_disc": "Song Dish",
+      "subtitles.lrad_sound": "LFLS bes loud",
       "biome.poop.poop_biome": "Poopland",
+      "key.poop.lrad_key": "Brook LFLS",
       "block.poop.gigafast_travel_portal": "Læudish Ingang",
       "item.poop.anvil_dropper": "Anvil Dropper",
       "item.poop.anticarbon.description_0": "do not put this into your inholdings",
@@ -3958,8 +4282,9 @@
       "item.poop.electron": "Levinmote",
       "item.poop.anvil_dropper_pro_max": "Craftsman\u0027s Utmost Anvil Dropper",
       "item.poop.steel_armor_leggings": "Steel Hoses",
+      "item.poop.anticarbon.description_1": "if you blow up your house, kill (beacon 9) minecraft\u0027s workthread at once, do NOT letup the game after the blast!",
       "item.poop.lightning_spawner": "Levin Beckoner",
-      "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, using Zint",
+      "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, brooking Zint",
       "painting.poop.sad_hamster_painting.author": "Unknown",
       "item.poop.bedrock_armor_chestplate": "Bedstone Breastbor",
       "fluid.poop.liquid_gallium": "Gaulshaft",
@@ -3982,9 +4307,11 @@
       "subtitles.skibidi_music": "",
       "block.poop.deepslate_explosive_ore": "Выбуховая руда глыбінь",
       "item.poop.bedrock_armor_helmet": "Бедроковы шлем",
+      "death.attack.ear_ape_damage.player": "%1$s\u0027s ears were destroyed so badly that they died whilst trying to escape %2$s",
       "block.poop.really_hard_glass": "Reinforced Glass",
       "item.poop.steel_hoe": "Steel Hoe",
       "entity.poop.pooper": "Какашкер",
+      "death.attack.ear_ape_damage.item": "%1$s\u0027s ears were destroyed by %2$s using %3$s so badly that they died",
       "item.poop.crazy_fuel": "Ядзернае паліва",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "Вядро альфа-вады",
@@ -3993,6 +4320,8 @@
       "effect.poop.ur_glass": "Крохкі",
       "item.poop.three_coals": "Трайны вугаль",
       "block.poop.block_that_turns_stuff_into_baryons": "Ператварнік у барыёнах",
+      "item.poop.lrad": "LRAD",
+      "item.poop.obama_sphere.description_0": "Kills any living entity in a spherical area with radius 10.",
       "item.poop.steel": "Сталь",
       "block.poop.poop_block": "Блок какашак",
       "block.poop.persistent_alpha_water": "Устойлівая альфа-вада",
@@ -4008,14 +4337,15 @@
       "item.minecraft.lingering_potion.effect.glass_potion": "Трывалае зелле эфекта шкла",
       "item.poop.proton": "Пратон",
       "item.poop.nutritious_poop": "Пажыўная какашка",
+      "item.poop.lrad.description_0": "pls dont use this for too long",
       "item.poop.pooper_spawn_egg": "Яйка прызыву Какашкера",
       "item.poop.up_quark": "Верхні кварк",
       "item.poop.steel_armor_helmet": "Стальны шлем",
       "item.poop.poop_launcher_pro": "Запушчальнік Какашак Pro",
       "item.minecraft.tipped_arrow.effect.glass_potion": "Страла эфекта шкла",
       "item.minecraft.splash_potion.effect.glass_potion": "Выбухное зелле эфекта шкла",
-      "painting.poop.bpainting.title": "🅱️",
       "painting.poop.sad_hamster_painting.title": "Сумны Хамяк",
+      "painting.poop.bpainting.title": "🅱️",
       "item.poop.poop": "Какашка",
       "block.poop.nuke": "Ядзерная бомба",
       "painting.poop.my_cat_painting.title": "мой кот",
@@ -4024,6 +4354,7 @@
       "block.poop.solid_gallium": "Блок галій",
       "block.poop.liquid_gallium": "Вадкі галій",
       "item.poop.barrier_armor_leggings": "Бар’еравыя штаны",
+      "death.attack.ear_ape_damage": "%1$s\u0027s ears were destroyed so badly that they died",
       "item.poop.tnt_launcher": "Запушчальнік ТНТ",
       "fluid.poop.alpha_water": "Альфа-вада",
       "item.poop.copper_nugget": "Кавалак медзі",
@@ -4031,6 +4362,7 @@
       "item.poop.toilet": "Туалет",
       "item.poop.tritium": "Трытый",
       "item.poop.coal_nugget": "Кавалак вугалю",
+      "item.poop.obama_sphere": "Rickroll",
       "item.poop.uno_reverse": "Карта адваротная Уно",
       "item.poop.knockback_stick_pro": "Адкідванная палка Pro",
       "painting.poop.pukeko_painting.title": "Пукеко",
@@ -4067,8 +4399,11 @@
       "block.poop.squashed_redstone": "Шчыльны блок рэдстоўну",
       "item.poop.poop_launcher": "Запушчальнік какашак",
       "item.poop.carbon": "Вуглярод",
+      "item.poop.earmuffs_helmet": "Earmuffs",
       "item.poop.i_quit_music_gcse_disc": "Грампласцінка",
+      "subtitles.lrad_sound": "LRAD bes loud",
       "biome.poop.poop_biome": "Біём какашак",
+      "key.poop.lrad_key": "Use LRAD",
       "block.poop.gigafast_travel_portal": "",
       "item.poop.anvil_dropper": "Кідальнік кавадлы",
       "item.poop.anticarbon.description_0": "кл не пакладзі ў інвентар",
@@ -4077,6 +4412,7 @@
       "item.poop.electron": "Электрон",
       "item.poop.anvil_dropper_pro_max": "Кідальнік кавадлы Pro Max",
       "item.poop.steel_armor_leggings": "Бедроковые штаны",
+      "item.poop.anticarbon.description_1": "if you blow up your house, kill (signal 9) minecraft\u0027s process immediately, do NOT pause the game after the explosion!",
       "item.poop.lightning_spawner": "Заклікальнік маланак",
       "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, выкарыстоўваючы Zint",
       "painting.poop.sad_hamster_painting.author": "Невядомы",
@@ -4101,9 +4437,11 @@
       "item.poop.bedrock_armor_helmet": "ᛒᛖᛞᛥᚩᚢᚾ᛫ᚻᛖᛚᛗ",
       "block.poop.deepslate_explosive_ore": "ᛞᛁᛈᛥᚩᚢᚾ᛫ᛒᛚᚪᛥᛁ᛫ᚩᚱ",
       "subtitles.skibidi_music": "",
+      "death.attack.ear_ape_damage.player": "%1$s\u0027s ears were destroyed so badly that they died whilst trying to escape %2$s",
       "block.poop.really_hard_glass": "Reinforced Glass",
       "item.poop.steel_hoe": "Steel Hoe",
       "entity.poop.pooper": "ᛈᚢᛈᛖᚱ",
+      "death.attack.ear_ape_damage.item": "%1$s\u0027s ears were destroyed by %2$s using %3$s so badly that they died",
       "item.poop.crazy_fuel": "ᛣᛖᚱᚾᛖᛚᚠᛁᛖᚱᚠᚢᛞ",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ᛫ᛥᚢᛈ",
@@ -4112,6 +4450,8 @@
       "effect.poop.ur_glass": "ᛒᚱᛁᛏᛏᛚ",
       "block.poop.block_that_turns_stuff_into_baryons": "ᚦᛁᛝ᛫ᛏᚢ᛫ᚻᛖᚠᛁᛗᚩᚢᛏ᛫ᚹᛖᚾᛞᛖᚱ",
       "item.poop.three_coals": "3᛫ᛒᛁᛏᛋ᛫ᚩᚠ᛫ᛣᚩᚢᛚ",
+      "item.poop.lrad": "LRAD",
+      "item.poop.obama_sphere.description_0": "Kills any living entity in a spherical area with radius 10.",
       "item.poop.steel": "ᛥᛁᛚ",
       "block.poop.poop_block": "ᛈᚢᛈ᛫ᛣᛚᚩᛏ",
       "block.poop.persistent_alpha_water": "ᛥᛖᛞᚠᚪᛥ᛫ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ",
@@ -4127,14 +4467,15 @@
       "item.minecraft.lingering_potion.effect.glass_potion": "ᚷᛚᚪᛋᛋ᛫ᚱᚪᛁᚾ᛫ᛚᛁᛝᚷᛖᚱᛁᛝ᛫ᛚᛁᛒ",
       "item.poop.proton": "ᛁᛣᛗᚩᚢᛏ",
       "item.poop.nutritious_poop": "ᚻᛖᛚᚦᚠᚢᛚ᛫ᛈᚢᛈ",
+      "item.poop.lrad.description_0": "pls dont use this for too long",
       "item.poop.pooper_spawn_egg": "ᛈᚢᛈᛖᚱ᛫ᛗᛖᛁᛣᛁᛝ᛫ᛖᛁ",
       "item.poop.up_quark": "ᚢᛈ᛫ᛣᚹᚪᚱᛣ",
       "item.poop.steel_armor_helmet": "ᛥᛁᛚ᛫ᚻᛖᛚᛗ",
       "item.poop.poop_launcher_pro": "ᛣᚱᚪᚠᛏᛋᛗᚫᚾᛋ᛫ᛈᚢᛈ᛫ᛋᚳᚢᛏᛖᚱ",
       "item.minecraft.tipped_arrow.effect.glass_potion": "ᚷᛚᚪᛋᛋ᛫ᚱᚪᛁᚾ᛫ᚫᚱᚱᚩᚢ",
       "item.minecraft.splash_potion.effect.glass_potion": "ᚷᛚᚪᛋᛋ᛫ᚱᚪᛁᚾ᛫ᛋᛈᛚᚫᛋᚳ᛫ᛚᛁᛒ",
-      "painting.poop.bpainting.title": "🅱️",
       "painting.poop.sad_hamster_painting.title": "Sad Hamster",
+      "painting.poop.bpainting.title": "🅱️",
       "item.poop.poop": "ᛈᚢᛈ",
       "block.poop.nuke": "ᛣᛖᚱᚾᛖᛚᛒᛚᚪᛥᛖᚱ (ᚢᚾᛞᛖᚱᚻᚹᛖᛚᛗᛁᛝ)",
       "painting.poop.my_cat_painting.title": "my cat",
@@ -4143,6 +4484,7 @@
       "block.poop.solid_gallium": "ᚷᚪᚢᛚᛋᚳᚪᚠᛏ᛫ᛣᛚᚩᛏ",
       "block.poop.liquid_gallium": "ᚷᚪᚢᛚᛋᚳᚪᚠᛏ",
       "item.poop.barrier_armor_leggings": "ᚻᛁᚾᛞᛖᚱᛖᚱ᛫ᚻᚩᚢᛋᛖᛋ",
+      "death.attack.ear_ape_damage": "%1$s\u0027s ears were destroyed so badly that they died",
       "item.poop.tnt_launcher": "ᛒᛚᚪᛥᛚᛖ᛫ᛋᚳᚢᛏᛖᚱ",
       "fluid.poop.alpha_water": "ᛖᚱᛚᛁ᛫ᚹᚪᛏᛖᚱ",
       "item.poop.copper_nugget": "ᛖᚱ᛫ᛚᚢᛗᛈᛚᛁᛝ",
@@ -4150,6 +4492,7 @@
       "item.poop.toilet": "ᛥᚢᛚ",
       "item.poop.tritium": "ᚦᛖᚱᛞᛋᚳᚪᚠᛏ",
       "item.poop.coal_nugget": "ᛣᚩᚢᛚ᛫ᛚᚢᛗᛈᛚᛁᛝ",
+      "item.poop.obama_sphere": "Rickroll",
       "item.poop.uno_reverse": "\u0027ᚹᚪᚾ\u0027 ᛒᚫᛣᚹᛖᚾᛞᛁᛝ᛫ᛋᚳᛁᛏ",
       "item.poop.knockback_stick_pro": "ᛣᚱᚪᚠᛏᛋᛗᚪᚾᛋ᛫ᚾᚩᛣᛒᚪᛣ᛫ᛋᛏᛁᛣ",
       "painting.poop.pukeko_painting.title": "Pukeko",
@@ -4186,8 +4529,11 @@
       "block.poop.squashed_redstone": "ᚻᚪᛁ᛫ᚦᛁᛣᚾᛖᛋᛋ᛫ᚱᛖᛞᛥᚩᚢᚾ",
       "item.poop.poop_launcher": "ᛈᚢᛈ᛫ᛋᚳᚢᛏᛖᚱ",
       "item.poop.carbon": "ᛣᚩᚢᛚᛋᚳᚪᚠᛏ",
+      "item.poop.earmuffs_helmet": "Earmuffs",
       "item.poop.i_quit_music_gcse_disc": "Music Disc",
+      "subtitles.lrad_sound": "LRAD bes loud",
       "biome.poop.poop_biome": "ᛈᚢᛈᛚᚫᚾᛞ",
+      "key.poop.lrad_key": "Use LRAD",
       "block.poop.gigafast_travel_portal": "",
       "item.poop.anvil_dropper": "ᚫᚾᚠᛁᛚ᛫ᛞᚱᚩᛈᛈᛖᚱ",
       "item.poop.anticarbon.description_0": "ᛞᚢ᛫ᚾᚩᛏ᛫ᛈᚢᛏ᛫ᚦᛁᛋ᛫ᛁᚾᛏᚢ᛫ᛡᚩᚱ᛫ᛁᚾᚻᚩᛚᛞᛁᛝᛋ",
@@ -4196,6 +4542,7 @@
       "item.poop.electron": "ᛚᛖᚠᛁᚾᛗᚩᚢᛏᛋ",
       "item.poop.anvil_dropper_pro_max": "ᛣᚱᚪᚠᛏᛋᛗᚫᚾᛋ᛫ᚢᛏᛗᚩᚢᛥ᛫ᚫᚾᚠᛁᛚ᛫ᛞᚱᚩᛈᛈᛖᚱ",
       "item.poop.steel_armor_leggings": "ᛥᛁᛚ᛫ᚻᚩᚢᛋᛖᛋ",
+      "item.poop.anticarbon.description_1": "if you blow up your house, kill (signal 9) minecraft\u0027s process immediately, do NOT pause the game after the explosion!",
       "item.poop.lightning_spawner": "ᛚᛖᚠᛁᚾ᛫ᛒᛖᛣᚩᚾᛖᚱ",
       "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, using Zint",
       "painting.poop.sad_hamster_painting.author": "Unknown",
@@ -4220,9 +4567,11 @@
       "item.poop.bedrock_armor_helmet": "trol hat",
       "block.poop.deepslate_explosive_ore": "Rockz dat go BOOM but dark",
       "subtitles.skibidi_music": "",
+      "death.attack.ear_ape_damage.player": "%1$s\u0027s ears were destroyed so badly that they died whilst trying to escape %2$s",
       "block.poop.really_hard_glass": "Reinforced Glass",
       "item.poop.steel_hoe": "Steel Hoe",
       "entity.poop.pooper": "Thing dat poops",
+      "death.attack.ear_ape_damage.item": "%1$s\u0027s ears were destroyed by %2$s using %3$s so badly that they died",
       "item.poop.crazy_fuel": "Nuke fuel",
       "item.poop.adachi_rei": "足立レイ",
       "item.poop.alpha_water_bucket": "Alpha Watr Buket",
@@ -4231,6 +4580,8 @@
       "effect.poop.ur_glass": "Ur glazz",
       "block.poop.block_that_turns_stuff_into_baryons": "Bluk dat turnz ur stuffz in2 baryons",
       "item.poop.three_coals": "3 coelz",
+      "item.poop.lrad": "LRAD",
+      "item.poop.obama_sphere.description_0": "Kills any living entity in a spherical area with radius 10.",
       "item.poop.steel": "Carbonatd irun",
       "block.poop.poop_block": "eww poopy blok",
       "block.poop.persistent_alpha_water": "Alpha Watr but persistent",
@@ -4246,14 +4597,15 @@
       "item.minecraft.lingering_potion.effect.glass_potion": "Linnerin Poshun dat turn u in2 glazz",
       "item.poop.proton": "Protun",
       "item.poop.nutritious_poop": "yummy poop",
+      "item.poop.lrad.description_0": "pls dont use this for too long",
       "item.poop.pooper_spawn_egg": "poopy creepur spon ec",
       "item.poop.up_quark": "Up kwork",
       "item.poop.steel_armor_helmet": "Carbonatd Irun Hat",
       "item.poop.poop_launcher_pro": "not apple newest product",
       "item.minecraft.tipped_arrow.effect.glass_potion": "Speshul Shooty Tignh Dat Turnz U In2 Glazz",
       "item.minecraft.splash_potion.effect.glass_potion": "Spleshy Poshun dat turn u in2 glazz",
-      "painting.poop.bpainting.title": "🅱️",
       "painting.poop.sad_hamster_painting.title": "Sad Hamster",
+      "painting.poop.bpainting.title": "🅱️",
       "item.poop.poop": "eww poop",
       "block.poop.nuke": "SUPAH BOOM",
       "painting.poop.my_cat_painting.title": "my cat",
@@ -4262,6 +4614,7 @@
       "block.poop.solid_gallium": "Blok of Gallium",
       "block.poop.liquid_gallium": "Melty metal",
       "item.poop.barrier_armor_leggings": "Invincibul Pants",
+      "death.attack.ear_ape_damage": "%1$s\u0027s ears were destroyed so badly that they died",
       "item.poop.tnt_launcher": "BOOM BLASTUR",
       "fluid.poop.alpha_water": "Alpha watr",
       "item.poop.copper_nugget": "Copurr nuget",
@@ -4269,6 +4622,7 @@
       "item.poop.toilet": "da tolet",
       "item.poop.tritium": "Boomy hydrogen",
       "item.poop.coal_nugget": "koal nuget",
+      "item.poop.obama_sphere": "Rickroll",
       "item.poop.uno_reverse": "no U",
       "item.poop.knockback_stick_pro": "Nockback stik Pro",
       "painting.poop.pukeko_painting.title": "Pukeko",
@@ -4305,8 +4659,11 @@
       "block.poop.squashed_redstone": "THICC Redstone",
       "item.poop.poop_launcher": "poopoo blastur",
       "item.poop.carbon": "Koal atomz",
+      "item.poop.earmuffs_helmet": "Earmuffs",
       "item.poop.i_quit_music_gcse_disc": "Music Disc",
+      "subtitles.lrad_sound": "LRAD bes loud",
       "biome.poop.poop_biome": "Icky poopy baium",
+      "key.poop.lrad_key": "Use LRAD",
       "block.poop.gigafast_travel_portal": "",
       "item.poop.anvil_dropper": "Anvehl drupper",
       "item.poop.anticarbon.description_0": "shift click to maek urself go BOOM",
@@ -4315,6 +4672,7 @@
       "item.poop.electron": "Electron",
       "item.poop.anvil_dropper_pro_max": "anvehl drupper PRO MAX",
       "item.poop.steel_armor_leggings": "stealy pants",
+      "item.poop.anticarbon.description_1": "if you blow up your house, kill (signal 9) minecraft\u0027s process immediately, do NOT pause the game after the explosion!",
       "item.poop.lightning_spawner": "Litnin makr",
       "painting.poop.aztec_code_not_rickroll.author": "gonna_give_you_u, using Zint",
       "painting.poop.sad_hamster_painting.author": "Unknown",
@@ -4338,13 +4696,12 @@
   "workspaceSettings": {
     "modid": "poop",
     "modName": "goofy ahh mod",
-    "version": "2026.02.03",
+    "version": "2026.02.09",
     "description": "yes",
     "author": "gonna_give_you_u (ohiofortnite1412)",
     "websiteURL": "https://youtu.be/xvFZjo5PgG0",
     "license": "MIT License",
     "serverSideOnly": false,
-    "updateURL": "https://github.com/gonna-give-you-u/goofy-ahh-mod/releases",
     "modPicture": "saness",
     "requiredMods": [],
     "dependencies": [],
