@@ -1,0 +1,7 @@
+{
+  "_fv": 73,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_variable\"><field name=\"variable\">enable_crasher</field><field name=\"config\">CUSTOM:GoofyAhhModServerConfig</field></block></value><statement name=\"DO0\"><block type=\"variables_set_logic\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\">global:shouldShowBSOD</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value><next><block type=\"java_code\"><field name=\"CODE\">\t\t\ttry{&amp;#10;\t\t\t\tThread.sleep(2000);&amp;#10;\t\t\t} catch (InterruptedException e){&amp;#10;\t\t\t\te.printStackTrace();&amp;#10;\t\t\t}&amp;#10;\t\t\tthrow new RuntimeException(\"nihahahaha\");</field></block></next></block></statement></block></next></block></xml>"
+  }
+}

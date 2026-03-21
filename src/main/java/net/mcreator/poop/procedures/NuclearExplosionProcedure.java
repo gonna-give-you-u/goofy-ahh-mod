@@ -4,6 +4,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
@@ -55,12 +57,20 @@ public class NuclearExplosionProcedure {
 								}
 							}
 							{
-								BlockPos _pos = BlockPos.containing(x + xi, y + i, z + zi);
-								Block.dropResources(world.getBlockState(_pos), world, BlockPos.containing(x + xi, y + i, z + zi), null);
-								world.destroyBlock(_pos, false);
+								BlockPos _pos = BlockPos.containing(x, y, z);
+								BlockState _bs = world.getBlockState(_pos);
+								if (_bs.getBlock().getStateDefinition().getProperty("waterlogged") instanceof BooleanProperty _booleanProp)
+									world.setBlock(_pos, _bs.setValue(_booleanProp, false), 3);
 							}
-							world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
-							world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+							if (GoofyAhhModServerConfigConfiguration.NUKE_DROPS_ITEMS.get()) {
+								{
+									BlockPos _pos = BlockPos.containing(x + xi, y + i, z + zi);
+									Block.dropResources(world.getBlockState(_pos), world, BlockPos.containing(x + xi, y + i, z + zi), null);
+									world.destroyBlock(_pos, false);
+								}
+							}
+							world.setBlock(BlockPos.containing(x + xi, y + i, z + zi), Blocks.AIR.defaultBlockState(), 3);
+							world.setBlock(BlockPos.containing(x + xi, y + i, z + zi), Blocks.AIR.defaultBlockState(), 3);
 							{
 								final Vec3 _center = new Vec3(x + xi, y + i, z + zi);
 								List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();

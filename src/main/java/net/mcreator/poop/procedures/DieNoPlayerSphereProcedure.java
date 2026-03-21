@@ -20,8 +20,8 @@ public class DieNoPlayerSphereProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		int horizontalRadiusSphere = (int) 10 - 1;
-		int verticalRadiusSphere = (int) 10 - 1;
+		int horizontalRadiusSphere = (int) ((double) GoofyAhhModServerConfigConfiguration.OBAMA_SPHERE_RANGE.get()) - 1;
+		int verticalRadiusSphere = (int) ((double) GoofyAhhModServerConfigConfiguration.OBAMA_SPHERE_RANGE.get()) - 1;
 		int yIterationsSphere = verticalRadiusSphere;
 		for (int i = -yIterationsSphere; i <= yIterationsSphere; i++) {
 			for (int xi = -horizontalRadiusSphere; xi <= horizontalRadiusSphere; xi++) {
@@ -31,7 +31,8 @@ public class DieNoPlayerSphereProcedure {
 					if (distanceSq <= 1.0) {
 						{
 							final Vec3 _center = new Vec3(x, y, z);
-							List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(20 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
+							List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(((double) GoofyAhhModServerConfigConfiguration.OBAMA_SPHERE_RANGE.get() * 2) / 2d), e -> true).stream()
+									.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 							for (Entity entityiterator : _entfound) {
 								if (!(entity == entityiterator)) {
 									if (!(!GoofyAhhModServerConfigConfiguration.ENTITY_DELETERS_PLAYERS.get() && entityiterator instanceof Player)) {

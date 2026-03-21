@@ -23,4 +23,7 @@ public class PoopModSounds {
 	public static final RegistryObject<SoundEvent> RICK_SCREAM = REGISTRY.register("rick_scream", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "rick_scream")));
 	public static final RegistryObject<SoundEvent> I_QUIT_MUSIC_IN_SCHOOL = REGISTRY.register("i_quit_music_in_school", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "i_quit_music_in_school")));
 	public static final RegistryObject<SoundEvent> LRAD_SOUND = REGISTRY.register("lrad_sound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "lrad_sound")));
+	public static final RegistryObject<SoundEvent> EMOJI_DISINTEGRATING = REGISTRY.register("emoji_disintegrating", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "emoji_disintegrating")));
+	public static final RegistryObject<SoundEvent> YOUREGOINGTOBRAZIL = REGISTRY.register("youregoingtobrazil", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "youregoingtobrazil")));
+	public static final RegistryObject<SoundEvent> WIN98_ERROR_SOUND = REGISTRY.register("win98_error_sound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("poop", "win98_error_sound")));
 }

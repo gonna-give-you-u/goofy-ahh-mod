@@ -20,9 +20,6 @@
     "onHitsBlock": {
       "name": "NuclearExplosion"
     },
-    "onHitsPlayer": {
-      "name": "NuclearExplosion"
-    },
     "onHitsEntity": {
       "name": "NuclearExplosion"
     }

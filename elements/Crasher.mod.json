@@ -1,0 +1,75 @@
+{
+  "_fv": 73,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "frown.ico",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Crasher",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "OP_BLOCKS"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "projectile hit will actually crash the game (if enabled)",
+        "also the item is still buggy (only projectile will crash but no bsod effect)"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "Crash"
+    },
+    "onRightClickedOnBlock": {
+      "name": "Crash"
+    },
+    "onEntityHitWith": {
+      "name": "Crash"
+    },
+    "enableRanged": true,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:CrashProjectile"
+    },
+    "projectileDisableAmmoCheck": true,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

@@ -59,6 +59,7 @@ import net.mcreator.poop.item.DeuteriumItem;
 import net.mcreator.poop.item.DebianUnstableItem;
 import net.mcreator.poop.item.DebianItem;
 import net.mcreator.poop.item.CrazyFuelItem;
+import net.mcreator.poop.item.CrasherItem;
 import net.mcreator.poop.item.CopperNuggetItem;
 import net.mcreator.poop.item.CoalNuggetItem;
 import net.mcreator.poop.item.CarbonItem;
@@ -157,6 +158,7 @@ public class PoopModItems {
 	public static final RegistryObject<Item> LRAD = REGISTRY.register("lrad", () -> new LRADItem());
 	public static final RegistryObject<Item> EARMUFFS_HELMET = REGISTRY.register("earmuffs_helmet", () -> new EarmuffsItem.Helmet());
 	public static final RegistryObject<Item> OBAMA_SPHERE = REGISTRY.register("obama_sphere", () -> new ObamaSphereItem());
+	public static final RegistryObject<Item> CRASHER = REGISTRY.register("crasher", () -> new CrasherItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

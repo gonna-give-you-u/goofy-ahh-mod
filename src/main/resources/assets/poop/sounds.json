@@ -66,5 +66,31 @@
         "stream": true
       }
     ]
+  },
+  "emoji_disintegrating": {
+    "subtitle": "subtitles.emoji_disintegrating",
+    "sounds": [
+      {
+        "name": "poop:emoji-disintegrating",
+        "stream": false
+      }
+    ]
+  },
+  "youregoingtobrazil": {
+    "subtitle": "subtitles.youregoingtobrazil",
+    "sounds": [
+      {
+        "name": "poop:youre-going-to-brazil",
+        "stream": false
+      }
+    ]
+  },
+  "win98_error_sound": {
+    "sounds": [
+      {
+        "name": "poop:win98-error",
+        "stream": false
+      }
+    ]
   }
 }

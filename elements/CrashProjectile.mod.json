@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Crasher"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:win98_error_sound"
+    },
+    "igniteFire": false,
+    "power": 20.0,
+    "damage": 1.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "DespawnThenCrash"
+    }
+  }
+}

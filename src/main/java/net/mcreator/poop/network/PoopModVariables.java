@@ -36,6 +36,8 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PoopModVariables {
+	public static boolean shouldShowBSOD = false;
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		PoopMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);

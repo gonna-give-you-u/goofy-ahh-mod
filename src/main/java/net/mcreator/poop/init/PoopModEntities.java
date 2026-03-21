@@ -22,6 +22,7 @@ import net.mcreator.poop.entity.PooperEntity;
 import net.mcreator.poop.entity.PoopProjectileEntity;
 import net.mcreator.poop.entity.NukeProjectileEntity;
 import net.mcreator.poop.entity.HardPoopProjectileEntity;
+import net.mcreator.poop.entity.CrashProjectileEntity;
 import net.mcreator.poop.PoopMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -41,6 +42,8 @@ public class PoopModEntities {
 			EntityType.Builder.<NukeProjectileEntity>of(NukeProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(NukeProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<RickProjectileEntity>> RICK_PROJECTILE = register("rick_projectile",
 			EntityType.Builder.<RickProjectileEntity>of(RickProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(RickProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<CrashProjectileEntity>> CRASH_PROJECTILE = register("crash_projectile", EntityType.Builder.<CrashProjectileEntity>of(CrashProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(CrashProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

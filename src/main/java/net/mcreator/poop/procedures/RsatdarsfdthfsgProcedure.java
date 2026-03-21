@@ -20,6 +20,6 @@ public class RsatdarsfdthfsgProcedure {
 			if (world instanceof Level _level && !_level.isClientSide())
 				_level.explode(null, x, y, z, 10, Level.ExplosionInteraction.NONE);
 		}
-		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.EXPLOSION)), 50);
+		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.EXPLOSION), entity), 50);
 	}
 }

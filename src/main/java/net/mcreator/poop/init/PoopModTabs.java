@@ -86,6 +86,7 @@ public class PoopModTabs {
 			if (tabData.hasPermissions()) {
 				tabData.accept(PoopModItems.RICKROLL.get());
 				tabData.accept(PoopModItems.OBAMA_SPHERE.get());
+				tabData.accept(PoopModItems.CRASHER.get());
 			}
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(PoopModBlocks.SQUASHED_REDSTONE.get().asItem());
