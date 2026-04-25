@@ -1,3 +1,5 @@
+# 2026-04-24 migrated to codeberg https://codeberg.org/gonna_give_you_u/goofy-ahh-mod don't expect updates on this github repo
+
 # welcome to goofy ahh mod
 you need [minecraft forge for 1.20.1](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html) please use the 47.4.0 before submitting issues<br>
 find this mod on the [releases page](https://github.com/gonna-give-you-u/goofy-ahh-mod/releases)<br><br>
